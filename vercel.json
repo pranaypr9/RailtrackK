@@ -1,0 +1,7 @@
+{
+  "outputDirectory": "dashboard",
+  "framework": null,
+  "rewrites": [
+    { "source": "/dashboard/:path*", "destination": "/:path*" }
+  ]
+}

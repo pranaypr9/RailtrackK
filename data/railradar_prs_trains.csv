@@ -1,0 +1,4065 @@
+train_number,train_name,source_code,destination_code
+10103,Mandovi Express,CSMT,MAO
+10104,Mandovi Express,MAO,CSMT
+10105,Sindhudurg Express,DIVA,SWV
+10106,Sindhudurg Express,SWV,DIVA
+10109,Madgaon - Karwar Express,MAO,KAWR
+10110,Karwar - Madgaon Express,KAWR,MAO
+10115,Madgaon Express,BDTS,MAO
+10116,Bandra Terminus Express,MAO,BDTS
+10215,Ernakulam Jn. SF Express,MAO,ERS
+10216,Madgaon SF Express,ERS,MAO
+11001,Nandigram Express,CSMT,BPQ
+11002,Nandigram Express,BPQ,CSMT
+11003,Tutari Express,DR,SWV
+11004,Tutari Express,SWV,DR
+11005,Puducherry Express,DR,PDY
+11006,Dadar CHALUKYA EXPRESS,PDY,DR
+11007,Deccan Express,CSMT,PUNE
+11008,Deccan Express,PUNE,CSMT
+11009,Sinhagad Express,CSMT,PUNE
+11010,Sinhagad Express,PUNE,CSMT
+11011,Dhule Express,CSMT,DHI
+11012,Mumbai CSMT Express,DHI,CSMT
+11013,Coimbatore Express,LTT,CBE
+11014,Mumbai LTT Express,CBE,LTT
+11015,Mumbai LTT - Saharsa Amrit Bharat Express,LTT,SHC
+11016,Saharsa - Mumbai LTT Amrit Bharat Express,SHC,LTT
+11017,Karaikal Weekly Express,LTT,KIK
+11018,Mumbai LTT Weekly Express,KIK,LTT
+11019,Konark Express,CSMT,BBSN
+11020,Konark Express,BBSN,CSMT
+11021,Tirunelveli Chalukya Express,DR,TEN
+11022,Dadar Central Chalukya Express,TEN,DR
+11025,Pune - Amravati Express,PUNE,AMI
+11026,Amravati - Pune Express,AMI,PUNE
+11027,Satara Express,DR,STR
+11028,Dadar Central Express,STR,DR
+11029,Koyna Express,CSMT,KOP
+11030,Koyna Express,KOP,CSMT
+11031,Panvel - Alipur Duar Amrit Bharat Express,PNVL,APDJ
+11032,Alipur Duar - Panvel Amrit Bharat Express,APDJ,PNVL
+11033,Pune - Darbhanga Express,PUNE,DBG
+11034,Darbhanga - Pune Express,DBG,PUNE
+11035,Sharavati Express,DR,MYS
+11036,Sharavati Express,MYS,DR
+11037,Pune - Gorakhpur Express,PUNE,GKP
+11038,Gorakhpur - Pune Express,GKP,PUNE
+11039,Maharashtra Express,KOP,G
+11040,Maharashtra Express,G,KOP
+11041,Sainagar Shirdi Express,DR,SNSI
+11042,Dadar Central Express,SNSI,DR
+11043,Ballia Express,DR,BUI
+11044,Dadar Central Express,BUI,DR
+11045,Deekshabhoomi SF Express,KOP,DHN
+11046,Deekshabhoomi SF Express,DHN,KOP
+11047,Gorakhpur Express,DR,GKP
+11048,Dadar Central Express,GKP,DR
+11049,SCSMT Kolhapur Express,ADI,KOP
+11050,Ahmedabad Express,KOP,ADI
+11055,Godan Express,LTT,GKP
+11056,Godan Express,GKP,LTT
+11057,Amritsar Express,CSMT,ASR
+11058,Mumbai CSMT Express,ASR,CSMT
+11059,Chhapra Express,LTT,CPR
+11060,Mumbai LTT Express,CPR,LTT
+11061,Pawan Express,LTT,JYG
+11062,Pawan Express,JYG,LTT
+11071,Kamayani Express,LTT,BUI
+11072,Kamayani Express,BUI,LTT
+11077,Jhelum Express,PUNE,JAT
+11078,Jhelum Express,JAT,PUNE
+11079,Gorakhpur Express,LTT,GKP
+11080,Mumbai LTT Express,GKP,LTT
+11081,Gorakhpur Weekly Express,LTT,GKP
+11082,Mumbai LTT Weekly Express,GKP,LTT
+11085,Gwalior Weekly Express,SMVB,GWL
+11086,SMVT Bengaluru Weekly Express,GWL,SMVB
+11087,Veraval - Pune Express,VRL,PUNE
+11088,Pune - Veraval Express,PUNE,VRL
+11089,Pune Express,BGKT,PUNE
+11090,Bhagat Ki Kothi Express,PUNE,BGKT
+11091,Bhuj - Pune Express,BHUJ,PUNE
+11092,Pune - Bhuj Express,PUNE,BHUJ
+11097,Poorna Express,PUNE,ERS
+11098,Poorna Express,ERS,PUNE
+11099,Madgaon Express,LTT,MAO
+11100,Mumbai LTT Express,MAO,LTT
+11107,Bundelkhand Express,GWL,BNRS
+11108,Bundelkhand Express,BNRS,GWL
+11109,Lucknow Jn. Intercity Express,VGLJ,LJN
+11110,Virangana Lakshmibai Jhansi InterCity Express,LJN,VGLJ
+11123,Gwalior - Barauni Mail,GWL,BJU
+11124,Barauni - Gwalior Mail,BJU,GWL
+11125,Gwalior InterCity Express,RTM,GWL
+11126,Ratlam InterCity Express,GWL,RTM
+11139,Hosapete SF Express,CSMT,HPT
+11140,Mumbai CSMT SF Express,HPT,CSMT
+11201,Nagpur - Shahdol Express,NGP,SDL
+11202,Shahdol - Nagpur Express,SDL,NGP
+11203,Nagpur - Madgaon Express,NGP,MAO
+11204,Madgaon - Nagpur Express,MAO,NGP
+11265,Ambikapur MML ABKP EXP,MML,ABKP
+11266,Madan Mahal ABKP MML EXP,ABKP,MML
+11271,Vindhyachal Express,ET,BPL
+11272,Vindhyachal Express,BPL,ET
+11273,Prayagraj Chheoki Express,ET,PCOI
+11274,Itarsi Express,PCOI,ET
+11301,Udyan Express,CSMT,SBC
+11302,Udyan Express,SBC,CSMT
+11303,Solapur Weekly Express,LTT,SUR
+11304,Mumbai Ltt Weekly Express,SUR,LTT
+11311,Hassan Superfast Express,SUR,HAS
+11312,Solapur Superfast Express,HAS,SUR
+11313,Anakapalle Weekly Express,SUR,AKP
+11314,Solapur Weekly Express,AKP,SUR
+11401,Pune - Supaul Express,PUNE,SOU
+11402,Supaul - Pune Express,SOU,PUNE
+11403,SCSMT Kolhapur Express,NGP,KOP
+11404,Nagpur Express,KOP,NGP
+11405,Pune - Amravati Express,PUNE,AMI
+11406,Amravati - Pune Express,AMI,PUNE
+11407,Lucknow Jn. Express,PUNE,LJN
+11408,Lucknow Jn - Pune Express,LJN,PUNE
+11419,Scsmt Kolhapur Express,PUNE,KOP
+11420,Pune Express,KOP,PUNE
+11423,Sainagar Shirdi Terminus PUNE SNSI EXP,PUNE,SNSI
+11424,Pune Intercity Express,SNSI,PUNE
+11427,Jasidih Weekly Express,PUNE,JSME
+11428,Pune Weekly Express,JSME,PUNE
+11429,Harangul Express,HDP,HGL
+11430,Hadapsar Express,HGL,HDP
+11431,Pune - Danapur Amrit Bharat Express,PUNE,DNR
+11432,Danapur - Pune Amrit Bharat Express,DNR,PUNE
+11447,Shaktipunj Express,JBP,HWH
+11448,Shaktipunj Express,HWH,JBP
+11449,Shri Mata Vaishno Devi Katra Express,JBP,SVDK
+11450,Jabalpur Express,SVDK,JBP
+11463,Jabalpur Express,VRL,JBP
+11464,Veraval Express,JBP,VRL
+11465,Jabalpur Express,VRL,JBP
+11466,Veraval Express,JBP,VRL
+11631,Bhopal - Dhanbad Express,BPL,DHN
+11632,Bhopal Express,DHN,BPL
+11633,Chopan Weekly Express,BPL,CPU
+11634,Bhopal Weekly Express,CPU,BPL
+11651,Singrauli SGRL INTERCITY,MML,SGRL
+11652,Madan Mahal MML INTERCITY,SGRL,MML
+11665,Agartala Weekly Express,RKMP,AGTL
+11666,Rani Kamalapati Weekly Express,AGTL,RKMP
+11701,Mook Mati Express,R,JBP
+11702,Mook Mati Express,JBP,R
+11703,Dr. Ambedkar Nagar Express,REWA,DADN
+11704,Rewa Express,DADN,REWA
+11705,Jabalpur - Rewa Express,JBP,REWA
+11706,Rewa - Jabalpur Express,REWA,JBP
+11751,Rewa - Chirimiri Express,REWA,CHRM
+11752,Chirimiri - Rewa Express,CHRM,REWA
+11753,Rewa Express,NITR,REWA
+11754,NSC Bose Itwari Express,REWA,NITR
+11755,Rewa Express,NITR,REWA
+11756,NSC Bose Itwari Express,REWA,NITR
+11801,Prayagraj Express,GWL,PRYJ
+11802,Gwalior Express,PRYJ,GWL
+11841,Kurukshetra Junction GITA JAYANTI EX,KURJ,KKDE
+11842,Gita Jayanti Express,KKDE,KURJ
+11901,Agra Cantt. Express,VGLJ,MTJ
+11902,Virangana Lakshmibai Jhansi Express,AGC,VGLJ
+11903,Etawah Intercity Express,VGLJ,ETW
+11904,Virangana Lakshmibai Jhansi Intercity Express,ETW,VGLJ
+11905,Hoshiarpur Express,AGC,HSX
+11906,Agra Cantt Express,HSX,AGC
+12001,Rani Kamlapati - New Delhi Shatabdi Express,RKMP,NDLS
+12002,New Delhi - Rani Kamlapati Shatabdi Express,NDLS,RKMP
+12003,Lucknow - New Delhi Swarn Shatabdi Express,LJN,NDLS
+12004,New Delhi - Lucknow Swarn Shatabdi Express,NDLS,LJN
+12005,New Delhi - Kalka Shatabdi Express,NDLS,KLK
+12006,Kalka - New Delhi Shatabdi Express,KLK,NDLS
+12007,Chennai Central - Mysore Shatabdi Express,MAS,MYS
+12008,Mysore - Chennai Central Shatabdi Express,MYS,MAS
+12009,Mumbai Central - Ahmedabad Shatabdi Express,MMCT,ADI
+12010,Ahmedabad - Mumbai Central Shatabdi Express,ADI,MMCT
+12011,New Delhi - Kalka Shatabdi Express,NDLS,KLK
+12012,Kalka - New Delhi Shatabdi Express,KLK,NDLS
+12013,New Delhi - Amritsar Shatabdi Express,NDLS,ASR
+12014,Amritsar - New Delhi Shatabdi Express,ASR,NDLS
+12015,New Delhi - Daurai Shatabdi Express,NDLS,DOZ
+12016,Daurai - New Delhi Shatabdi Express,DOZ,NDLS
+12017,New Delhi - Dehra Dun Shatabdi Express,NDLS,DDN
+12018,Dehra Dun - New Delhi Shatabdi Express,DDN,NDLS
+12019,Howrah - Ranchi Shatabdi Express,HWH,RNC
+12020,Ranchi - Howrah Shatabdi Express,RNC,HWH
+12021,Howrah - Barbil Shatabdi Express,HWH,BBN
+12022,Barbil - Howrah Shatabdi Express,BBN,HWH
+12023,Howrah - Patna Shatabdi Express,HWH,PNBE
+12024,Patna - Howrah Shatabdi Express,PNBE,HWH
+12025,Pune - Hyderabad Deccan Shatabdi Express,PUNE,HYB
+12026,Hyderabad Deccan - Pune Shatabdi Express,HYB,PUNE
+12027,Chennai Central - KSR Bengaluru Shatabdi Express,MAS,SBC
+12028,KSR Bengaluru - Chennai Central Shatabdi Express,SBC,MAS
+12029,New Delhi - Amritsar Swarn Shatabdi Express,NDLS,ASR
+12030,Amritsar - New Delhi Swarn Shatabdi Express,ASR,NDLS
+12031,New Delhi - Amritsar Shatabdi Express,NDLS,ASR
+12032,Amritsar - New Delhi Shatabdi Express,ASR,NDLS
+12033,Kanpur Central - New Delhi Shatabdi Express,CNB,NDLS
+12034,New Delhi - Kanpur Central Shatabdi Express,NDLS,CNB
+12035,Tanakpur - Delhi Shatabdi Express,TPU,DLI
+12036,Delhi - Tanakpur Shatabdi Express,DLI,TPU
+12037,Kotdwara - Delhi Shatabdi Express,KTW,DLI
+12038,Delhi - Kotdwara Shatabdi Express,DLI,KTW
+12039,Kathgodam - New Delhi Shatabdi Express,KGM,NDLS
+12040,New Delhi - Kathgodam Shatabdi Express,NDLS,KGM
+12041,Howrah - New Jalpaiguri Shatabdi Express,HWH,NJP
+12042,New Jalpaiguri - Howrah Shatabdi Express,NJP,HWH
+12045,New Delhi - Chandigarh Shatabdi Express,NDLS,CDG
+12046,Chandigarh - New Delhi Shatabdi Express,CDG,NDLS
+12047,Guwahati - North Lakhimpur Shatabdi Express,GHY,NLP
+12048,North Lakhimpur - Guwahati Shatabdi Express,NLP,GHY
+12049,Gatiman Express,VGLJ,NZM
+12050,Gatiman Express,NZM,VGLJ
+12051,Mumbai CSMT - Madgaon Shatabdi Express,CSMT,MAO
+12052,Madgaon - Mumbai CSMT Shatabdi Express,MAO,CSMT
+12053,Haridwar - Amritsar Shatabdi Express,HW,ASR
+12054,Amritsar - Haridwar Shatabdi Express,ASR,HW
+12055,New Delhi - Dehra Dun Shatabdi Express,NDLS,DDN
+12056,Dehra Dun - New Delhi Shatabdi Express,DDN,NDLS
+12057,New Delhi - Daulatpur Chauk Shatabdi Express,NDLS,DLPC
+12058,Daulatpur Chauk - New Delhi Shatabdi Express,DLPC,NDLS
+12059,Kota - Hazrat Nizamuddin Shatabdi Express,KOTA,NZM
+12060,Hazrat Nizamuddin - Kota Shatabdi Express,NZM,KOTA
+12061,Rani Kamlapati - Madan Mahal Shatabdi Express,RKMP,MML
+12062,Madan Mahal - Rani Kamlapati Shatabdi Express,MML,RKMP
+12065,Ajmer - Delhi-Sarai Rohilla Shatabdi Express,AII,DEE
+12066,Delhi-Sarai Rohilla - Ajmer Shatabdi Express,DEE,AII
+12067,Guwahati - Jorhat Town Shatabdi Express,GHY,JTTN
+12068,Jorhat Town - Guwahati Shatabdi Express,JTTN,GHY
+12069,Raigarh - Gondia Shatabdi Express,RIG,G
+12070,Gondia - Raigarh Shatabdi Express,G,RIG
+12071,Mumbai CSMT - Hingoli (Deccan) Shatabdi Express,CSMT,HNL
+12072,Hingoli (Deccan) - Mumbai CSMT Shatabdi Express,HNL,CSMT
+12073,Howrah - Bhubaneswar Shatabdi Express,HWH,BBS
+12074,Bhubaneswar - Howrah Shatabdi Express,BBS,HWH
+12075,Calicut - Trivandrum Central Shatabdi Express,CLT,TVC
+12076,Trivandrum Central - Calicut Shatabdi Express,TVC,CLT
+12077,Chennai Central - Vijayawada Shatabdi Express,MAS,BZA
+12078,Vijayawada - Chennai Central Shatabdi Express,BZA,MAS
+12079,KSR Bengaluru - Hubballi Shatabdi Express,SBC,UBL
+12080,Hubballi - KSR Bengaluru Shatabdi Express,UBL,SBC
+12081,Cannanore - Trivandrum Central Shatabdi Express,CAN,TVC
+12082,Trivandrum Central - Cannanore Shatabdi Express,TVC,CAN
+12083,Mayiladuturai - Coimbatore Shatabdi Express,MV,CBE
+12084,Coimbatore - Mayiladuturai Shatabdi Express,CBE,MV
+12087,Naharlagun - Guwahati Shatabdi Express,NHLN,GHY
+12088,Guwahati - Naharlagun Shatabdi Express,GHY,NHLN
+12089,KSR Bengaluru - Shivamogga Town Shatabdi Express,SBC,SMET
+12090,Shivamogga Town - KSR Bengaluru Shatabdi Express,SMET,SBC
+12091,Dehra Dun - Kathgodam Shatabdi Express,DDN,KGM
+12092,Kathgodam - Dehra Dun Shatabdi Express,KGM,DDN
+12101,Jnaneswari Express,LTT,SHM
+12102,Jnaneswari Express,SHM,LTT
+12103,Lucknow Jn. SF Express,PUNE,LJN
+12104,Pune SF Express,LJN,PUNE
+12105,Vidarbha SF Express,CSMT,G
+12106,Vidarbha SF Express,G,CSMT
+12107,Sitapur Jn. SF Express,LTT,STP
+12108,Mumbai LTT SF Express,STP,LTT
+12109,Panchavati Express,CSMT,MMR
+12110,Panchavati Express,MMR,CSMT
+12111,Amravati SF Express,CSMT,AMI
+12112,Mumbai CSMT SF Express,AMI,CSMT
+12113,Pune - Nagpur Garib Rath Express,PUNE,NGP
+12114,Nagpur - Pune Garib Rath Express,NGP,PUNE
+12115,Siddheshwar SF Express,CSMT,SUR
+12116,Siddheshwar SF Express,SUR,CSMT
+12119,Ajni Intercity SF Express,AMI,AJNI
+12120,Amravati Intercity SF Express,AJNI,AMI
+12121,Madhya Pradesh Sampark Kranti Express,JBP,NZM
+12122,Madhya Pradesh Sampark Kranti Express,NZM,JBP
+12123,Deccan Queen,CSMT,PUNE
+12124,Deccan Queen,PUNE,CSMT
+12125,Pragati Express,CSMT,PUNE
+12126,Pragati Express,PUNE,CSMT
+12127,Pune Intercity SF Express,CSMT,PUNE
+12128,Mumbai CSMT Intercity SF Express,PUNE,CSMT
+12129,Azad Hind Express,PUNE,HWH
+12130,Azad Hind Express,HWH,PUNE
+12131,Sainagar Shirdi SF Express,DR,SNSI
+12132,Dadar SF Express,SNSI,DR
+12133,Mangaluru Jn. SF Express,CSMT,MAJN
+12134,Mumbai CSMT SF Express,MAJN,CSMT
+12135,Pune - Nagpur SF Express,PUNE,NGP
+12136,Nagpur - Pune SF Express,NGP,PUNE
+12137,Punjab Mail,CSMT,FZR
+12138,Punjab Mail,FZR,CSMT
+12139,Sewagram SF Express,CSMT,NGP
+12140,Sewagram SF Express,NGP,CSMT
+12141,Patliputra SF Express,LTT,PPTA
+12142,Mumbai LTT SF Express,PPTA,LTT
+12143,Sultanpur SF Express,LTT,SLN
+12144,Mumbai Ltt SF Express,SLN,LTT
+12145,Puri SF Express,LTT,PURI
+12146,Mumbai Ltt SF Express,PURI,LTT
+12147,Hazrat Nizamuddin SF Express,KOP,NZM
+12148,SCSMT Kolhapur SF Express,NZM,KOP
+12151,Samarsata SF Express,LTT,SHM
+12152,Samarsata SF Express,SHM,LTT
+12153,Rani Kamalapati Weekly SF Express,LTT,RKMP
+12154,Mumbai LTT Weekly SF Express,RKMP,LTT
+12155,Hazrat Nizamuddin RKMP NZM SF EXP,RKMP,NZM
+12156,Bhopal Express,NZM,RKMP
+12157,Hutatma Superfast Express,PUNE,SUR
+12158,Hutatma Superfast Express,SUR,PUNE
+12159,Jabalpur SF Express,AMI,JBP
+12160,Amravati SF Express,JBP,AMI
+12161,Lashkar SF Express,LTT,AGC
+12162,Lashkar SF Express,AGC,LTT
+12163,MGR Chennai Central SF Express,LTT,MAS
+12164,Mumbai LTT SF Express,MAS,LTT
+12165,Gorakhpur SF Express,LTT,GKP
+12166,Mumbai LTT SF Express,GKP,LTT
+12167,Banaras SF Express,LTT,BNRS
+12168,Mumbai LTT SF Express,BNRS,LTT
+12169,Solapur Intercity SF Express,PUNE,SUR
+12170,Pune Intercity SF Express,SUR,PUNE
+12171,Haridwar AC SF Express,LTT,HW
+12172,Mumbai LTT AC SF Express,HW,LTT
+12173,Udyog Nagri Express,LTT,MBDP
+12174,Udyog Nagri Express,MBDP,LTT
+12175,Chambal Express,HWH,GWL
+12176,Chambal Express,GWL,HWH
+12177,Chambal Express,HWH,MTJ
+12178,Chambal Express,MTJ,HWH
+12179,Agra Fort InterCity SF Express,LJN,AF
+12180,Lucknow Jn. InterCity SF Express,AF,LJN
+12181,Dayodaya SF Express,JBP,AII
+12182,Dayodaya SF Express,AII,JBP
+12183,MBDD Pratapgarh SF Express,BPL,MBDP
+12184,Bhopal SF Express,MBDP,BPL
+12185,Rewanchal Express,RKMP,REWA
+12186,Rewanchal Express,REWA,RKMP
+12187,Jabalpur - Mumbai CSMT Garib Rath Express,JBP,CSMT
+12188,Mumbai CSMT - Jabalpur Garib Rath Express,CSMT,JBP
+12189,Mahakoshal Express,JBP,NZM
+12190,Mahakoshal Express,NZM,JBP
+12191,Shridham SF Express,NZM,JBP
+12192,Shridham SF Express,JBP,NZM
+12193,Jabalpur SF Express,YPR,JBP
+12194,Yesvantpur SF Express,JBP,YPR
+12195,Ajmer Intercity SF Express,AF,AII
+12196,Agra Fort Intercity SF Express,AII,AF
+12197,Gwalior Intercity Express,BPL,GWL
+12198,Bhopal InterCity Express,GWL,BPL
+12201,Mumbai LTT - Thiruvananthapuram North Garib Rath Express,LTT,TVCN
+12202,Thiruvananthapuram North - Mumbai LTT Garib Rath Express,TVCN,LTT
+12203,Saharsa - Amritsar Garib Rath Express,SHC,ASR
+12204,Amritsar - Saharsa Garib Rath Express,ASR,SHC
+12207,Kathgodam - Jammu Tawi Garib Rath Express,KGM,JAT
+12208,Jammu Tawi - Kathgodam Garib Rath Express,JAT,KGM
+12209,Kanpur Central - Kathgodam Garib Rath Express,CNB,KGM
+12210,Kathgodam - Kanpur Central Garib Rath Express,KGM,CNB
+12211,Muzaffarpur - Anand Vihar Terminal Garib Rath Express,MFP,ANVT
+12212,Anand Vihar Terminal - Muzaffarpur Garib Rath Express,ANVT,MFP
+12213,Yesvantpur - Delhi-Sarai Rohilla AC Duronto Express,YPR,DEE
+12214,Delhi-Sarai Rohilla - Yesvantpur AC Duronto Express,DEE,YPR
+12215,Delhi-Sarai Rohilla - Bandra Terminus Garib Rath Express,DEE,BDTS
+12216,Bandra Terminus - Delhi-Sarai Rohilla Garib Rath Express,BDTS,DEE
+12217,Kerala Sampark Kranti Express,TVCN,CDG
+12218,Kerala Sampark Kranti Express,CDG,TVCN
+12219,Mumbai LTT - Secunderabad AC Duronto Express,LTT,SC
+12220,Secunderabad - Mumbai LTT AC Duronto Express,SC,LTT
+12221,Pune - Howrah AC Duronto Express,PUNE,HWH
+12222,Howrah - Pune AC Duronto Express,HWH,PUNE
+12223,Mumbai LTT - Ernakulam Duronto Express,LTT,ERS
+12224,Ernakulam - Mumbai LTT Duronto Express,ERS,LTT
+12225,Kaifiyaat SF Express,AMH,DLI
+12226,Kaifiyaat SF Express,DLI,AMH
+12227,Mumbai Central - Indore Duronto Express,MMCT,INDB
+12228,Indore - Mumbai Central Duronto Express,INDB,MMCT
+12229,Lucknow Mail,LKO,NDLS
+12230,Lucknow Mail,NDLS,LKO
+12231,Chandigarh SF Express,LKO,CDG
+12232,Lucknow SF Express,CDG,LKO
+12235,Madhupur - Anand Vihar Terminal Humsafar Express,MDP,ANVT
+12236,Anand Vihar Terminal - Madhupur Humsafar Express,ANVT,MDP
+12237,Begampura Express,BSB,JAT
+12238,Begampura Express,JAT,BSB
+12239,Mumbai Central - Hisar Duronto Express,MMCT,HSR
+12240,Hisar - Mumbai Central Duronto Express,HSR,MMCT
+12243,Chennai Central - Coimbatore Shatabdi Express,MAS,CBE
+12244,Coimbatore - Chennai Central Shatabdi Express,CBE,MAS
+12245,Howrah - SMVT Bengaluru Duronto Express,HWH,SMVB
+12246,SMVT Bengaluru - Howrah Duronto Express,SMVB,HWH
+12247,Hazrat Nizamuddin Yuva Express,BDTS,NZM
+12248,Bandra Terminus Yuva Express,NZM,BDTS
+12249,Swarn Nagari Express,SSB,JSM
+12250,Swarn Nagari Express,JSM,SSB
+12251,Wainganga SF Express,YPR,KRBA
+12252,Wainganga SF Express,KRBA,YPR
+12253,Anga Express,SMVB,BGP
+12254,Anga Express,BGP,SMVB
+12257,Yesvantpur - Thiruvananthapuram North Garib Rath Express,YPR,TVCN
+12258,Thiruvananthapuram North - Yesvantpur Garib Rath Express,TVCN,YPR
+12259,Sealdah - Bikaner AC Duronto Express,SDAH,BKN
+12260,Bikaner - Sealdah AC Duronto Express,BKN,SDAH
+12261,Mumbai CSMT - Howrah AC Duronto Express,CSMT,HWH
+12262,Howrah - Mumbai CSMT AC Duronto Express,HWH,CSMT
+12263,Pune - Hazrat Nizamuddin AC Duronto Express,PUNE,NZM
+12264,Hazrat Nizamuddin - Pune AC Duronto Express,NZM,PUNE
+12265,Delhi-Sarai Rohilla - Jammu Tawi Duronto Express,DEE,JAT
+12266,Jammu Tawi - Delhi-Sarai Rohilla Duronto Express,JAT,DEE
+12267,Mumbai Central - Hapa Duronto Express,MMCT,HAPA
+12268,Hapa - Mumbai Central Duronto Express,HAPA,MMCT
+12269,Chennai Central - Hazrat Nizamuddin Duronto Express,MAS,NZM
+12270,Hazrat Nizamuddin - Chennai Central Duronto Express,NZM,MAS
+12273,Howrah - New Delhi Duronto Express,HWH,NDLS
+12274,New Delhi - Howrah Duronto Express,NDLS,HWH
+12275,Prayagraj - New Delhi Humsafar Express,PRYJ,NDLS
+12276,New Delhi - Prayagraj Humsafar Express,NDLS,PRYJ
+12277,Howrah - Puri Shatabdi Express,HWH,PURI
+12278,Puri - Howrah Shatabdi Express,PURI,HWH
+12279,Taj Express,VGLJ,NDLS
+12280,Taj Express,NDLS,VGLJ
+12281,Bhubaneswar - New Delhi Duronto Express,BBS,NDLS
+12282,New Delhi - Bhubaneswar Duronto Express,NDLS,BBS
+12283,Ernakulam - Hazrat Nizamuddin Duronto Express,ERS,NZM
+12284,Hazrat Nizamuddin - Ernakulam Duronto Express,NZM,ERS
+12285,Secunderabad - Hazrat Nizamuddin Duronto Express,SC,NZM
+12286,Hazrat Nizamuddin - Secunderabad Duronto Express,NZM,SC
+12289,Mumbai CSMT - Nagpur Duronto Express,CSMT,NGP
+12290,Nagpur - Mumbai CSMT Duronto Express,NGP,CSMT
+12291,MGR Chennai Central Weekly SF Express,YPR,MAS
+12292,Yesvantpur Weekly SF Express,MAS,YPR
+12293,Mumbai LTT - Prayagraj AC Duronto Express,LTT,PRYJ
+12294,Prayagraj - Mumbai LTT AC Duronto Express,PRYJ,LTT
+12295,Sanghamitra SF Express,SMVB,DNR
+12296,Sanghamitra SF Express,DNR,SMVB
+12297,Ahmedabad - Pune Duronto Express,ADI,PUNE
+12298,Pune - Ahmedabad Duronto Express,PUNE,ADI
+12301,Howrah - New Delhi Rajdhani Express,HWH,NDLS
+12302,New Delhi - Howrah Rajdhani Express,NDLS,HWH
+12303,Poorva Express,HWH,NDLS
+12304,Poorva Express,NDLS,HWH
+12305,Howrah - New Delhi Rajdhani Express,HWH,NDLS
+12306,New Delhi - Howrah Rajdhani Express,NDLS,HWH
+12307,Jodhpur Superfast Express,HWH,JU
+12308,Howrah Superfast Express,JU,HWH
+12309,Rejendranagar Terminal - New Delhi Tejas Rajdhani Express,RJPB,NDLS
+12310,New Delhi - Rejendranagar Terminal Tejas Rajdhani Express,NDLS,RJPB
+12313,Sealdah - New Delhi Rajdhani Express,SDAH,NDLS
+12314,New Delhi - Sealdah Rajdhani Express,NDLS,SDAH
+12315,Ananya Express,KOAA,UDZ
+12316,Ananya Express,UDZ,KOAA
+12317,Akal Takht Express,KOAA,ASR
+12318,Akal Takht Express,ASR,KOAA
+12319,Gwalior SF Express,KOAA,GWL
+12320,Kolkata SF Express,GWL,KOAA
+12321,Mumbai Mail,HWH,CSMT
+12322,Howrah Mail,CSMT,HWH
+12323,Barmer SF Express,HWH,BME
+12324,Howrah SF Express,BME,HWH
+12325,Gurumukhi SF Express,KOAA,AADR
+12326,Gurumukhi SF Express,AADR,KOAA
+12329,West Bengal Sampark Kranti Express,SDAH,ANVT
+12330,West Bengal Sampark Kranti Express,ANVT,SDAH
+12335,Mumbai LTT SF Express,BGP,LTT
+12336,Bhagalpur SF Express,LTT,BGP
+12337,Shantiniketan Express,HWH,BHP
+12338,Shantiniketan Express,BHP,HWH
+12339,Coalfield Express,HWH,DHN
+12340,Coalfield Express,DHN,HWH
+12341,Agnibina Express,HWH,ASN
+12342,Agnibina Express,ASN,HWH
+12343,Darjeeling Mail,SDAH,HDB
+12344,Darjeeling Mail,HDB,SDAH
+12345,Saraighat Express,HWH,GHY
+12346,Saraighat Express,GHY,HWH
+12347,Sahid Express,HWH,RPH
+12348,Sahid Express,RPH,HWH
+12349,Godda - New Delhi Humsafar Express,GODA,NDLS
+12350,New Delhi - Godda Humsafar Express,NDLS,GODA
+12351,Rajendra Nagar Terminal SF Express,HWH,RJPB
+12352,Howrah SF Express,RJPB,HWH
+12353,Lal Kuan Weekly SF Express,HWH,LKU
+12354,Howrah Weekly SF Express,LKU,HWH
+12355,Archana Express,PNBE,JAT
+12356,Archana Express,JAT,PNBE
+12357,Durgiana Express,KOAA,ASR
+12358,Durgiana Express,ASR,KOAA
+12361,Mumbai CSMT SF Express,ASN,CSMT
+12362,Asansol SF Express,CSMT,ASN
+12363,Haldibari Intercity Express,KOAA,HDB
+12364,Kolkata Intercity Express,HDB,KOAA
+12365,Patna - Ranchi Shatabdi Express,PNBE,RNC
+12366,Ranchi - Patna Shatabdi Express,RNC,PNBE
+12367,Vikramshila Express,BGP,ANVT
+12368,Vikramshila Express,ANVT,BGP
+12371,Bikaner Weekly SF Express,HWH,BKN
+12372,Howrah Weekly SF Express,BKN,HWH
+12375,Jasidih Weekly SF Express,TBM,JSME
+12376,Tambaram Weekly SF Express,JSME,TBM
+12377,Padatik Express,SDAH,NOQ
+12378,Padatik Express,NOQ,SDAH
+12379,Amritsar Jallianwala Bagh Express,SDAH,ASR
+12380,Sealdah Jallianwala Bagh Express,ASR,SDAH
+12381,Poorva Express,HWH,NDLS
+12382,Poorva Express,NDLS,HWH
+12383,Asansol SF InterCity Express,SDAH,ASN
+12384,Sealdah SF InterCity Express,ASN,SDAH
+12389,MGR Chennai Central Weekly SF Express,GAYA,MAS
+12390,Gaya Weekly SF Express,MAS,GAYA
+12391,Shramjeevi SF Express,RGD,NDLS
+12392,Shramjeevi SF Express,NDLS,RGD
+12393,Sampoorna Kranti Express,RJPB,NDLS
+12394,Sampoorna Kranti Express,NDLS,RJPB
+12395,Ziyarat Express,RJPB,AII
+12396,Ziyarat Express,AII,RJPB
+12397,Mahabodhi Express,GAYA,NDLS
+12398,Mahabodhi Express,NDLS,GAYA
+12401,Nanda Devi AC SF Express,KOTA,DDN
+12402,Nanda Devi AC SF Express,DDN,KOTA
+12403,Lalgarh SF Express,PRYJ,LGH
+12404,Prayagraj SF Express,LGH,PRYJ
+12405,Hazrat Nizamuddin Gondwana SF Express,BSL,NZM
+12406,Bhusaval Gondwana SF Express,NZM,BSL
+12409,Hazrat Nizamuddin Gondwana Express,RIG,NZM
+12410,Raigarh Gondwana Express,NZM,RIG
+12411,Amritsar Intercity Express,CDG,ASR
+12412,Chandigarh Intercity Express,ASR,CDG
+12413,Galta Dham Pooja SF Express,AII,JAT
+12414,Galta Dham Pooja SF Express,JAT,AII
+12415,New Delhi Intercity SF Express,INDB,NDLS
+12416,Indore Intercity SF Express,NDLS,INDB
+12417,Prayagraj Express,PRYJ,NDLS
+12418,Prayagraj Express,NDLS,PRYJ
+12419,Gomti Express,LKO,NDLS
+12420,Gomti Express,NDLS,LKO
+12421,Amritsar SF Express,NED,ASR
+12422,Hazur Sahib Nanded SF Express,ASR,NED
+12423,Dibrugarh - New Delhi Rajdhani Express,DBRG,NDLS
+12424,New Delhi - Dibrugarh Rajdhani Express,NDLS,DBRG
+12425,New Delhi - Jammu Tawi Rajdhani Express,NDLS,JAT
+12426,Jammu Tawi - New Delhi Rajdhani Express,JAT,NDLS
+12427,Anand Vihar Terminal SF Express,REWA,ANVT
+12428,Rewa SF Express,ANVT,REWA
+12429,New Delhi AC SF Express,LKO,NDLS
+12430,Lucknow AC SF Express,NDLS,LKO
+12431,Trivandrum Central - Hazrat Nizamuddin Rajdhani Express,TVC,NZM
+12432,Hazrat Nizamuddin - Trivandrum Central Rajdhani Express,NZM,TVC
+12433,Chennai Central - Hazrat Nizamuddin Rajdhani Express,MAS,NZM
+12434,Hazrat Nizamuddin - Chennai Central Rajdhani Express,NZM,MAS
+12435,Jaynagar - Anand Vihar Terminal Garib Rath Express,JYG,ANVT
+12436,Anand Vihar Terminal - Jaynagar Garib Rath Express,ANVT,JYG
+12437,Secunderabad - Hazrat Nizamuddin Rajdhani Express,SC,NZM
+12438,Hazrat Nizamuddin - Secunderabad Rajdhani Express,NZM,SC
+12439,Shri Ganganagar SF Express,NED,SGNR
+12440,Hazur Sahib Nanded SF Express,SGNR,NED
+12441,Bilaspur - New Delhi Rajdhani Express,BSP,NDLS
+12442,New Delhi - Bilaspur Rajdhani Express,NDLS,BSP
+12443,Anand Vihar Terminal SF Express,HLZ,ANVT
+12444,Haldia SF Express,ANVT,HLZ
+12445,Uttar Sampark Kranti Express,NDLS,SVDK
+12446,Uttar Sampark Kranti Express,SVDK,NDLS
+12447,Uttar Pradesh Sampark Kranti Express,MKP,NZM
+12448,Uttar Pradesh Sampark Kranti Express,NZM,MKP
+12449,Goa Sampark Kranti Express,MAO,CDG
+12450,Goa Sampark Kranti Express,CDG,MAO
+12451,Shram Shakti Express,CNB,NDLS
+12452,Shram Shakti Express,NDLS,CNB
+12453,Ranchi - New Delhi Rajdhani Express,RNC,NDLS
+12454,New Delhi - Ranchi Rajdhani Express,NDLS,RNC
+12455,Bikaner SF Express,DEE,BKN
+12456,Delhi Sarai Rohilla SF Express,BKN,DEE
+12457,Bikaner SF Express,DEE,BKN
+12458,Delhi Sarai Rohilla SF Express,BKN,DEE
+12461,Jodhpur - Sabarmati BG Vande Bharat Express,JU,SBIB
+12462,Sabarmati BG - Jodhpur Vande Bharat Express,SBIB,JU
+12463,Jodhpur Rajasthan Sampark Kranti Express,DEE,JU
+12464,Delhi Sarai Rohilla Rajasthan Sampark Kranti Express,JU,DEE
+12465,Ranthambhore SF Express,INDB,BGKT
+12466,Ranthambhore SF Express,BGKT,INDB
+12467,Leelan SF Express,JSM,JP
+12468,Leelan SF Express,JP,JSM
+12469,Jammu Tawi SF Express,CNB,JAT
+12470,Kanpur Central SF Express,JAT,CNB
+12471,Swaraj Express,BDTS,SVDK
+12472,Swaraj Express,SVDK,BDTS
+12473,Sarvodaya SF Express,GIMB,SVDK
+12474,Sarvodaya SF Express,SVDK,GIMB
+12475,Shri Mata Vaishno Devi Katra SF Express,HAPA,SVDK
+12476,Hapa SF Express,SVDK,HAPA
+12477,Shri Mata Vaishno Devi Katra SF Express,JAM,SVDK
+12478,Jamnagar SF Express,SVDK,JAM
+12479,Suryanagari SF Express,JU,BDTS
+12480,Suryanagari SF Express,BDTS,JU
+12481,Shri Ganganagar Intercity Express,DLI,SGNR
+12482,Delhi Intercity Express,SGNR,DLI
+12483,Amritsar SF Express,TVCN,ASR
+12484,Thiruvananthapuram North Weekly SF Express,ASR,TVCN
+12485,Shri Ganganagar SF Express,NED,SGNR
+12486,Hazur Sahib Nanded SF Express,SGNR,NED
+12487,Seemanchal Express,JBN,ANVT
+12488,Seemanchal Express,ANVT,JBN
+12489,Dadar Western SF Express,SGNR,DDR
+12490,Shri Ganganagar SF Express,DDR,SGNR
+12493,Darshan SF Express,MRJ,NZM
+12494,Darshan SF Express,NZM,MRJ
+12495,Pratap SF Express,BKN,KOAA
+12496,Pratap SF Express,KOAA,BKN
+12497,Shan-e-Punjab Express,NDLS,ASR
+12498,Shan-e-Punjab Express,ASR,NDLS
+12501,Kolkata - Agartala Garib Rath Express,KOAA,AGTL
+12502,Agartala - Kolkata Garib Rath Express,AGTL,KOAA
+12503,SMVT Bengaluru - Agartala Humsafar Express,SMVB,AGTL
+12504,Agartala - SMVT Bengaluru Humsafar Express,AGTL,SMVB
+12505,North East Express,KYQ,ANVT
+12506,North East Express,ANVT,KYQ
+12509,Guwahati SF Express,SMVB,GHY
+12510,SMVT Bengaluru SF Express,GHY,SMVB
+12511,Thiruvananthapuram North Rapti Sagar SF Express,GKP,TVCN
+12512,Gorakhpur Rapti Sagar SF Express,TVCN,GKP
+12517,Kolkata - Guwahati Garib Rath Express,KOAA,GHY
+12518,Guwahati - Kolkata Garib Rath Express,GHY,KOAA
+12521,Ernakulam Junction. Rapti Sagar Express,BJU,ERS
+12522,Barauni Rapti Sagar Express,ERS,BJU
+12527,Anand Vihar Terminal CPR ANVT SF EXP,CPR,ANVT
+12528,Chhapra ANVT CPR SF EXP,ANVT,CPR
+12533,Pushpak Express,GTNR,CSMT
+12534,Pushpak Express,CSMT,GTNR
+12535,Lucknow - Raipur Garib Rath Express,LJN,R
+12536,Raipur - Lucknow Garib Rath Express,R,LJN
+12539,Lucknow SF Express,YPR,LKO
+12540,Yesvantpur SF Express,LKO,YPR
+12547,Gandhigram AGC GG SF EXP,AGC,GG
+12548,Agra Cantt GG AGC SF EXP,GG,AGC
+12549,Mctm Udhampur SF Express,DURG,MCTM
+12550,Durg SF Express,MCTM,DURG
+12551,Kamakhya AC SF Express,SMVB,KYQ
+12552,SMVT Bengaluru AC SF Express,KYQ,SMVB
+12555,Gorakhdham SF Express,GKP,BTI
+12556,Gorakhdham SF Express,BTI,GKP
+12557,Sapt Kranti SF Express,MFP,ANVT
+12558,Sapt Kranti SF Express,ANVT,MFP
+12559,Shiv Ganga Express,BNRS,NDLS
+12560,Shiv Ganga Express,NDLS,BNRS
+12561,Swatantrata Senani Express,JYG,NDLS
+12562,Swatantrata Senani Express,NDLS,JYG
+12565,Bihar Sampark Kranti Express,DBG,NDLS
+12566,Bihar Sampark Kranti Express,NDLS,DBG
+12571,Gorakhpur - Anand Vihar Terminal Humsafar Express,GKP,ANVT
+12572,Anand Vihar Terminal - Gorakhpur Humsafar Express,ANVT,GKP
+12577,Bagmati Express,DBG,MYS
+12578,Bagmati Express,MYS,DBG
+12581,New Delhi SF Express,BNRS,NDLS
+12582,Banaras SF Express,NDLS,BNRS
+12583,Lucknow - Anand Vihar Terminal Double Decker Express,LJN,ANVT
+12584,Anand Vihar Terminal - Lucknow Double Decker Express,ANVT,LJN
+12587,Jammu Tawi Amarnath Express,GKP,JAT
+12588,Gorakhpur Amarnath Express,JAT,GKP
+12589,Charlapalli SF Express,GKP,CHZ
+12590,Gorakhpur SF Express,CHZ,GKP
+12591,Yesvantpur SF Express,GKP,YPR
+12592,Gorakhpur SF Express,YPR,GKP
+12593,Lucknow - Bhopal Garib Rath Express,LJN,BPL
+12594,Bhopal - Lucknow Garib Rath Express,BPL,LJN
+12595,Gorakhpur - Anand Vihar Terminal Humsafar Express,GKP,ANVT
+12596,Anand Vihar Terminal - Gorakhpur Humsafar Express,ANVT,GKP
+12601,Mangaluru Central Mail,MAS,MAQ
+12602,MGR Chennai Central Mail,MAQ,MAS
+12603,Charlapalli SF Express,MAS,CHZ
+12604,MGR Chennai Central SF Express,CHZ,MAS
+12605,Pallavan Superfast Express,MS,KKDI
+12606,Pallavan Superfast Express,KKDI,MS
+12607,Lalbagh SF Express,MAS,SBC
+12608,Lalbagh SF Express,SBC,MAS
+12611,Chennai Central - Hazrat Nizamuddin Garib Rath Express,MAS,NZM
+12612,Hazrat Nizamuddin - Chennai Central Garib Rath Express,NZM,MAS
+12613,Wodeyar SF Express,MYS,SBC
+12614,Wodeyar SF Express,SBC,MYS
+12615,Grand Trunk Express,MAS,NDLS
+12616,Grand Trunk Express,NDLS,MAS
+12617,Mangala Lakshadweep SF Express,ERS,NZM
+12618,Mangala Lakshadweep Express,NZM,ERS
+12619,Matsyagandha Express,LTT,MAQ
+12620,Matsyagandha Express,MAQ,LTT
+12621,Tamil Nadu Express,MAS,NDLS
+12622,Tamil Nadu Express,NDLS,MAS
+12623,Thiruvananthapuram Central Mail,MAS,TVC
+12624,MGR Chennai Central Mail,TVC,MAS
+12625,Kerala Express,TVC,NDLS
+12626,Kerala Express,NDLS,TVC
+12627,Karnataka Express,SBC,NDLS
+12628,Karnataka Express,NDLS,SBC
+12629,Karnataka Sampark Kranti Express,YPR,NZM
+12630,Karnataka Sampark Kranti Express,NZM,YPR
+12631,Nellai SF Express,MS,TEN
+12632,Nellai SF Express,TEN,MS
+12633,Kanniyakumari SF Express,MS,CAPE
+12634,Chennai Egmore SF Express,CAPE,MS
+12635,Vaigai SF Express,MS,MDU
+12636,Vaigai SF Express,MDU,MS
+12637,Pandian SF Express,MS,MDU
+12638,Pandian SF Express,MDU,MS
+12639,Brindavan SF Express,MAS,SBC
+12640,Brindavan SF Express,SBC,MAS
+12641,Thirukkural SF Express,CAPE,NZM
+12642,Thirukkural SF Express,NZM,CAPE
+12643,Hazrat Nizamuddin Swarna Jayanti SF Express,TVC,NZM
+12644,Thiruvananthapuram Central Swarna Jayanti SF Express,NZM,TVC
+12645,Millennium SF Express,ERS,NZM
+12646,Millennium SF Express,NZM,ERS
+12647,Kongu SF Express,CBE,NZM
+12648,Kongu SF Express,NZM,CBE
+12649,Karnataka Sampark Kranti Express,YPR,NZM
+12650,Karnataka Sampark Kranti Express,NZM,YPR
+12651,Tamil Nadu Sampark Kranti Express,MDU,NZM
+12652,Tamil Nadu Sampark Kranti Express,NZM,MDU
+12653,Rock Fort SF Express,MS,TPJ
+12654,Rock Fort SF Express,TPJ,MS
+12655,Navjeevan SF Express,ADI,MAS
+12656,Navjeevan SF Express,MAS,ADI
+12657,KSR Bengaluru SF Mail,MAS,SBC
+12658,MGR Chennai Central SF Mail,SBC,MAS
+12659,Gurudev SF Express,NCJ,SHM
+12660,Gurudev SF Express,SHM,NCJ
+12661,Pothigai SF Express,MS,SCT
+12662,Pothigai SF Express,SCT,MS
+12663,Tiruchchirappalli SF Express,HWH,TPJ
+12664,Howrah SF Express,TPJ,HWH
+12665,Kanniyakumari SF Express,HWH,CAPE
+12666,Howrah SF Express,CAPE,HWH
+12667,Kanniyakumari Weekly SF Express,TBM,CAPE
+12668,Tambaram Weekly SF Express,CAPE,TBM
+12669,Ganga Kaveri Express,MAS,CPR
+12670,Ganga Kaveri Express,CPR,MAS
+12671,Nilgiri SF Express,MAS,MTP
+12672,Nilgiri SF Express,MTP,MAS
+12673,Cheran SF Express,MAS,CBE
+12674,Cheran SF Express,CBE,MAS
+12675,Kovai SF Express,MAS,CBE
+12676,Kovai SF Express,CBE,MAS
+12679,Coimbatore InterCity SF Express,MAS,CBE
+12680,M.G.R Chennai Central InterCity SF Express,CBE,MAS
+12681,Coimbatore Weekly SF Express,MAS,CBE
+12682,MGR Chennai Central Weekly SF Express,CBE,MAS
+12683,SMVT Bengaluru SF Express,ERS,SMVB
+12684,Ernakulam Jn. SF Express,SMVB,ERS
+12685,Mangaluru Central SF Express,MAS,MAQ
+12686,MGR Chennai Central SF Express,MAQ,MAS
+12689,Kanniyakumari SF Express,MAS,CAPE
+12690,MGR Chennai Central SF Express,CAPE,MAS
+12691,Shivamogga Town Weekly SF Express,MAS,SMET
+12692,MGR Chennai Central Weekly SF Express,SMET,MAS
+12693,Pearl City Superfast Express,MS,TN
+12694,Pearl City Superfast Express,TN,MS
+12695,Thiruvananthapuram Central SF Express,MAS,TVC
+12696,M.G.R Chennai Central SF Express,TVC,MAS
+12697,Thiruvananthapuram Central Weekly SF Express,MAS,TVC
+12698,MGR Chennai Central Weekly SF Express,TVC,MAS
+12701,Hussain Sagar SF Express,CSMT,HYB
+12702,Hussain Sagar SF Express,HYB,CSMT
+12703,Falaknuma Express,HWH,SC
+12704,Falaknuma Express,SC,HWH
+12705,Secunderabad Intercity Superfast Express,GNT,SC
+12706,Guntur InterCity Superfast Express,SC,GNT
+12707,Andhra Pradesh Sampark Kranti Express,TPTY,NZM
+12708,Andhra Pradesh Sampark Kranti Express,NZM,TPTY
+12709,Simhapuri SF Express,GDR,SC
+12710,Simhapuri SF Express,SC,GDR
+12711,Pinakini SF Express,BZA,MAS
+12712,Pinakini SF Express,MAS,BZA
+12713,Satavahana SF Express,BZA,SC
+12714,Satavahana SF Express,SC,BZA
+12715,Sachkhand Express,NED,ASR
+12716,Sachkhand Express,ASR,NED
+12717,Ratnachal SF Express,VSKP,BZA
+12718,Ratnachal SF Express,BZA,VSKP
+12719,Hyderabad SF Express,JP,HYB
+12720,Jaipur SF Express,HYB,JP
+12721,Dakshin SF Express,HYB,NZM
+12722,Dakshin SF Express,NZM,HYB
+12723,Telangana Express,HYB,NDLS
+12724,Telangana Express,NDLS,HYB
+12725,Siddhaganga SF Express,SBC,DWR
+12726,Siddhaganga SF Express,DWR,SBC
+12727,Hyderabad Godavari SF Express,VSKP,HYB
+12728,Visakhapatnam Godavari SF Express,HYB,VSKP
+12731,Secunderabad SF Express,TPTY,SC
+12732,Tirupati SF Express,SC,TPTY
+12733,Narayanadri SF Express,TPTY,LPI
+12734,Narayanadri SF Express,LPI,TPTY
+12735,Charlapalli - Yesvantpur Garib Rath Express,CHZ,YPR
+12736,Yesvantpur - Charlapalli Garib Rath Express,YPR,CHZ
+12737,Gowthami SF Express,COA,LPI
+12738,Gowthami SF Express,LPI,COA
+12739,Visakhapatnam - Secunderabad Garib Rath Express,VSKP,SC
+12740,Secunderabad - Visakhapatnam Garib Rath Express,SC,VSKP
+12741,da-Gama - Patna SF Express,VSG,PNBE
+12742,Vasco-da-Gama SF Express,PNBE,VSG
+12743,Vikramasimhapuri Amaravati Intercity Express,GDR,BZA
+12744,Vikramasimhapuri Amaravati Intercity Express,BZA,GDR
+12745,Manuguru SF Express,SC,MUGR
+12746,Secunderabad SF Express,MUGR,SC
+12747,Palnadu SF Express,GNT,VKB
+12748,Palnadu SF Express,VKB,GNT
+12749,Bidar SF Express,MTM,BIDR
+12750,Machilipatnam SF Express,BIDR,MTM
+12751,Nanded - Jammu Tawi Humsafar Express,NED,JAT
+12752,Jammu Tawi - Nanded Humsafar Express,JAT,NED
+12753,Marathwada Sampark Kranti Express,NED,NZM
+12754,Marathwada Sampark Kranti Express,NZM,NED
+12755,Bhavnagar Terminus Superfast Express,COA,BVC
+12756,Kakinada Port Superfast Express,BVC,COA
+12757,Kaghaznagar SF Express,SC,SKZR
+12758,Kaghaznagar SF Express,SKZR,SC
+12759,Hyderabad CHARMINAR SF EXP,TBM,HYB
+12760,Tambaram CHARMINAR SF EX,HYB,TBM
+12761,Karimnagar SF Express,TPTY,KRMR
+12762,Tirupati SF Express,KRMR,TPTY
+12763,Padmavathi SF Express,TPTY,SC
+12764,Padmavathi SF Express,SC,TPTY
+12765,Amravati SF Express,TPTY,AMI
+12766,Tirupati SF Express,AMI,TPTY
+12767,Santragachi SF Express,NED,SRC
+12768,Hazur Sahib Nanded SF Express,SRC,NED
+12769,Seven Hills SF Express,TPTY,SC
+12770,Seven Hills SF Express,SC,TPTY
+12771,Raipur SF Express,SC,R
+12772,Secunderabad SF Express,R,SC
+12773,Secunderabad AC SF Express,SHM,SC
+12774,Secunderabad - Shalimar AC SF Express,SC,SHM
+12775,Cocanada SF Express,CCT,LPI
+12776,Cocanada SF Express,LPI,CCT
+12777,Thiruvananthapuram North Weekly SF Express,UBL,TVCN
+12778,SSS Hubballi Weekly SF Express,TVCN,UBL
+12779,Goa Express,VSG,NZM
+12780,Goa Express,NZM,VSG
+12781,Hazrat Nizamuddin Swarna Jayanti SF Express,MYS,NZM
+12782,Mysuru Swarna Jayanti SF Express,NZM,MYS
+12783,Secunderabad AC SF Express,VSKP,SC
+12784,Visakhapatnam AC SF Express,SC,VSKP
+12785,Ashokapuram SF Express,KCG,AP
+12786,Kacheguda SF Express,AP,KCG
+12787,Nagarsol Superfast Express,NS,NSL
+12788,Narasapur Superfast Express,NSL,NS
+12789,Kumta KCG KT SF EXP,KCG,KT
+12790,Kacheguda KUMTA KCG EXP,KT,KCG
+12791,Danapur SF Express,SC,DNR
+12792,Secunderabad SF Express,DNR,SC
+12793,Rayalaseema SF Express,TPTY,NZB
+12794,Rayalaseema SF Express,NZB,TPTY
+12795,Lingampalli InterCity Express,BZA,LPI
+12796,Vijayawada InterCity Express,LPI,BZA
+12797,Venkatadri SF Express,KCG,CTO
+12798,Venkatadri SF Express,CTO,KCG
+12801,Purushottam Express,PURI,ANVT
+12802,Purushottam Express,ANVT,PURI
+12803,Swarna Jayanti Express,VSKP,NZM
+12804,Swarna Jayanti Express,NZM,VSKP
+12805,Lingampalli Janmabhoomi SF Express,VSKP,LPI
+12806,Visakhapatnam Janmabhoomi SF Express,LPI,VSKP
+12807,Samata Express,VSKP,NZM
+12808,Samata Express,NZM,VSKP
+12809,Howrah Mail,CSMT,HWH
+12810,Howrah - Mumbai CSMT Mail,HWH,CSMT
+12811,Hatia SF Express,LTT,HTE
+12812,Mumbai LTT SF Express,HTE,LTT
+12813,Steel Express,HWH,TATA
+12814,Steel Express,TATA,HWH
+12815,Nandan Kanan Express,PURI,ANVT
+12816,Nandan Kanan Express,ANVT,PURI
+12817,Swarna Jayanti Express,HTE,ANVT
+12818,Swarna Jayanti Express,ANVT,HTE
+12819,Odisha Sampark Kranti Express,BBS,ANVT
+12820,Odisha Sampark Kranti Express,ANVT,BBS
+12821,Dhauli Express,HWH,PURI
+12822,Dhauli Express,PURI,HWH
+12823,Chhattisgarh Sampark Kranti Express,DURG,NZM
+12824,Chhattisgarh Sampark Kranti Express,NZM,DURG
+12825,Jharkhand Sampark Kranti Express,RNC,ANVT
+12826,Jharkhand Sampark Kranti Express,ANVT,RNC
+12827,Purulia SF Express,HWH,PRR
+12828,Howrah SF Express,PRR,HWH
+12833,Howrah SF Express,ADI,HWH
+12834,Ahmedabad SF Express,HWH,ADI
+12835,SMVT Bengaluru SF Express,HTE,SMVB
+12836,Hatia SF Express,SMVB,HTE
+12837,Puri Superfast Express,HWH,PURI
+12838,Howrah Superfast Express,PURI,HWH
+12839,M.G.R Chennai Central Mail,HWH,MAS
+12840,Howrah Mail,MAS,HWH
+12841,Coromandel Express,HWH,MAS
+12842,Coromandel Express,MAS,HWH
+12843,Ahmedabad SF Express,PURI,ADI
+12844,Puri SF Express,ADI,PURI
+12845,SMVT Bengaluru SF Express,BBS,SMVB
+12846,Bhubaneswar SF Express,SMVB,BBS
+12849,Pune SF Express,BSP,PUNE
+12850,Bilaspur SF Express,PUNE,BSP
+12851,MGR Chennai Central Weekly SF Express,BSP,MAS
+12852,Bilaspur Weekly SF Express,MAS,BSP
+12853,Amarkantak Express,DURG,BPL
+12854,Amarkantak Express,BPL,DURG
+12855,NSC Bose Itwari InterCity Express,BSP,NITR
+12856,Bilaspur InterCity Express,NITR,BSP
+12857,Tamralipta Express,HWH,DGHA
+12858,Tamralipta Express,DGHA,HWH
+12859,Gitanjali Express,CSMT,HWH
+12860,Gitanjali Express,HWH,CSMT
+12861,Mahbubnagar SF Express,VSKP,MBNR
+12862,Visakhapatnam SF Express,MBNR,VSKP
+12863,SMVT Bengaluru SF Express,HWH,SMVB
+12864,Howrah SF Express,SMVB,HWH
+12867,Puducherry SF Express,HWH,PDY
+12868,Howrah SF Express,PDY,HWH
+12869,Howrah Weekly SF Express,CSMT,HWH
+12870,Mumbai CSMT Weekly SF Express,HWH,CSMT
+12871,Junagarh Road Ispat Express,HWH,JNRD
+12872,Howrah Ispat Express,JNRD,HWH
+12873,Swarna Jayanti Express,HTE,ANVT
+12874,Swarna Jayanti Express,ANVT,HTE
+12875,Neelachal Express,PURI,ANVT
+12876,Neelachal Express,ANVT,PURI
+12877,Ranchi - New Delhi Garib Rath Express,RNC,NDLS
+12878,New Delhi - Ranchi Garib Rath Express,NDLS,RNC
+12879,Bhubaneswar SF Express,LTT,BBS
+12880,Mumbai LTT SF Express,BBS,LTT
+12881,Shalimar - Puri Garib Rath Express,SHM,PURI
+12882,Puri - Shalimar Garib Rath Express,PURI,SHM
+12883,Rupasi Bangla Express,SRC,PRR
+12884,Rupasi Bangla Express,PRR,HWH
+12885,Aranyak Express,SHM,BJE
+12886,Aranyak Express,BJE,SHM
+12887,Puri Weekly SF Express,SHM,PURI
+12888,Shalimar Weekly SF Express,PURI,SHM
+12889,SMVT Bengaluru SF Express,TATA,SMVB
+12890,Tatanagar SF Express,SMVB,TATA
+12893,Purunakatak Intercity SF Express,BBS,PUKK
+12894,Bhubaneswar Intercity SF Express,PUKK,BBS
+12895,Puri Weekly SF Express,SHM,PURI
+12896,Shalimar Weekly SF Express,PURI,SHM
+12901,Gujarat Mail,DDR,ADI
+12902,Gujarat Mail,ADI,DDR
+12903,Golden Temple Mail,BDTS,ASR
+12904,Golden Temple Mail,ASR,BDTS
+12905,Shalimar SF Express,PBR,SHM
+12906,Porbandar SF Express,SHM,PBR
+12907,Maharashtra Sampark Kranti Express,BDTS,NZM
+12908,Maharashtra Sampark Kranti Express,NZM,BDTS
+12909,Bandra Terminus - Hazrat Nizamuddin Garib Rath Express,BDTS,NZM
+12910,Hazrat Nizamuddin - Bandra Terminus Garib Rath Express,NZM,BDTS
+12911,Haridwar SF Express,BL,HW
+12912,Valsad SF Express,HW,BL
+12913,Indore - Nagpur Shatabdi Express,INDB,NGP
+12914,Nagpur - Indore Shatabdi Express,NGP,INDB
+12915,Ashram Express,SBIB,DLI
+12916,Ashram Express,DLI,SBIB
+12917,Hazrat Nizamuddin Gujarat Sampark Kranti Express,ADI,NZM
+12918,Ahmedabad Gujarat Sampark Kranti Express,NZM,ADI
+12919,Malwa SF Express,DADN,SVDK
+12920,Malwa SF Express,SVDK,DADN
+12921,Flying Ranee,MMCT,ST
+12922,Flying Ranee,ST,MMCT
+12923,Nagpur SF Express,DADN,NGP
+12924,Dr. Ambedkar Nagar SF Express,NGP,DADN
+12925,Paschim SF Express,BDTS,ASR
+12926,Paschim SF Express,ASR,BDTS
+12927,Ekta Nagar SF Express,DDR,EKNR
+12928,Dadar Western SF Express,EKNR,DDR
+12929,Vadodara Intercity SF Express,BL,BRC
+12930,Valsad BL INTERCITY,BRC,BL
+12931,Mumbai Central - Ahmedabad Double Decker Express,MMCT,ADI
+12932,Ahmedabad - Mumbai Central Double Decker Express,ADI,MMCT
+12933,Karnavati Express,BDTS,VTA
+12934,Karnavati Express,ADI,BDTS
+12935,Surat InterCity Express,BDTS,ST
+12936,Bandra Terminus InterCity Express,ST,BDTS
+12937,Garba SF Express,GIMB,HWH
+12938,Garba SF Express,HWH,GIMB
+12939,Pune - Jaipur SF Express,PUNE,JP
+12940,Jaipur - Pune SF Express,JP,PUNE
+12941,Parasnath Express,BVC,ASN
+12942,Parasnath Express,ASN,BVC
+12943,Udyogkarmi SF Express,BL,CNB
+12944,Udyogkarmi SF Express,CNB,BL
+12945,Banaras SF Express,VRL,BNRS
+12946,Veraval SF Express,BNRS,VRL
+12947,Azimabad SF Express,ADI,RGD
+12948,Azimabad SF Express,RGD,ADI
+12949,Santragachi Kavi Guru SF Express,PBR,SRC
+12950,Porbandar Kavi Guru SF Express,SRC,PBR
+12951,Mumbai Central - New Delhi Tejas Rajdhani Express,MMCT,NDLS
+12952,New Delhi - Mumbai Central Tejas Rajdhani Express,NDLS,MMCT
+12953,Mumbai Central - Hazrat Nizamuddin Tejas Rajdhani Express,MMCT,NZM
+12954,Hazrat Nizamuddin - Mumbai Central Tejas Rajdhani Express,NZM,MMCT
+12955,Jaipur SF Express,MMCT,JP
+12956,Mumbai Central SF Express,JP,MMCT
+12957,Sabarmati BG - New Delhi Rajdhani Express,SBIB,NDLS
+12958,New Delhi - Sabarmati BG Rajdhani Express,NDLS,SBIB
+12959,Bhuj Weekly SF Express,BDTS,BHUJ
+12960,Bandra Terminus Weekly SF Express,BHUJ,BDTS
+12961,Avantika SF Express,MMCT,INDB
+12962,Avantika SF Express,INDB,MMCT
+12963,Mewar Express,NZM,UDZ
+12964,Mewar Express,UDZ,NZM
+12965,Bhuj Weekly SF Express,BDTS,BHUJ
+12966,Bandra Terminus Weekly SF Express,BHUJ,BDTS
+12967,Jaipur SF Express,MAS,JP
+12968,MGR Chennai Central SF Express,JP,MAS
+12969,Jaipur SF Express,CBE,JP
+12970,Coimbatore SF Express,JP,CBE
+12971,Bhavnagar Terminus SF Express,BDTS,BVC
+12972,Bandra Terminus SF Express,BVC,BDTS
+12973,Jaipur SF Express,INDB,JP
+12974,Indore SF Express,JP,INDB
+12975,Jaipur SF Express,MYS,JP
+12976,Mysuru SF Express,JP,MYS
+12977,Marusagar SF Express,ERS,AII
+12978,Marusagar SF Express,AII,ERS
+12979,Jaipur SF Express,BDTS,JP
+12980,Bandra Terminus SF Express,JP,BDTS
+12981,Asarva JP ASV SUPERFAST,KWP,ASV
+12982,Khatipura ASV JP SF EXP,ASV,KWP
+12983,Ajmer - Chandigarh Garib Rath Express,AII,CDG
+12984,Chandigarh - Ajmer Garib Rath Express,CDG,AII
+12985,Jaipur - Delhi-Sarai Rohilla Double Decker Express,JP,DEE
+12986,Delhi-Sarai Rohilla - Jaipur Double Decker Express,DEE,JP
+12987,Ajmer SF Express,SDAH,AII
+12988,Sealdah SF Express,AII,SDAH
+12989,Ajmer SF Express,DDR,AII
+12990,Dadar Western SF Express,AII,DDR
+12991,Jaipur Intercity Express,UDZ,JP
+12992,Udaipur City Intercity Express,JP,UDZ
+12993,Puri Weekly SF Express,GIMB,PURI
+12994,Gandhidham Weekly SF Express,PURI,GIMB
+12995,Ajmer SF Express,BDTS,AII
+12996,Bandra Terminus SF Express,AII,BDTS
+12997,Bandra Terminus - Barmer Humsafar Express,BDTS,BME
+12998,Barmer - Bandra Terminus Humsafar Express,BME,BDTS
+13005,Amritsar Mail,HWH,ASR
+13006,Howrah Mail,ASR,HWH
+13009,Doon Express,HWH,YNRK
+13010,Doon Express,YNRK,HWH
+13011,Malda Town Intercity Express,HWH,MLDT
+13012,Howrah Intercity Express,MLDT,HWH
+13015,Jamalpur Kavi Guru Express,HWH,JMP
+13016,Howrah Kavi Guru Express,JMP,HWH
+13017,Ganadevta Express,HWH,AZ
+13018,Ganadevta Express,AZ,HWH
+13019,Bagh Express,HWH,KGM
+13020,Bagh Express,KGM,HWH
+13021,Mithila Express,HWH,RXL
+13022,Mithila Express,RXL,HWH
+13023,Howrah - Gaya Express,HWH,GAYA
+13024,Gaya - Howrah Express,GAYA,HWH
+13025,Bhopal Weekly Express,HWH,BPL
+13026,Howrah Weekly Express,BPL,HWH
+13027,Azimganj Kaviguru Express,HWH,AZ
+13028,Howrah Kaviguru Express,AZ,HWH
+13029,Howrah - Mokama Express,HWH,MKA
+13030,Mokama - Howrah Express,MKA,HWH
+13033,Howrah - Katihar Express,HWH,KIR
+13034,Katihar - Howrah Express,KIR,HWH
+13035,Upasana Express,HWH,DDN
+13036,Upasana Express,DDN,HWH
+13037,Kumbh Express,HWH,DDN
+13038,Kumbh Express,DDN,HWH
+13041,Himgiri Express,HWH,JAT
+13042,Himgiri Express,JAT,HWH
+13043,Howrah - Raxaul Express,HWH,RXL
+13044,Raxaul - Howrah Express,RXL,HWH
+13045,Mayurakshi Express,HWH,DGHR
+13046,Mayurakshi Express,DGHR,HWH
+13047,Vibhuti Express,HWH,PRRB
+13048,Vibhuti Express,PRRB,HWH
+13051,Netaji Express,HWH,KLK
+13052,Netaji Express,KLK,HWH
+13053,Kulik Express,HWH,RDP
+13054,Kulik Express,RDP,HWH
+13063,Balurghat Express,HWH,BLGT
+13064,Howrah Express,BLGT,HWH
+13065,Howrah - Anand Vihar Terminal Amrit Bharat Express,HWH,ANVT
+13066,Anand Vihar Terminal - Howrah Amrit Bharat Express,ANVT,HWH
+13071,Howrah - Jamalpur Express,HWH,JMP
+13072,Jamalpur - Howrah Express,JMP,HWH
+13103,Bhagirathi Express,SDAH,LGL
+13104,Bhagirathi Express,LGL,SDAH
+13105,Sealdah - Ballia Express,SDAH,BUI
+13106,Ballia - Sealdah Express,BUI,SDAH
+13113,Hazarduari Express,KOAA,LGL
+13114,Hazarduari Express,LGL,KOAA
+13115,Sealdah - Jalpaiguri Road Humsafar Express,SDAH,JPE
+13116,Jalpaiguri Road - Sealdah Humsafar Express,JPE,SDAH
+13117,Dhano Dhanye Express,KOAA,LGL
+13118,Dhano Dhanye Express,LGL,KOAA
+13121,Ghazipur City Weekly Express,KOAA,GCT
+13122,Kolkata Weekly Express,GCT,KOAA
+13125,Kolkata - Sairang Express,KOAA,SANG
+13126,Sairang - Kolkata Express,SANG,KOAA
+13127,Kolkata - Ara Garib Rath Express,KOAA,ARA
+13128,Ara - Kolkata Garib Rath Express,ARA,KOAA
+13135,Jaynagar Weekly Express,KOAA,JYG
+13136,Kolkata Weekly Express,JYG,KOAA
+13137,Azamgarh Weekly Express,KOAA,AMH
+13138,Kolkata Weekly Express,AMH,KOAA
+13141,Teesta Torsa Express,SDAH,NOQ
+13142,Teesta Torsa Express,NOQ,SDAH
+13145,Radhikapur Express,KOAA,RDP
+13146,Kolkata Express,RDP,KOAA
+13147,Uttarbanga Express,SDAH,BXT
+13148,Uttarbanga Express,BXT,SDAH
+13149,Kanchankanya Express,SDAH,APDJ
+13150,Kanchankanya Express,APDJ,SDAH
+13151,Jammu Tawi Express,KOAA,JAT
+13152,Kolkata Express,JAT,KOAA
+13153,Gour Express,SDAH,MLDT
+13154,Gour Express,MLDT,SDAH
+13155,Mithilanchal Express,KOAA,SMI
+13156,Mithilanchal Express,SMI,KOAA
+13157,Tirhut Express,KOAA,MFP
+13158,Tirhut Express,MFP,KOAA
+13159,Kolkata - Jogbani Express,KOAA,JBN
+13160,Jogbani - Kolkata Express,JBN,KOAA
+13161,Tebhaga Express,KOAA,BLGT
+13162,Tebhaga Express,BLGT,KOAA
+13163,Hate Bazare Express,SDAH,SHC
+13164,Hate Bazare Express,SHC,SDAH
+13165,Sitamarhi Express,KOAA,SMI
+13166,Kolkata Express,SMI,KOAA
+13167,Agra Cantt. Weekly Express,KOAA,AGC
+13168,Kolkata Weekly Express,AGC,KOAA
+13169,Hate Bazare Express,SDAH,SHC
+13170,Hate Bazare Express,SHC,SDAH
+13173,Sabroom Kanchanjungha Express,SDAH,SBRM
+13174,Sealdah Kanchanjungha Express,SBRM,SDAH
+13175,Silchar Kanchanjungha Express,SDAH,SCL
+13176,Sealdah Kanchanjungha Express,SCL,SDAH
+13181,Kaziranga Express,KOAA,SHTT
+13182,Kaziranga Express,SHTT,KOAA
+13185,Gangasagar Express,SDAH,JYG
+13186,Gangasagar Express,JYG,SDAH
+13187,Maa Tara Express,SDAH,RPH
+13188,Maa Tara Express,RPH,SDAH
+13189,Balurghat Express,SDAH,BLGT
+13190,Sealdah Express,BLGT,SDAH
+13201,Mumbai LTT Janta Express,RGD,LTT
+13202,Rajgir Janta Express,LTT,RGD
+13205,Patliputra Janhit Express,PRNC,PPTA
+13206,Purnia Court Janhit Express,PPTA,PRNC
+13211,Danapur Intercity Express,JBN,DNR
+13212,Jogbani Intercity Express,DNR,JBN
+13213,Jogbani - Saharsa Express,JBN,SHC
+13214,Saharsa - Jogbani Express,SHC,JBN
+13225,Ara InterCity Express,JYG,ARA
+13226,Jaynagar InterCity Express,ARA,JYG
+13227,Rajendra Nagar Terminal InterCity Express,SHC,RJPB
+13228,Saharsa InterCity Express,RJPB,SHC
+13229,Rajendra Nagar Terminal Weekly Express,GODA,RJPB
+13230,Godda Weekly Express,RJPB,GODA
+13233,Danapur Intercity Express,KQR,DNR
+13234,Koderma Intercity Express,DNR,KQR
+13235,Danapur InterCity Express,SBG,DNR
+13236,Sahibganj InterCity Express,DNR,SBG
+13237,Patna - Kota Express,PNBE,KOTA
+13238,Kota - Patna Express,KOTA,PNBE
+13239,Patna - Kota Express,PNBE,KOTA
+13240,Kota - Patna Express,KOTA,PNBE
+13241,Rajendra Nagar Terminal Intercity Express,BAKA,RJPB
+13242,Banka Intercity Express,RJPB,BAKA
+13243,Bhabua Road InterCity Express,PNBE,BBU
+13244,Patna InterCity Express,BBU,PNBE
+13245,Ara Capital Express,NJP,ARA
+13246,New Jalpaiguri Capital Express,ARA,NJP
+13247,Ara Capital Express,KYQ,ARA
+13248,Kamakhya Capital Express,ARA,KYQ
+13249,Bhabua Road Intercity Express,PNBE,BBU
+13250,Patna Intercity Express,BBU,PNBE
+13251,Anand Vihar Terminal Express,PNBE,ANVT
+13252,Patna Express,ANVT,PNBE
+13281,Rajendra Nagar Terminal Express,DBRG,RJPB
+13282,Dibrugarh Express,RJPB,DBRG
+13287,South Bihar Express,DURG,ARA
+13288,South Bihar Express,ARA,DURG
+13301,Swarna Rekha Express,DHN,ADTP
+13302,Swarna Rekha Express,ADTP,DHN
+13303,Ranchi Intercity Express,DHN,RNC
+13304,Dhanbad Intercity Express,RNC,DHN
+13305,Sasaram Intercity Express,DHN,SSM
+13306,Dhanbad Intercity Express,SSM,DHN
+13307,Ganga Sutlej Express,DHN,FZR
+13308,Ganga Sutlej Express,FZR,DHN
+13319,Ranchi Intercity Express,DUMK,RNC
+13320,Dumka Intercity Express,RNC,DUMK
+13329,Ganga Damodar Express,DHN,PNBE
+13330,Ganga Damodar Express,PNBE,DHN
+13331,Patna InterCity Express,DHN,PNBE
+13332,Dhanbad InterCity Express,PNBE,DHN
+13333,Dumka - Patna Express,DUMK,PNBE
+13334,Patna - Dumka Express,PNBE,DUMK
+13347,Palamu Express,BRKA,PNBE
+13348,Palamu Express,PNBE,BRKA
+13349,Singrauli - Patna Express,SGRL,PNBE
+13350,Patna - Singrauli Express,PNBE,SGRL
+13351,Alappuzha Express,DHN,ALLP
+13352,Dhanbad Express,ALLP,DHN
+13353,Patna Intercity Express,RGD,PNBE
+13354,Rajgir Intercity Express,PNBE,RGD
+13379,Mumbai LTT Weekly Express,DHN,LTT
+13380,Dhanbad Weekly Express,LTT,DHN
+13401,Danapur Intercity Express,BGP,DNR
+13402,Bhagalpur Intercity Express,DNR,BGP
+13403,Vananchal Express,RNC,BGP
+13404,Vananchal Express,BGP,RNC
+13410,Malda Town Intercity Express,KIUL,MLDT
+13415,Patna Express,MLDT,PNBE
+13416,Malda Town Express,PNBE,MLDT
+13417,Malda Town Express,DGHA,MLDT
+13418,Digha Express,MLDT,DGHA
+13419,Muzaffarpur Jansewa Express,BGP,MFP
+13420,Bhagalpur Jansewa Express,MFP,BGP
+13421,Malda Town Express,NDAE,MLDT
+13422,Nabadwip Dham Express,MLDT,NDAE
+13423,Bhagalpur - Ajmer Humsafar Express,BGP,AII
+13424,Ajmer - Bhagalpur Humsafar Express,AII,BGP
+13425,Surat Express,MLDT,ST
+13426,Malda Town Express,ST,MLDT
+13427,Sahibganj Intercity Express,HWH,SBG
+13428,Howrah Intercity Express,SBG,HWH
+13429,Anand Vihar Terminal Weekly Express,MLDT,ANVT
+13430,Malda Town Weekly Express,ANVT,MLDT
+13431,Balurghat Express,NDAE,BLGT
+13432,Nabadwip Dham Express,BLGT,NDAE
+13433,SMVT Bengaluru - Malda Town Amrit Bharat Express,SMVB,MLDT
+13434,Malda Town - SMVT Bengaluru Amrit Bharat Express,MLDT,SMVB
+13435,Malda Town - Gomti Nagar Amrit Bharat Express,MLDT,GTNR
+13436,Gomti Nagar - Malda Town Amrit Bharat Express,GTNR,MLDT
+13465,Malda Town Intercity Express,HWH,MLDT
+13466,Howrah Intercity Express,MLDT,HWH
+13505,Digha - Asansol Express,DGHA,ASN
+13506,Asansol - Digha Express,ASN,DGHA
+13507,Gorakhpur Express,ASN,GKP
+13508,Asansol Express,GKP,ASN
+13509,Asansol - Gonda Express,ASN,GD
+13510,Gonda - Asansol Express,GD,ASN
+13511,Asansol Express,ADTP,ASN
+13512,Adityapur Express,ASN,ADTP
+13697,Gaya - Delhi Amrit Bharat Express,GAYA,DLI
+13698,Delhi - Gaya Amrit Bharat Express,DLI,GAYA
+14003,New Delhi Express,MLDT,NDLS
+14004,Malda Town Express,NDLS,MLDT
+14005,Lichchavi Express,SMI,ANVT
+14006,Lichchavi Express,ANVT,SMI
+14007,Anand Vihar Terminal Sadbhavana Express,RXL,ANVT
+14008,Raxaul Sadbhavana Express,ANVT,RXL
+14009,Champaran Satyagrah Express,BMKI,ANVT
+14010,Champaran Satyagrah Express,ANVT,BMKI
+14011,Anand Vihar Terminal Express,RDP,ANVT
+14012,Radhikapur Express,ANVT,RDP
+14013,Anand Vihar Terminal Sadbhavana Express,SLN,ANVT
+14014,Sultanpur Sadbhavana Express,ANVT,SLN
+14015,Anand Vihar Terminal Sadbhavana Express,RXL,ANVT
+14016,Raxaul Sadbhavana Express,ANVT,RXL
+14017,Anand Vihar Terminal Sadbhavana Express,RXL,ANVT
+14018,Raxaul Sadbhavana Express,ANVT,RXL
+14021,Anand Vihar Terminal Express,PRR,ANVT
+14022,Purulia Express,ANVT,PRR
+14029,Delhi Express,SGNR,DLI
+14030,Shri Ganganagar Express,MUT,SGNR
+14035,Dhauladhar Express,DEE,PTK
+14036,Dhauladhar Express,PTK,DEE
+14037,New Delhi Poorvottar Sampark Kranti Express,SCL,NDLS
+14038,Silchar Poorvottar Sampark Kranti Express,NDLS,SCL
+14047,Sitamarhi - Delhi Amrit Bharat Express,SMI,DLI
+14048,Delhi - Sitamarhi Amrit Bharat Express,DLI,SMI
+14049,Delhi Weekly Express,GODA,DLI
+14050,Godda Weekly Express,DLI,GODA
+14053,Kartoli Punjab HIMACHAL EXP,DLI,KRTP
+14054,Delhi Jn. HIMACHAL EXP,KRTP,DLI
+14055,Anand Vihar Terminal Express,MAU,ANVT
+14056,Mau Express,ANVT,MAU
+14087,Runicha Express,DLI,JSM
+14088,Runicha Express,JSM,DLI
+14089,Kotdwar Express,ANVT,KTW
+14090,Anand Vihar Terminal Express,KTW,ANVT
+14111,Bapudham Express,MFP,PRYJ
+14112,Bapudham Express,PRYJ,MFP
+14113,Dehradun Express,SFG,DDN
+14114,Subedarganj Express,DDN,SFG
+14115,Prayagraj Express,DADN,PRYJ
+14116,Dr. Ambedkar Nagar Express,PRYJ,DADN
+14117,Kalindi Express,PRYJ,BNW
+14118,Kalindi Express,BNW,PRYJ
+14119,Dehradun Express,KGM,DDN
+14120,Kathgodam Express,DDN,KGM
+14121,Subedarganj - Mumbai LTT Amrit Bharat Express,SFG,LTT
+14122,Mumbai LTT - Subedarganj Amrit Bharat Express,LTT,SFG
+14151,Anand Vihar Terminal Express,CNB,ANVT
+14152,Kanpur Central Express,ANVT,CNB
+14163,Sangam Express,SFG,MTC
+14164,Sangam Express,MTC,SFG
+14205,Delhi Express,AYC,DLI
+14206,Ayodhya Cantt. Express,DLI,AYC
+14207,Padmavat Express,MBDP,DLI
+14208,Padmavat Express,DLI,MBDP
+14209,Lucknow Intercity Express,PYGS,LKO
+14210,Prayagraj Sangam Intercity Express,LKO,PYGS
+14211,New Delhi Intercity Express,AGC,NDLS
+14212,Agra Cantt Intercity Express,NDLS,AGC
+14213,Nepalganj Road NPR INTERCITY,BSB,BRK
+14214,Varanasi Intercity Express,BRK,BSB
+14215,Ganga Gomti Express,PYGS,LKO
+14216,Ganga Gomti Express,LKO,PYGS
+14217,Unchahar Express,PYGS,CDG
+14218,Unchahar Express,CDG,PYGS
+14229,Yog Nagri Rishikesh Express,PYGS,YNRK
+14230,Prayagraj Sangam Express,YNRK,PYGS
+14231,Manwar Sangam Express,PYGS,BST
+14232,Manwar Sangam Express,BST,PYGS
+14233,Saryu Express,PYGS,MUR
+14234,Saryu Express,MUR,PYGS
+14235,Bareilly Express,BSB,BE
+14236,Varanasi Express,BE,BSB
+14241,Nauchandi Express,PYGS,SRE
+14242,Nauchandi Express,SRE,PYGS
+14259,Ekatmata Express,GAYA,LKO
+14260,Ekatmata Express,LKO,GAYA
+14261,Ekatmata Express,GAYA,LKO
+14262,Ekatmata Express,LKO,GAYA
+14307,Bareilly Express,PYGS,BE
+14308,Prayagraj Sangam Express,BE,PYGS
+14309,Ujjaini Express,LMNR,YNRK
+14310,Ujjaini Express,YNRK,LMNR
+14311,Ala Hazrat Express,BE,BHUJ
+14312,Ala Hazrat Express,BHUJ,BE
+14313,Bareilly Weekly Express,LTT,BE
+14314,Mumbai LTT Weekly Express,BE,LTT
+14317,Yog Nagari Rishikesh Express,LMNR,YNRK
+14318,Laxmi Bai Nagar Express,YNRK,LMNR
+14319,Bareilly Weekly Express,INDB,BE
+14320,Indore Weekly Express,BE,INDB
+14321,Ala Hazrat Express,BE,BHUJ
+14322,Ala Hazrat Express,BHUJ,BE
+14341,Mussoorie Express,SSB,DDN
+14342,Mussoorie Express,DDN,SSB
+14501,Kartoli Punjab Intercity Express,UMB,KRTP
+14502,Ambala Cantt. Intercity Express,KRTP,UMB
+14503,Shri Mata Vaishno Devi Katra Express,KLK,SVDK
+14504,Kalka Express,SVDK,KLK
+14505,Nangal Dam Express,ASR,NLDM
+14506,Amritsar Express,NLDM,ASR
+14507,Fazilka Intercity Express,DLI,FKA
+14508,Delhi Intercity Express,FKA,DLI
+14521,Ambala Cantt. Intercity Express,DLI,UMB
+14522,Delhi Intercity Express,UMB,DLI
+14523,Harihar Express,BJU,UMB
+14524,Harihar Express,UMB,BJU
+14525,Shri Ganganagar Intercity Express,UMB,SGNR
+14526,Ambala Cantt. Intercity Express,SGNR,UMB
+14541,Amritsar Express,CDG,ASR
+14542,Chandigarh Express,ASR,CDG
+14605,Jammu Tawi Express,YNRK,JAT
+14606,Yog Nagari Rishikesh Express,JAT,YNRK
+14609,Hemkunt Express,YNRK,SVDK
+14610,Hemkunt Express,SVDK,YNRK
+14611,Shri Mata Vaishno Devi Katra Weekly Express,GCT,SVDK
+14612,Ghazipur City Express,SVDK,GCT
+14615,Amritsar Weekly Express,LKU,ASR
+14616,Lalkuan Weekly Express,ASR,LKU
+14619,Tripura Sundari Express,AGTL,FZR
+14620,Tripura Sundari Express,FZR,AGTL
+14621,Firozpur Cantt. Weekly Express,NED,FZR
+14622,Hazur Sahib Nanded Weekly Express,FZR,NED
+14623,Seer Govardhanpur Varanasi Express,BSB,CIA
+14624,Seer Govardhanpur Varanasi Express,CIA,BSB
+14625,Firozpur Cantt. Weekly Express,HW,FZR
+14626,Haridwar Weekly Express,FZR,HW
+14627,Saharsa - Chheharta Amrit Bharat Express,SHC,CIA
+14628,Chheharta - Saharsa Amrit Bharat Express,CIA,SHC
+14631,Amritsar Express,DDN,ASR
+14632,Dehradun Express,ASR,DDN
+14649,Saryu Yamuna Express,JYG,ASR
+14650,Saryu Yamuna Express,ASR,JYG
+14653,Hisar - Amritsar Express,HSR,ASR
+14654,Amritsar - Hisar Express,ASR,HSR
+14661,Shalimar Malani Express,BME,JAT
+14662,Shalimar Malani Express,JAT,BME
+14663,New Jalpaiguri - Amritsar Amrit Bharat Express,NJP,ASR
+14664,Amritsar - New Jalpaiguri Amrit Bharat Express,ASR,NJP
+14669,Jat Express,CNB,JAT
+14670,Cnb Express,JAT,CNB
+14673,Shaheed Express,JYG,ASR
+14674,Shaheed Express,ASR,JYG
+14679,Amritsar Intercity Express,DLI,ASR
+14680,Delhi Intercity Express,ASR,DLI
+14681,Jalandhar City Intercity Express,DLI,JUC
+14682,Delhi Intercity Express,JUC,DLI
+14687,SMVD Katra - Budgam DEMU Shuttle,SVDK,BDGM
+14688,Budgam - SMVD Katra DEMU Shuttle,BDGM,SVDK
+14691,Mour Dhwaj Express,BJU,JAT
+14692,Mour Dhwaj Express,JAT,BJU
+14701,Amrapur Aravali Express,SGNR,BDTS
+14702,Amrapur Aravali Express,BDTS,SGNR
+14707,Ranakpur Express,HMH,DDR
+14708,Ranakpur Express,DDR,HMH
+14709,Jaipur Express,HMH,JP
+14710,Hanumangarh Express,JP,HMH
+14711,Bandra Terminus Express,BKN,BDTS
+14712,Bikaner Express,BDTS,BKN
+14713,Delhi Sarai Rohilla Express,SIKR,DEE
+14714,Sikar Express,DEE,SIKR
+14716,Jaipur - Hisar Express,JP,HSR
+14717,Haridwar Express,BKN,HW
+14718,Bikaner Express,HW,BKN
+14719,Amritsar Weekly Express,BKN,ASR
+14720,Bikaner Weekly Express,ASR,BKN
+14721,Bathinda Express,JU,BTI
+14722,Jodhpur Express,ABS,JU
+14723,Hisar - Tirupati Express,HSR,TPTY
+14724,Tirupati - Hisar Express,TPTY,HSR
+14725,Bhiwani - Mathura Express,BNW,MTJ
+14726,Mathura - Bhiwani Express,MTJ,BNW
+14727,Tilak Bridge Express,SGNR,TKJ
+14728,Shri Ganganagar Express,TKJ,SGNR
+14731,Kisan Express,DLI,BTI
+14732,Kisan Express,BTI,DLI
+14733,Bathinda - Jaipur Express,BTI,JP
+14795,Ekta Express,BNW,KLK
+14796,Ekta Express,KLK,BNW
+14801,Jodhpur - Indore Express,JU,INDB
+14802,Jodhpur Express,INDB,JU
+14803,Jammu Tawi Express,BGKT,JAT
+14804,Bhagat Ki Kothi Express,JAT,BGKT
+14805,Barmer AC Express,YPR,BME
+14806,Yesvantpur AC Express,BME,YPR
+14807,Dadar Western Express,JU,DDR
+14808,Jodhpur Express,DDR,JU
+14813,Bhopal Express,JU,BPL
+14814,Jodhpur Express,BPL,JU
+14815,Rishikesh Intercity Express,SGNR,RKSH
+14816,Shri Ganganagar Intercity Express,RKSH,SGNR
+14853,Marudhar Express,BCY,JU
+14854,Marudhar Express,JU,BCY
+14863,Marudhar Express,BCY,JU
+14864,Marudhar Express,JU,BCY
+14865,Marudhar Express,BCY,JU
+14866,Marudhar Express,JU,BCY
+14887,Barmer Express,RKSH,BME
+14888,Rishikesh Express,BME,RKSH
+15001,Dehradun Rapti Ganga Express,MFP,DDN
+15002,Muzaffarpur Rapti Ganga Express,DDN,MFP
+15003,Chauri Chaura Express,CPA,GKP
+15004,Chauri Chaura Express,GKP,CPA
+15005,Dehradun Rapti Ganga Express,GKP,DDN
+15006,Gorakhpur Rapti Ganga Express,DDN,GKP
+15007,Krishak Express,BCY,LJN
+15008,Krishak Express,LJN,BCY
+15009,Izzatnagar Express,GKP,IZN
+15010,Gorakhpur Express,IZN,GKP
+15011,Chandigarh Express,LJN,CDG
+15012,Lucknow Jn. Express,CDG,LJN
+15013,Ranikhet Express,JSM,KGM
+15014,Ranikhet Express,KGM,JSM
+15015,Lalkuan Express,ASR,LKU
+15016,Amritsar Express,LKU,ASR
+15017,Kashi Express,LTT,GKP
+15018,Kashi Express,GKP,LTT
+15019,Tanakpur Express,DDN,TPU
+15020,Dehradun Express,TPU,DDN
+15021,Gorakhpur Express,SHM,GKP
+15022,Shalimar Express,GKP,SHM
+15023,Yesvantpur Express,GKP,YPR
+15024,Gorakhpur Express,YPR,GKP
+15025,Anand Vihar Terminal Express,MAU,ANVT
+15026,Mau Express,ANVT,MAU
+15027,Maurya Express,SBP,GKP
+15028,Maurya Express,GKP,SBP
+15029,Pune Weekly Express,GKP,PUNE
+15030,Gorakhpur Weekly Express,PUNE,GKP
+15031,Lucknow Jn. Intercity Express,GKP,LJN
+15032,Gorakhpur Intercity Express,LJN,GKP
+15033,Lucknow Jn. Express,PPTA,LJN
+15034,Patliputra Express,LJN,PPTA
+15035,Uttaranchal Sampark Kranti Express,DLI,KGM
+15036,Uttaranchal Sampark Kranti Express,KGM,DLI
+15043,Kathgodam Express,LJN,KGM
+15044,Lucknow Jn. Express,KGM,LJN
+15045,Gorakhpur - Okha Express,GKP,OKHA
+15046,Okha - Gorakhpur Express,OKHA,GKP
+15047,Purvanchal Express,KOAA,GKP
+15048,Purvanchal Express,GKP,KOAA
+15049,Purvanchal Express,KOAA,GKP
+15050,Purvanchal Express,GKP,KOAA
+15051,Purvanchal Express,KOAA,GKP
+15052,Purvanchal Express,GKP,KOAA
+15053,Gomti Nagar Express,CPR,GTNR
+15054,Chhapra Express,GTNR,CPR
+15055,Ramnagar Express,AF,RMR
+15056,Agra Fort Express,RMR,AF
+15057,Anand Vihar Terminal Weekly Express,GKP,ANVT
+15058,Gorakhpur Weekly Express,ANVT,GKP
+15059,Anand Vihar Terminal Express,LKU,ANVT
+15060,Lalkuan Express,ANVT,LKU
+15063,Chandigarh Express,RMR,CDG
+15064,Ramnagar Express,CDG,RMR
+15065,Panvel Express,GKP,PNVL
+15066,Gorakhpur Express,PNVL,GKP
+15067,Bandra Terminus Weekly Express,GKP,BDTS
+15068,Gorakhpur Weekly Express,BDTS,GKP
+15069,Aishbagh Intercity Express,GKP,ASH
+15070,Gorakhpur Intercity Express,ASH,GKP
+15073,Tanakpur Triveni Express,SGRL,TPU
+15074,Singrauli Triveni Express,TPU,SGRL
+15075,Tanakpur Triveni Express,SKTN,TPU
+15076,Shaktinagar Triveni Express,TPU,SKTN
+15077,Gomti Nagar Express,KYQ,GTNR
+15078,Kamakhya Express,GTNR,KYQ
+15079,Gorakhpur InterCity Express,PPTA,GKP
+15080,Patliputra InterCity Express,GKP,PPTA
+15081,Gomti Nagar InterCity Express,GKP,GTNR
+15082,Gorakhpur InterCity Express,GTNR,GKP
+15083,Utsarg Express,CPR,FBD
+15084,Utsarg Express,FBD,CPR
+15085,Gorakhpur - Bandra Terminus Amrit Bharat Express,GKP,BDTS
+15086,Bandra Terminus - Gorakhpur Amrit Bharat Express,BDTS,GKP
+15089,Gomti Nagar Weekly Express,GODA,GTNR
+15090,Godda Weekly Express,GTNR,GODA
+15091,Daurai - Tanakpur Express,DOZ,TPU
+15092,Tanakpur - Daurai Express,TPU,DOZ
+15093,Tanakpur Intercity Express,AH,TPU
+15094,Achhnera Intercity Express,TPU,AH
+15095,Gorakhpur - Delhi Amrit Bharat Express,GKP,DLI
+15096,Delhi - Gorakhpur Amrit Bharat Express,DLI,GKP
+15097,Jammu Tawi Amarnath Express,BGP,JAT
+15098,Bhagalpur Amarnath Express,JAT,BGP
+15103,Banaras InterCity Express,GKP,BNRS
+15104,Gorakhpur InterCity Express,BNRS,GKP
+15105,Nautanwa InterCity Express,CPR,NTV
+15106,Chhapra InterCity Express,NTV,CPR
+15107,Lucknow InterCity Express,BNRS,LKO
+15108,Banaras InterCity Express,LKO,BNRS
+15109,Chhapra - Mathura Express,CPR,MTJ
+15110,Mathura - Chhapra Express,MTJ,CPR
+15111,Varanasi City InterCity Express,CPR,BCY
+15112,Chhapra InterCity Express,BCY,CPR
+15113,Chhapra Express,GTNR,CPR
+15114,Gomti Nagar Express,CPR,GTNR
+15115,Loknayak Express,CPR,DLI
+15116,Loknayak Express,DLI,CPR
+15119,Dehradun Janta Express,BNRS,DDN
+15120,Banaras Janta Express,DDN,BNRS
+15125,Banaras - Patna Shatabdi Express,BNRS,PNBE
+15126,Patna - Banaras Shatabdi Express,PNBE,BNRS
+15127,Kashi Vishwanath Express,BNRS,NDLS
+15128,Kashi Vishwanath Express,NDLS,BNRS
+15131,Varanasi City GKP BCY EXP,GKP,BCY
+15132,Nepalganj Road BCY NPR EXP,BCY,GKP
+15133,Chhapra - Anand Vihar Terminal Amrit Bharat Express,CPR,ANVT
+15134,Anand Vihar Terminal - Chhapra Amrit Bharat Express,ANVT,CPR
+15135,Amritsar Weekly Express,CPR,ASR
+15136,Chhapra Weekly Express,ASR,CPR
+15137,Budh Purnima Express,RGD,BNRS
+15138,Budh Purnima Express,BNRS,RGD
+15159,Sarnath Express,CPR,DURG
+15160,Sarnath Express,DURG,CPR
+15181,Mumbai LTT Weekly Express,MAU,LTT
+15182,Mau Weekly Express,LTT,MAU
+15203,Lucknow Jn. Express,BJU,LJN
+15204,Barauni Express,LJN,BJU
+15205,Chitrakoot Express,LJN,JBP
+15206,Chitrakoot Express,JBP,LJN
+15227,Muzaffarpur Express,SMVB,MFP
+15228,SMVT Bengaluru Express,MFP,SMVB
+15231,Barauni - Gondia Express,BJU,G
+15232,Gondia - Barauni Express,G,BJU
+15233,Maithili Express,KOAA,DBG
+15234,Maithili Express,DBG,KOAA
+15235,Darbhanga Weekly Express,HWH,DBG
+15236,Howrah Weekly Express,DBG,HWH
+15273,Satyagrah Express,RXL,ANVT
+15274,Satyagrah Express,ANVT,RXL
+15279,Poorabiya Express,SHC,ANVT
+15280,Poorabiya Express,ANVT,SHC
+15283,Janki Express,MHI,JYG
+15284,Janki Express,JYG,MHI
+15293,Muzaffarpur - Charlapalli Amrit Bharat Express,MFP,CHZ
+15294,Charlapalli - Muzaffarpur Amrit Bharat Express,CHZ,MFP
+15301,Lal Kuan Weekly Express,SBC,LKU
+15302,Ksr Bengaluru Weekly Express,LKU,SBC
+15303,New Delhi Intercity Express,KSJ,NDLS
+15304,Kasganj Intercity Express,NDLS,KSJ
+15305,Rohtak Intercity Express,NDLS,ROK
+15306,New Delhi Intercity Express,ROK,NDLS
+15307,Haryana Express,TKJ,SSA
+15308,Haryana Express,SSA,TKJ
+15309,Ramnagar Intercity Express,DDN,RMR
+15310,Dehradun Intercity Express,RMR,DDN
+15311,Kasganj Jn. ASH KSJ EXPRESS,ASH,KSJ
+15312,Aishbagh Jn. KSJ ASH EXPRESS,KSJ,ASH
+15417,Silghat Town Rajya Rani Express,APDJ,SHTT
+15418,Alipurduar Jn. Rajya Rani Express,SHTT,APDJ
+15483,Sikkim Mahananda Express,APDJ,DLI
+15484,Sikkim Mahananda Express,DLI,APDJ
+15501,Raxaul - Jogbani Express,RXL,JBN
+15502,Jogbani - Raxaul Express,JBN,RXL
+15503,Patna Rajya Rani Express,SHC,PNBE
+15504,Saharsa Rajya Rani Express,PNBE,SHC
+15505,Patliputra Janhit Express,SHC,PPTA
+15506,Saharsa Janhit Express,PPTA,SHC
+15509,Patna Rajya Rani Express,LLP,PNBE
+15510,Lalitgram Rajya Rani Express,PNBE,LLP
+15527,Kamla Ganga Express,JYG,PNBE
+15528,Kamla Ganga Express,PNBE,JYG
+15549,Patna Intercity Express,JYG,PNBE
+15550,Jaynagar Intercity Express,PNBE,JYG
+15553,Jaynagar Express,BGP,JYG
+15554,Bhagalpur Express,JYG,BGP
+15557,Darbhanga - Anand Vihar Terminal Amrit Bharat Express,DBG,ANVT
+15558,Anand Vihar Terminal - Darbhanga Amrit Bharat Express,ANVT,DBG
+15561,Darbhanga - Gomti Nagar Amrit Bharat Express,DBG,GTNR
+15562,Gomti Nagar - Darbhanga Amrit Bharat Express,GTNR,DBG
+15565,Vaishali Express,LLP,NDLS
+15566,Vaishali Express,NDLS,LLP
+15567,Bapudham Motihari - Anand Vihar Terminal Amrit Bharat Express,BMKI,ANVT
+15568,Anand Vihar Terminal - Bapudham Motihari Amrit Bharat Express,ANVT,BMKI
+15589,Hadapsar AC Express,MFP,HDP
+15590,Muzaffarpur Ac Express,HDP,MFP
+15603,Ledo Intercity Express,GHY,LEDO
+15604,Guwahati Intercity Express,LEDO,GHY
+15607,Aronai Express,TVC,SCL
+15608,Aronai Express,SCL,TVC
+15609,Sairang Express,GHY,SANG
+15610,Guwahati Express,SANG,GHY
+15611,Rangiya - Silchar Express,RNY,SCL
+15612,Silchar - Rangiya Express,SCL,RNY
+15613,Lachit Express,GHY,MZS
+15614,Lachit Express,MZS,GHY
+15615,Silchar Express,GHY,SCL
+15616,Guwahati Express,SCL,GHY
+15617,Dullabcherra Express,GHY,DLCR
+15618,Guwahati Express,DLCR,GHY
+15619,Gaya - Kamakhya Express,GAYA,KYQ
+15620,Kamakhya - Gaya Express,KYQ,GAYA
+15621,Anand Vihar Terminal Weekly Express,KYQ,ANVT
+15622,Kamakhya Weekly Express,ANVT,KYQ
+15623,Kamakhya Express,BGKT,KYQ
+15624,Bhagat ki Kothi Express,KYQ,BGKT
+15625,Agartala Weekly Express,DGHR,AGTL
+15626,Deoghar Weekly Express,AGTL,DGHR
+15627,Silchar Express,CBE,SCL
+15628,Coimbatore Express,SCL,CBE
+15629,Nagaon Express,TBM,SHTT
+15630,Nagaon Express,SHTT,TBM
+15631,Barmer - Guwahati Express,BME,GHY
+15632,Guwahati - Barmer Express,GHY,BME
+15633,Guwahati Express,BKN,GHY
+15634,Bikaner Express,GHY,BKN
+15635,Guwahati Dwarka Express,OKHA,GHY
+15636,Okha Dwarka Express,GHY,OKHA
+15637,Khongsang Express,AGTL,KGBP
+15638,Agartala Express,KGBP,AGTL
+15639,Kamakhya Jn. Puri Kyq Express,MLT,KYQ
+15640,Kamakhya - Puri Express,KYQ,PURI
+15641,Barak Brahmaputra Express,SCL,NTSK
+15642,Barak Brahmaputra Express,NTSK,SCL
+15643,Puri - Kamakhya Express,PURI,KYQ
+15644,Kamakhya - Puri Express,KYQ,PURI
+15645,Silchar Express,CHZ,SCL
+15646,Charlapalli Express,SCL,CHZ
+15647,Guwahati Express,LTT,GHY
+15648,Mumbai Ltt Express,GHY,LTT
+15649,Narangi Express,AGTL,NNGE
+15650,Agartala Express,NNGE,AGTL
+15651,Lohit Express,GHY,JAT
+15652,Lohit Express,JAT,GHY
+15653,Jammu Tawi Amarnath Express,GHY,JAT
+15654,Guwahati Amarnath Express,JAT,GHY
+15655,Shri Mata Vaishno Devi Katra Weekly Express,KYQ,SVDK
+15656,Kamakhya Weekly Express,SVDK,KYQ
+15657,Brahmaputra Mail,DLI,KYQ
+15658,Brahmaputra Mail,KYQ,DLI
+15659,Agartala AC Express,LTT,AGTL
+15660,Mumbai LTT AC Express,AGTL,LTT
+15661,Ranchi - Kamakhya Express,RNC,KYQ
+15662,Kamakhya - Ranchi Express,KYQ,RNC
+15663,Silchar Express,AGTL,SCL
+15664,Agartala Express,SCL,AGTL
+15665,Guwahati - Mariani Express,GHY,MXN
+15666,Mariani - Guwahati Express,MXN,GHY
+15667,Kamakhya Express,GIMB,KYQ
+15668,Gandhidham Express,KYQ,GIMB
+15669,Nagaland Express,GHY,DBRG
+15670,Nagaland Express,DBRG,GHY
+15671,Kamakhya - Rohtak Amrit Bharat Express,KYQ,ROK
+15672,Rohtak - Kamakhya Amrit Bharat Express,ROK,KYQ
+15673,Charlapalli - Kamakhya Amrit Bharat Express,CHZ,KYQ
+15674,Kamakhya - Charlapalli Amrit Bharat Express,KYQ,CHZ
+15675,Guwahati Intercity Express,NJP,GHY
+15676,New Jalpaiguri Intercity Express,GHY,NJP
+15705,Katihar - Delhi Humsafar Express,KIR,DLI
+15706,Delhi - Katihar Humsafar Express,DLI,KIR
+15707,Amrapali Express,KIR,ASR
+15708,Amrapali Express,ASR,KIR
+15711,Katihar Weekly Express,HWH,KIR
+15712,Howrah Weekly Express,KIR,HWH
+15713,Patna InterCity Express,KIR,PNBE
+15714,Katihar InterCity Express,PNBE,KIR
+15715,Ajmer Garib Nawaz Express,KNE,AII
+15716,Kishanganj Garib Nawaz Express,AII,KNE
+15721,Paharia Express,DGHA,NJP
+15722,Paharia Express,NJP,DGHA
+15723,Siliguri Town Intercity Express,JBN,SGUT
+15724,Jogbani Intercity Express,SGUT,JBN
+15725,Anand Vihar Terminal Express,NJP,ANVT
+15726,New Jalpaiguri Express,ANVT,NJP
+15733,Farakka Express,BLGT,BTI
+15734,Farakka Express,BTI,BLGT
+15743,Farakka Express,BLGT,BTI
+15744,Farakka Express,BTI,BLGT
+15777,Alipurduar Jn. Tourist Express,NJP,APDJ
+15778,New Jalpaiguri Tourist Express,APDJ,NJP
+15817,Donyi Polo Express,SKHV,NHLN
+15818,Donyi Polo Express,NHLN,SKHV
+15895,Murkongselek Express,RNY,MZS
+15896,Rangiya Express,MZS,RNY
+15903,Chandigarh Express,DBRG,CDG
+15904,Dibrugarh Express,CDG,DBRG
+15907,Naharlagun Express,TSK,NHLN
+15908,Tinsukia Express,NHLN,TSK
+15909,Avadh Assam Express,DBRG,LGH
+15910,Avadh Assam Express,LGH,DBRG
+15911,Naharlagun Express,TSK,NHLN
+15912,Tinsukia Express,NHLN,TSK
+15925,Dibrugarh Express,DGHR,DBRG
+15926,Deoghar Express,DBRG,DGHR
+15929,New Tinsukia Express,TBM,NTSK
+15930,Tambaram Express,NTSK,TBM
+15933,Amritsar Express,NTSK,ASR
+15934,New Tinsukia Express,ASR,NTSK
+15945,Dibrugarh Express,LTT,DBRG
+15946,Mumbai LTT Express,DBRG,LTT
+15949,Dibrugarh - Gomti Nagar Amrit Bharat Express,DBRG,GTNR
+15950,Gomti Nagar - Dibrugarh Amrit Bharat Express,GTNR,DBRG
+15959,Kamrup Express,HWH,DBRG
+15960,Kamrup Express,DBRG,HWH
+15961,Kamrup Express,HWH,DBRG
+15962,Kamrup Express,DBRG,HWH
+16003,Nagarsol Weekly Express,MAS,NSL
+16004,MGR Chennai Central Weekly Express,NSL,MAS
+16021,Kaveri Express,MAS,AP
+16022,Kaveri Express,AP,MAS
+16031,Andaman Express,MAS,SVDK
+16032,Andaman Express,SVDK,MAS
+16053,Tirupati Express,MAS,TPTY
+16054,MGR Chennai Central Express,TPTY,MAS
+16057,Sapthagiri Express,MAS,TPTY
+16058,Sapthagiri Express,TPTY,MAS
+16089,Yelagiri Express,MAS,JTJ
+16090,Yelagiri Express,JTJ,MAS
+16093,Lucknow Jn.Express,MAS,LJN
+16094,MGR Chennai Central Express,LJN,MAS
+16101,Kollam Express,TBM,QLN
+16102,Chennai Egmore Express,QLN,TBM
+16103,Rameswaram Express,TBM,RMM
+16104,Tambaram Express,RMM,TBM
+16107,Tambaram - Santragachi Amrit Bharat Express,TBM,SRC
+16108,Santragachi - Tambaram Amrit Bharat Express,SRC,TBM
+16115,Puducherry Express,MS,PDY
+16116,Chennai Egmore Express,PDY,MS
+16121,Tambaram - Trivandrum Central Amrit Bharat Express,TBM,TVC
+16122,Trivandrum Central - Tambaram Amrit Bharat Express,TVC,TBM
+16127,Guruvayur MS GURUVAYUR EXP,MS,GUV
+16128,Chennai Egmore GUV CHENNAI EXP,GUV,MS
+16159,Mangaluru Central Express,MS,MAQ
+16160,Chennai Egmore Express,MAQ,MS
+16175,Velankanni MS VLNK EXPRESS,MS,VLNK
+16176,Chennai Egmore VLNK MS EXPRESS,VLNK,MS
+16179,Mannai Express,MS,MQ
+16180,Mannai Express,MQ,MS
+16187,Ernakulam Jn. Express,KIK,ERS
+16188,Karaikkal Express,ERS,KIK
+16203,Tirupati Express,MAS,TPTY
+16204,M.G.R Chennai Central Express,TPTY,MAS
+16205,Mysuru Intercity Express,TLGP,MYS
+16206,Talguppa Intercity Express,MYS,TLGP
+16209,Ajmer - Mysuru Express,AII,MYS
+16210,Mysuru - Ajmer Express,MYS,AII
+16215,Chamundi Express,MYS,SBC
+16216,Chamundi Express,SBC,MYS
+16217,Sainagar Shirdi Weekly Express,MYS,SNSI
+16218,Mysuru Weekly Express,SNSI,MYS
+16219,Tirupati Express,CMNR,TPTY
+16220,Chamarajanagar Express,TPTY,CMNR
+16223,Radhikapur Express,SMVB,RDP
+16224,SMVT Bengaluru Express,RDP,SMVB
+16227,Mysuru - Talguppa Express,MYS,TLGP
+16228,Talguppa - Mysuru Express,TLGP,MYS
+16231,Mysuru Express,CUPJ,MYS
+16232,Cuddalore Port Express,MYS,CUPJ
+16235,Mysuru Express,TN,MYS
+16236,Tuticorin Express,MYS,TN
+16281,Mysuru - Ajmer Express,MYS,AII
+16282,Ajmer - Mysuru Express,AII,MYS
+16301,Venad Express,SRR,TVC
+16302,Venad Express,TVC,SRR
+16303,Vanchinad Express,ERS,TVC
+16304,Vanchinad Express,TVC,ERS
+16305,Kannur Intercity Express,ERS,CAN
+16306,Ernakulam Jn. Intercity Express,CAN,ERS
+16307,Kannur Executive Express,ALLP,CAN
+16308,Alappuzha Executive Express,CAN,ALLP
+16311,Thiruvananthapuram North Express,SGNR,TVCN
+16312,Shri Ganganagar Express,TVCN,SGNR
+16315,Thiruvananthapuram North Express,MYS,TVCN
+16316,Mysuru Express,TVCN,MYS
+16317,Himsagar Express,CAPE,SVDK
+16318,Himsagar Express,SVDK,CAPE
+16319,Thiruvananthapuram North - SMVT Bengaluru Humsafar Express,TVCN,SMVB
+16320,SMVT Bengaluru - Thiruvananthapuram North Humsafar Express,SMVB,TVCN
+16325,Kottayam Express,NIL,KTYM
+16326,Nilambur Road Express,KTYM,NIL
+16327,Guruvayur Express,MDU,GUV
+16328,Madurai Express,GUV,MDU
+16329,Nagercoil - Mangaluru Amrit Bharat Express,NCJ,MAJN
+16330,Mangaluru - Nagercoil Amrit Bharat Express,MAJN,NCJ
+16331,Thiruvananthapuram Central Express,LTT,TVC
+16332,Mumbai LTT Express,TVC,LTT
+16333,Thiruvananthapuram Central Express,VRL,TVC
+16334,Veraval Express,TVC,VRL
+16335,Nagercoil Weekly Express,GIMB,NCJ
+16336,Gandhidham Weekly Express,NCJ,GIMB
+16337,Okha - Ernakulam Express,OKHA,ERS
+16338,Ernakulam - Okha Express,ERS,OKHA
+16339,Nagercoil Express,LTT,NCJ
+16340,Mumbai LTT Express,NCJ,LTT
+16341,Thiruvananthapuram Central InterCity Express,GUV,TVC
+16342,Guruvayur InterCity Express,TVC,GUV
+16343,Amritha Express,TVC,RMM
+16344,Amritha Express,RMM,TVC
+16345,Netravati Express,LTT,TVC
+16346,Netravati Express,TVC,LTT
+16347,Mangaluru Central Express,TVC,MAQ
+16348,Thiruvananthapuram Central Express,MAQ,TVC
+16349,Nilambur Road Rajya Rani Express,TVCN,NIL
+16350,Thiruvananthapuram North Rajya Rani Express,NIL,TVCN
+16351,Nagercoil Express,LTT,NCJ
+16352,Mumbai LTT Express,NCJ,LTT
+16353,Nagercoil Weekly Express,KCG,NCJ
+16354,Kacheguda Weekly Express,NCJ,KCG
+16357,Nagercoil - Charlapalli Amrit Bharat Express,NCJ,CHZ
+16358,Charlapalli - Nagercoil Amrit Bharat Express,CHZ,NCJ
+16361,Velankanni Bi-Weekly Express,ERS,VLNK
+16362,Ernakulam Jn. Bi-Weekly Express,VLNK,ERS
+16363,Velankanni Weekly Express,ERS,VLNK
+16364,Ernakulam Jn. Weekly Express,VLNK,ERS
+16367,Kashi Tamil Sangamam Express,CAPE,BNRS
+16368,Kashi Tamil Sangamam Express,BNRS,CAPE
+16377,Ernakulam Jn. Intercity Express,SBC,ERS
+16378,KSR Bengaluru Intercity Express,ERS,SBC
+16381,Kanniyakumari Express,PUNE,CAPE
+16382,Pune Express,CAPE,PUNE
+16511,Kozhikode Express,SBC,CLT
+16512,K.S.R Bengaluru Express,CLT,SBC
+16515,Karwar Express,YPR,KAWR
+16516,Yesvantpur Express,KAWR,YPR
+16523,Balurghat Express,SMVB,BLGT
+16524,SMVT Bengaluru Express,BLGT,SMVB
+16525,KSR Bengaluru Express,CAPE,SBC
+16526,Kanniyakumari Express,SBC,CAPE
+16527,Kannur Express,YPR,CAN
+16528,Yesvantpur Express,CAN,YPR
+16531,KSR Bengaluru Garib Nawaz Express,AII,SBC
+16532,Ajmer Garib Nawaz Express,SBC,AII
+16533,KSR Bengaluru Express,JU,SBC
+16534,Jodhpur Express,SBC,JU
+16535,Gol Gumbaz Express,MYS,PVR
+16536,Gol Gumbaz Express,PVR,MYS
+16539,Mangaluru Jn. Weekly Express,YPR,MAJN
+16540,Yesvantpur Weekly Express,MAJN,YPR
+16541,Pandharpur Weekly Express,YPR,PVR
+16542,Yesvantpur Weekly Express,PVR,YPR
+16545,Sindhanur Express,YPR,SNNR
+16546,Yesvantpur Express,SNNR,YPR
+16547,Vijayapura Express,YPR,BJP
+16548,Yesvantpur Express,BJP,YPR
+16551,Ashokapuram SF Express,MAS,AP
+16552,MGR Chennai Central Express,AP,MAS
+16553,Mumbai LTT Express,SMVB,LTT
+16554,SMVT Bengaluru Express,LTT,SMVB
+16555,Talguppa Weekly Express,YPR,TLGP
+16556,Yesvantpur Weekly Express,TLGP,YPR
+16559,Bidar Express,SMVB,BIDR
+16560,SMVT Bengaluru Express,BIDR,SMVB
+16561,Thiruvananthapuram North AC Express,YPR,TVCN
+16562,Yesvantpur AC Express,TVCN,YPR
+16563,Kalaburagi Express,BNC,KLBG
+16564,Bengaluru Cantt. Express,KLBG,BNC
+16565,Mangaluru Central Weekly Express,YPR,MAQ
+16566,Yesvantpur Weekly Express,MAQ,YPR
+16571,Bidar Express,YPR,BIDR
+16572,Yesvantpur Express,BIDR,YPR
+16573,Puducherry Weekly Express,YPR,PDY
+16574,Yesvantpur Weekly Express,PDY,YPR
+16575,Gomteshwara Express,YPR,MAJN
+16576,Gomteshwara Express,MAJN,YPR
+16577,Bidar Weekly Express,YPR,BIDR
+16578,Yesvantpur Weekly Express,BIDR,YPR
+16581,Shivamogga Town Express,YPR,SMET
+16582,Yesvantpur Express,SMET,YPR
+16583,Latur Express,YPR,LUR
+16584,Yesvantpur Express,LUR,YPR
+16585,Murdeshwar Express,SMVB,MRDW
+16586,SMVT Bengaluru Express,MRDW,SMVB
+16587,Bikaner Express,YPR,BKN
+16588,Yesvantpur Express,BKN,YPR
+16589,Rani Chennamma Express,SBC,SLI
+16590,Rani Chennamma Express,SLI,SBC
+16591,Hampi Express,UBL,MYS
+16592,Hampi Express,MYS,UBL
+16593,Hazur Sahib Nanded Express,SBC,NED
+16594,KSR Bengaluru Express,NED,SBC
+16595,Panchaganga Express,SBC,KAWR
+16596,Panchaganga Express,KAWR,SBC
+16597,SMVT Bengaluru - Alipur Duar Amrit Bharat Express,SMVB,APDJ
+16598,Alipur Duar - SMVT Bengaluru Amrit Bharat Express,APDJ,SMVB
+16601,Erode - Jogbani Amrit Bharat Express,ED,JBN
+16602,Jogbani - Erode Amrit Bharat Express,JBN,ED
+16603,Maveli Express,MAQ,TVC
+16604,Maveli Express,TVC,MAQ
+16605,Ernad Express,MAQ,TVC
+16606,Ernad Express,TVC,MAQ
+16613,Coimbatore Express,RJT,CBE
+16614,Rajkot Express,CBE,RJT
+16615,Chemmozhi Express,MQ,CBE
+16616,Chemmozhi Express,CBE,MQ
+16617,Coimbatore Express,RMM,CBE
+16618,Rameswaram Express,CBE,RMM
+16619,Podanur - Dhanbad Amrit Bharat Express,PTJ,DHN
+16620,Dhanbad - Podanur Amrit Bharat Express,DHN,PTJ
+16621,Mangaluru Central Weekly Express,RMM,MAQ
+16622,Rameswaram Weekly Express,MAQ,RMM
+16629,Malabar Express,TVC,MAQ
+16630,Malabar Express,MAQ,TVC
+16649,Parasuram Express,MAQ,CAPE
+16650,Parasuram Express,CAPE,MAQ
+16707,Tirunelveli Express,MAJN,TEN
+16708,Mangaluru Jn. Express,TEN,MAJN
+16729,Madurai - Punalur Express,MDU,PUU
+16730,Punalur - Madurai Express,PUU,MDU
+16733,Okha Weekly Express,RMM,OKHA
+16734,Okha - Rameswaram Express,OKHA,RMM
+16751,Rameswaram MS RMM EXPRESS,MS,RMM
+16752,Chennai Egmore RMM MS EXPRESS,RMM,MS
+16765,Tuticorin Express,MTP,TN
+16766,Mettupalayam Express,TN,MTP
+16779,Rameswaram Express,TPTY,RMM
+16780,Tirupati Express,RMM,TPTY
+16787,Shri Mata Vaishno Devi Katra Express,TEN,SVDK
+16788,Tirunelveli Express,SVDK,TEN
+16791,Palaruvi Express,TN,PGT
+16792,Palaruvi Express,PGT,TN
+16807,Tiruchchirappalli InterCity Express,TBM,TPJ
+16808,Tambaram InterCity Express,TPJ,TBM
+16855,Mangaluru Central Express,PDY,MAQ
+16856,Puducherry Express,MAQ,PDY
+16857,Mangaluru Central Express,PDY,MAQ
+16858,Puducherry Express,MAQ,PDY
+16861,Kanniyakumari Express,PDY,CAPE
+16862,Puducherry Express,CAPE,PDY
+16865,Uzhavan Express,MS,TJ
+16866,Uzhavan Express,TJ,MS
+17001,Secunderabad Express,SNSI,SC
+17002,Sainagar Shirdi Express,SC,SNSI
+17005,Raxaul Express,HYB,RXL
+17006,Hyderabad Express,RXL,HYB
+17007,Darbhanga Express,CHZ,DBG
+17008,Charlapalli Express,DBG,CHZ
+17011,Sirpur Kaghaznagar Intercity Express,HYB,SKZR
+17012,Bidar Express,SKZR,BIDR
+17013,Kazipet Express,HDP,KZJ
+17014,Hadapsar Express,KZJ,HDP
+17015,Visakha Express,BBSN,SC
+17016,Visakha Express,SC,BBSN
+17019,Hyderabad Weekly Express,HSR,HYB
+17020,Hisar Weekly Express,HYB,HSR
+17021,Guntakal Junction Hyb Vsg Express,HYB,VSG
+17022,Hyderabad VSG HYB EXP,GTL,HYB
+17023,Tungabhadra Express,KCG,KRNT
+17024,Tungabhadra Express,KRNT,KCG
+17027,Hundry Express,HYB,KRNT
+17028,Hundry Express,KRNT,HYB
+17029,Hyderabad Express,BJP,HYB
+17030,Vijayapura Express,HYB,BJP
+17031,Agartala Express,CHZ,AGTL
+17032,Charlapalli Express,AGTL,CHZ
+17039,Vasco-da-Gama Express,SC,VSG
+17040,da-Gama - Secunderabad Express,VSG,SC
+17041,Charlapalli - Thiruvananthapuram North Amrit Bharat Express,CHZ,TVCN
+17042,Thiruvananthapuram North - Charlapalli Amrit Bharat Express,TVCN,CHZ
+17043,Anakapalle AC Express,SC,AKP
+17044,Secunderabad AC Express,AKP,SC
+17045,Anakapalle Express,CHZ,AKP
+17046,Charlapalli Express,AKP,CHZ
+17047,Tiruchanur Express,CHZ,TCNR
+17048,Charlapalli Express,TCNR,CHZ
+17049,Hyderabad Express,UBL,HYB
+17050,SSS Hubballi Express,HYB,UBL
+17053,Anakapalle AC Express,CHZ,AKP
+17054,Charlapalli AC Express,AKP,CHZ
+17057,Devagiri Express,CSMT,LPI
+17058,Devagiri Express,LPI,CSMT
+17059,Tiruchanur Express,CHZ,TCNR
+17060,Charlapalli Express,TCNR,CHZ
+17061,Narasapur Express,CHZ,NS
+17062,Charlapalli Express,NS,CHZ
+17063,Ajanta Express,MMR,KCG
+17064,Ajanta Express,KCG,MMR
+17065,Charlapalli - Shalimar Amrit Bharat Express,CHZ,SHM
+17066,Shalimar - Charlapalli Amrit Bharat Express,SHM,CHZ
+17067,Bhubaneswar New Express,CHZ,BBSN
+17068,Charlapalli Express,BBSN,CHZ
+17069,Kanniyakumari Express,HYB,CAPE
+17070,Hyderabad Express,CAPE,HYB
+17071,Belagavi Express,HYB,BGM
+17072,Hyderabad Express,BGM,HYB
+17073,Belagavi Express,SC,BGM
+17074,Secunderabad Express,BGM,SC
+17075,Belagavi Express,CHZ,BGM
+17076,Charlapalli Express,BGM,CHZ
+17077,Tiruchchirappalli Express,CHZ,TPJ
+17078,Charlapalli Express,TPJ,CHZ
+17079,Jaipur Weekly Express,HYB,JP
+17080,Hyderabad Weekly Express,JP,HYB
+17201,Golconda Express,GNT,SC
+17202,Golconda Express,SC,GNT
+17205,Kakinada Port Express,SNSI,COA
+17206,Sainagar Shirdi Express,COA,SNSI
+17207,Machilipatnam Weekly Express,SNSI,MTM
+17208,Sainagar Shirdi Weekly Express,MTM,SNSI
+17209,Seshadri Express,SMVB,CCT
+17210,Seshadri Express,CCT,SMVB
+17211,Kondaveedu Express,MTM,YPR
+17212,Kondaveedu Express,YPR,MTM
+17215,Dharmavaram Express,MTM,DMM
+17216,Machilipatnam Express,DMM,MTM
+17219,Visakhapatnam Express,MTM,VSKP
+17220,Machilipatnam Express,VSKP,MTM
+17221,Mumbai LTT Express,COA,LTT
+17222,Kakinada Port Express,LTT,COA
+17225,SSS Hubballi Amaravati Express,NS,UBL
+17226,Narasapur Amaravati Express,UBL,NS
+17231,Nagarsol Express,NS,NSL
+17232,Narasapur Express,NSL,NS
+17233,Bhagyanagar Express,SC,SKZR
+17234,Bhagyanagar Express,SKZR,SC
+17235,Nagercoil Express,SMVB,NCJ
+17236,SMVT Bengaluru Express,NCJ,SMVB
+17237,MGR Chennai Central MEMU Express,BTTR,MAS
+17238,Bitragunta MEMU Express,MASS,BTTR
+17239,Simhadri Express,GNT,VSKP
+17240,Simhadri Express,VSKP,GNT
+17243,Guntur - Rayagada Express,GNT,RGDA
+17244,Rayagada - Guntur Express,RGDA,GNT
+17247,Dharmavaram Express,NS,DMM
+17248,Narasapur Express,DMM,NS
+17249,Kakinada Town Express,TPTY,CCT
+17250,Tirupati CCT TPTY EXP,CCT,TPTY
+17251,Kacheguda Express,GNT,KCG
+17252,Guntur Express,KCG,GNT
+17253,Chhatrapati Sambhajinagar Express,GNT,CPSN
+17254,Guntur Express,CPSN,GNT
+17255,Lingampalli Express,NS,LPI
+17256,Narasapur Express,LPI,NS
+17261,Guntur - Tirupati Express,GNT,TPTY
+17262,Tirupati - Guntur Express,TPTY,GNT
+17281,Narasapur Express,GNT,NS
+17282,Guntur Express,NS,GNT
+17289,Mysuru Express,CCT,MYS
+17290,Kakinada Town Express,MYS,CCT
+17291,Tiruvannamalai Express,NS,TNM
+17292,Narsapur Express,TNM,NS
+17293,SMVT Bengaluru Express,NS,SMVB
+17294,Narasapur Express,SMVB,NS
+17295,Hisar Weekly Express,CCT,HSR
+17296,Kakinada Town Weekly Express,HSR,CCT
+17301,Mysuru - Belagavi Express,MYS,BGM
+17302,Belagavi - Mysuru Express,BGM,MYS
+17307,Basava Express,MYS,BGK
+17308,Basava Express,BGK,MYS
+17309,Vasco da Gama Express,YPR,VSG
+17310,Yesvantpur Express,VSG,YPR
+17313,MGR Chennai Central Express,UBL,MAS
+17314,SSS Hubballi Express,MAS,UBL
+17315,Da-Gama - Velankanni Weekly Express,VSG,VLNK
+17316,Vasco-da-gama Weekly Express,VLNK,VSG
+17317,Dadar Central Express,UBL,DR
+17318,SSS Hubballi Express,DR,UBL
+17321,da-Gama - Jasidih Weekly Express,VSG,JSME
+17322,Vasco-da-Gama Weekly Express,JSME,VSG
+17323,Banaras Weekly Express,UBL,BNRS
+17324,SSS Hubballi Weekly Express,BNRS,UBL
+17329,Vijayawada Express,UBL,BZA
+17330,SSS Hubballi Express,BZA,UBL
+17363,Yog Nagari Rishikesh Weekly Express,UBL,YNRK
+17364,SSS Hubballi Weekly Express,YNRK,UBL
+17377,Mangaluru Central Express,BJP,MAQ
+17378,Vijayapura Express,MAQ,BJP
+17391,Sindhanur Express,SBC,SNNR
+17392,KSR Bengaluru Express,SNNR,SBC
+17405,Krishna Express,TPTY,ADB
+17406,Krishna Express,ADB,TPTY
+17407,Pamani Express,TPTY,MQ
+17408,Pamani Express,MQ,TPTY
+17411,Mahalaxmi Express,CSMT,KOP
+17412,Mahalaxmi Express,KOP,CSMT
+17415,Haripriya Express,TPTY,KOP
+17416,Haripriya Express,KOP,TPTY
+17417,Sainagar Shirdi Weekly Express,TPTY,SNSI
+17418,Tirupati Weekly Express,SNSI,TPTY
+17419,Vasco-Da-Gama Weekly Express,TPTY,VSG
+17420,Da-Gama - Tirupati Weekly Express,VSG,TPTY
+17421,Tirupati - Kollam Express,TPTY,QLN
+17422,Kollam - Tirupati Express,QLN,TPTY
+17423,Chikkamagaluru Weekly Express,TPTY,CMGR
+17424,Tirupati Weekly Express,CMGR,TPTY
+17425,Sainagar Shirdi Weekly Express,TPTY,SNSI
+17426,Tirupati Weekly Express,SNSI,TPTY
+17427,Narasapur Express,TPTY,NS
+17428,Tirupati Express,NS,TPTY
+17429,Tirupati - Akola Express,TPTY,AK
+17430,Akola - Tirupati Express,AK,TPTY
+17433,Raxaul Weekly Express,TPTY,RXL
+17434,Tirupati Weekly Express,RXL,TPTY
+17437,Pandharpur Express,TPTY,PVR
+17438,Tirupati Express,PVR,TPTY
+17439,Tirupati - Srikakulam Road Humsafar Express,TPTY,CHE
+17440,Srikakulam Road - Tirupati Humsafar Express,CHE,TPTY
+17441,Charlapalli Express,TPTY,CHZ
+17442,Tirupati Express,CHZ,TPTY
+17443,Charlapalli Express,TPTY,CHZ
+17444,Tirupati Express,CHZ,TPTY
+17479,Puri - Tirupati Express,PURI,TPTY
+17480,Tirupati - Puri Express,TPTY,PURI
+17481,Tirupati Express,BSP,TPTY
+17482,Bilaspur Express,TPTY,BSP
+17601,Shri Ganganagar Express,KCG,SGNR
+17602,Kacheguda Express,SGNR,KCG
+17603,Yelahanka Express,KCG,YNK
+17604,Kacheguda Express,YNK,KCG
+17605,Bhagat Ki Kothi Express,KCG,BGKT
+17606,Kacheguda Express,BGKT,KCG
+17607,Tiruchanur KCG TCNR EXP,KCG,TCNR
+17608,Kacheguda TCNR KCG EXP,TCNR,KCG
+17609,Patna - Purna Express,PNBE,PAU
+17610,Purna - Patna Express,PAU,PNBE
+17611,Mumbai CSMT Rajya Rani Express,NED,CSMT
+17612,Hazur Sahib Nanded Rajya Rani Express,CSMT,NED
+17613,Hazur Sahib Nanded Express,PNVL,NED
+17614,Panvel Express,NED,PNVL
+17615,Tuticorin Express,KCG,TN
+17616,Kacheguda Express,TN,KCG
+17617,Tapovan Express,CSMT,NED
+17618,Tapovan Express,NED,CSMT
+17619,Hazur Sahib Nanded Weekly Express,CPSN,NED
+17620,Chhatrapati Sambhaji Nagar Weekly Express,NED,CPSN
+17621,Tirupati Weekly Express,CPSN,TPTY
+17622,Chhatrapati Sambhajinagar Weekly Express,TPTY,CPSN
+17625,Delta Express,KCG,RAL
+17626,Delta Express,RAL,VKB
+17629,Hazur Sahib Nanded Express,HDP,NED
+17630,Hadapsar Express,NED,HDP
+17631,Tanakpur Weekly Express,NED,TPU
+17632,Hazur Sahib Nanded Weekly Express,TPU,NED
+17633,Tiruchanur Express,NED,TCNR
+17634,Hazur Sahib Nanded Express,TCNR,NED
+17635,Dharmavaram Express,NED,DMM
+17636,Hazur Sahib Nanded Express,DMM,NED
+17637,Tiruchanur Express,J,TCNR
+17638,Jalna Express,TCNR,PTU
+17639,Akola InterCity Express,KCG,AK
+17640,Akola - Kacheguda Intercity Express,AK,KCG
+17641,Narkher InterCity Express,KCG,NRKR
+17642,Kacheguda InterCity Express,NRKR,KCG
+17643,Kakinada Port Circar Express,CGL,COA
+17644,Chengalpattu Circar Express,COA,CGL
+17645,Repalle Express,SC,RAL
+17646,Secunderabad Express,RAL,SC
+17647,Hyderabad - Purna Express,HYB,PAU
+17648,Purna - Hyderabad Express,PAU,HYB
+17651,Kacheguda Express,CGL,KCG
+17652,Chengalpattu Express,KCG,CGL
+17653,Puducherry Express,KCG,PDY
+17654,Kacheguda Express,PDY,KCG
+17655,Puducherry Circar Express,COA,PDY
+17656,Kakinada Port Circar Express,PDY,COA
+17659,Kakatiya Express,SC,BDCR
+17660,Kakatiya Express,BDCR,SC
+17661,Nagarsol Express,KCG,NSL
+17662,Kacheguda Express,NSL,KCG
+17663,Raichur - Jalna Express,RC,J
+17664,Jalna - Raichur Express,J,RC
+17665,Mumbai LTT Weekly Express,NED,LTT
+17666,Hazur Sahib Nanded Weekly Express,LTT,NED
+17667,Mumbai Ltt Weekly Express,NED,LTT
+17668,Hazur Sahib Nanded Weekly Express,LTT,NED
+17687,Marathwada Express,MMR,DAB
+17688,Marathwada Express,DAB,MMR
+18005,Samaleswari Express,HWH,JDB
+18006,Samaleswari Express,JDB,HWH
+18009,Ajmer Weekly Express,SRC,AII
+18010,Santragachi Weekly Express,AII,SRC
+18011,Chakradharpur Express,HWH,CKP
+18012,Howrah Express,CKP,HWH
+18013,Bokaro Steel City HWH BKSC EXP,ADRA,BKSC
+18014,Adra Junction BKSC HWH EXP,BKSC,ADRA
+18015,Bhanjpur Express,SHM,VZR
+18016,Shalimar Express,VZR,SHM
+18017,Bhanjpur - Puri Express,VZR,PURI
+18018,Puri - Bhanjpur Express,PURI,VZR
+18021,Khurda Road Express,KGP,KUR
+18022,Kharagpur Express,KUR,KGP
+18029,Shalimar Express,LTT,SHM
+18030,Mumbai LTT Express,SHM,LTT
+18039,Shalimar - Puri Express,SHM,PURI
+18040,Puri - Shalimar Express,PURI,SHM
+18041,M.G.R. Chennai Central Express,SHM,MAS
+18042,Shalimar Express,MAS,SHM
+18045,East Coast Express,SHM,CHZ
+18046,East Coast Express,CHZ,SHM
+18047,Vasco-da-Gama Amaravati Express,SHM,VSG
+18048,da-Gama - Shalimar Amaravati Express,VSG,SHM
+18049,Badampahar Weekly Express,SHM,BMPR
+18050,Shalimar Weekly Express,BMPR,SHM
+18051,Rourkela Express,BMPR,ROU
+18052,Badampahar Express,ROU,BMPR
+18063,Yelahanka AC Express,SRC,YNK
+18064,Santragachi AC Express,YNK,SRC
+18101,Jammu Tawi Express,TATA,JAT
+18102,Tatanagar Express,JAT,TATA
+18103,Amritsar Jallianwala Bagh Express,TATA,ASR
+18104,Tatanagar Jallianwala Bagh Express,ASR,TATA
+18105,Jaynagar Express,ROU,JYG
+18106,Rourkela Express,JYG,ROU
+18107,Jagdalpur Intercity Express,ROU,JDB
+18108,Rourkela Intercity Express,JDB,ROU
+18109,NSC Bose Itwari Express,TATA,NITR
+18110,Tatanagar Express,NITR,TATA
+18111,Yesvantpur Weekly Express,TATA,YPR
+18112,Tatanagar Weekly Express,YPR,TATA
+18117,Gunupur Rajya Rani Express,ROU,GNPR
+18118,Rourkela Rajya Rani Express,GNPR,ROU
+18119,Jaynagar Express,TATA,JYG
+18120,Tatanagar Express,JYG,TATA
+18181,Tatanagar - Thawe Express,TATA,THE
+18182,Thawe - Tatanagar Express,THE,TATA
+18183,Tatanagar - Buxar Express,TATA,BXR
+18184,Buxar - Tatanagar Express,BXR,TATA
+18185,Tatanagar - Godda Express,TATA,GODA
+18186,Godda - Tatanagar Express,GODA,TATA
+18189,Ernakulam Jn. Express,TATA,ERS
+18190,Tatanagar Express,ERS,TATA
+18201,Durg - Nautanwa Express,DURG,NTV
+18202,Nautanwa - Durg Express,NTV,DURG
+18203,Betwa Express,DURG,CNB
+18204,Betwa Express,CNB,DURG
+18205,Durg - Nautanwa Express,DURG,NTV
+18206,Nautanwa - Durg Express,NTV,DURG
+18207,Ajmer Weekly Express,DURG,AII
+18208,Durg Weekly Express,AII,DURG
+18213,Ajmer Weekly Express,DURG,AII
+18214,Durg Weekly Express,AII,DURG
+18233,Narmada Express,INDB,BSP
+18234,Narmada Express,BSP,INDB
+18235,Bilaspur Express cum Passenger,BPL,BSP
+18236,Bhopal Express,BSP,BPL
+18237,Chhattisgarh Express,KRBA,ASR
+18238,Chhattisgarh Express,ASR,BSP
+18239,Netaji Subhash Chandra Bose Itwari SHIVNATH EXPRES,GAD,NITR
+18240,Shivnath Express,NITR,KRBA
+18241,Durg - Ambikapur Express,DURG,ABKP
+18242,Ambikapur - Durg Express,ABKP,DURG
+18247,Bilaspur - Rewa Express,BSP,REWA
+18248,Rewa - Bilaspur Express,REWA,BSP
+18249,Hasdeo Express,R,KRBA
+18250,Hasdeo Express,KRBA,R
+18257,Chirimiri Express,BSP,CHRM
+18258,Bilaspur Express,CHRM,BSP
+18261,Yelahanka Weekly Express,BSP,YNK
+18262,Bilaspur Weekly Express,YNK,BSP
+18301,Rayagada Intercity Express,SBP,RGDA
+18302,Sambalpur Intercity Express,RGDA,SBP
+18303,Puri Intercity Express,SBP,PURI
+18304,Sambalpur Intercity Express,PURI,SBP
+18309,Jammu Tawi Express,SBP,JAT
+18310,Sambalpur Express,JAT,SBP
+18311,Sambalpur - Boudh Express,SBP,BOUH
+18312,Boudh - Sambalpur Express,BOUH,SBP
+18313,Bhubaneswar New Express,BOUH,BBSN
+18314,Boudh Express,BBSN,BOUH
+18401,Puri Intercity Express,BGY,PURI
+18402,Bangriposi Intercity Express,PURI,BGY
+18403,Dhanbad Express,BBS,DHN
+18404,Bhubaneswar Express,DHN,BBS
+18405,Puri - Patna Express,PURI,PNBE
+18406,Patna - Puri Express,PNBE,PURI
+18407,Puri - Koraput Express,PURI,KRPU
+18408,Koraput - Puri Express,KRPU,PURI
+18409,Sri Jagannath Express,SHM,PURI
+18410,Sri Jagannath Express,PURI,SHM
+18415,Barbil - Puri Express,BBN,PURI
+18416,Puri - Barbil Express,PURI,BBN
+18417,Puri - Gunupur Express,PURI,GNPR
+18418,Gunupur - Puri Express,GNPR,PURI
+18419,Jaynagar Weekly Express,PURI,JYG
+18420,Puri Weekly Express,JYG,PURI
+18421,Sonepur Weekly Express,PURI,SNPU
+18422,Puri Weekly Express,SNPU,PURI
+18425,Puri - Durg Express,PURI,DURG
+18426,Durg - Puri Express,DURG,PURI
+18427,Anand Vihar Terminal Weekly Express,PURI,ANVT
+18428,Puri Weekly Express,ANVT,PURI
+18447,Hirakhand Express,BBS,JDB
+18448,Hirakhand Express,JDB,BBS
+18449,Baidyanathdham Express,PURI,PNBE
+18450,Baidyanathdham Express,PNBE,PURI
+18451,Tapaswini Express,HTE,PURI
+18452,Tapaswini Express,PURI,HTE
+18463,Prashanti Express,BBS,SBC
+18464,Prashanti Express,SBC,BBS
+18477,Kalinga Utkal Express,PURI,YNRK
+18478,Kalinga Utkal Express,YNRK,PURI
+18501,Kollam Express,VSKP,QLN
+18502,Visakhapatnam Express,QLN,VSKP
+18503,Sainagar Shirdi Weekly Express,VSKP,SNSI
+18504,Visakhapatnam Weekly Express,SNSI,VSKP
+18505,Tirupati Express,VSKP,TPTY
+18506,Visakhapatnam Express,TPTY,VSKP
+18507,Tirupati Express,VSKP,TPTY
+18508,Visakhapatnam Express,TPTY,VSKP
+18509,SMVT Bengaluru Express,VSKP,SMVB
+18510,Visakhapatnam Express,SMVB,VSKP
+18511,Vishakhapatnam InterCity Express,KRPU,VSKP
+18512,Koraput Intercity Express,VSKP,KRPU
+18515,Kirandul Express,VSKP,KRDL
+18516,Visakhapatnam Express,KRDL,VSKP
+18517,Visakhapatnam Express,KRBA,VSKP
+18518,Korba Express,VSKP,KRBA
+18519,Mumbai LTT Express,VSKP,LTT
+18520,Visakhapatnam Express,LTT,VSKP
+18521,Tirumala Express,VSKP,GTL
+18522,Tirumala Express,GTL,VSKP
+18523,Banaras Express,VSKP,BNRS
+18524,Visakhapatnam Express,BNRS,VSKP
+18525,Visakhapatnam Express,BAM,VSKP
+18526,Brahmapur Express,VSKP,BAM
+18527,Charlapalli Express,VSKP,CHZ
+18528,Visakhapatnam Express,CHZ,VSKP
+18529,Visakhapatnam Express,DURG,VSKP
+18530,Durg Express,VSKP,DURG
+18567,Kollam Weekly Express,VSKP,QLN
+18568,Visakhapatnam Weekly Express,QLN,VSKP
+18573,Bhagat Ki Kothi Weekly Express,VSKP,BGKT
+18574,Visakhapatnam Weekly Express,BGKT,VSKP
+18603,Ranchi - Godda Express,RNC,GODA
+18604,Godda - Ranchi Express,GODA,RNC
+18609,Mumbai LTT Express,RNC,LTT
+18610,Ranchi Express,LTT,RNC
+18611,Ranchi - Banaras Express,RNC,BNRS
+18612,Banaras - Ranchi Express,BNRS,RNC
+18615,Kriya Yoga Express,HWH,HTE
+18616,Kriya Yoga Express,HTE,HWH
+18619,Godda Intercity Express,RNC,GODA
+18620,Ranchi Intercity Express,GODA,RNC
+18621,Patliputra Express,PNBE,HTE
+18622,Patliputra Express,HTE,PNBE
+18623,Islampur - Hatia Express,IPR,HTE
+18624,Hatia - Islampur Express,HTE,IPR
+18625,Hatia PRNC HTE EXPRES,PRNC,HTE
+18626,Kosi Super Express,HTE,PRNC
+18627,Ranchi Intercity Express,HWH,RNC
+18628,Howrah Intercity Express,RNC,HWH
+18629,Gorakhpur Weekly Express,RNC,GKP
+18630,Ranchi Weekly Express,GKP,RNC
+18631,Ranchi - Chopan Express,RNC,CPU
+18632,Chopan - Ranchi Express,CPU,RNC
+18635,Sasaram Intercity Express,RNC,SSM
+18636,Ranchi Intercity Express,SSM,RNC
+18637,SMVT Bengaluru Weekly Express,HTE,SMVB
+18638,Hatia Weekly Express,SMVB,HTE
+18639,Ara - Ranchi Express,ARA,RNC
+18640,Ranchi - Ara Express,RNC,ARA
+18641,Hatia - Durg Express,HTE,DURG
+18642,Durg - Hatia Express,DURG,HTE
+18755,Ambikapur Express,SDL,ABKP
+18756,Shahdol Express,ABKP,SDL
+19003,Khandesh Express,DDR,BSL
+19004,Khandesh Express,BSL,DDR
+19005,Surat - Bhusaval Express,ST,BSL
+19006,Bhusaval - Surat Express,BSL,ST
+19007,Surat - Bhusaval Express,ST,BSL
+19008,Bhusaval - Surat Express,BSL,ST
+19011,Dahod Intercity Express,BL,DHD
+19012,Valsad Intercity Express,DHD,BL
+19013,Bhusaval - Katni Express,BSL,KTE
+19014,Katni - Bhusaval Express,KTE,BSL
+19015,Saurashtra Express,DDR,PBR
+19016,Saurashtra Express,PBR,DDR
+19017,Vadnagar Lok Shakti Express,BDTS,VDG
+19018,Bandra Terminus Lok Shakti Express,VDG,BDTS
+19019,Haridwar Express,BDTS,HW
+19020,Bandra Terminus Express,HW,BDTS
+19021,Udhna - Brahmapur Amrit Bharat Express,UDN,BAM
+19022,Brahmapur - Udhna Amrit Bharat Express,BAM,UDN
+19027,Jammu Tawi Vivek Express,BDTS,JAT
+19028,Bandra Terminus Vivek Express,JAT,BDTS
+19031,Yoga Express,SBIB,YNRK
+19032,Yoga Express,YNRK,SBIB
+19033,Gujarat Queen,BL,ADI
+19034,Gujarat Queen,ADI,BL
+19037,Avadh Express,BDTS,BJU
+19038,Avadh Express,BJU,BDTS
+19045,Tapti Ganga Express,ST,THE
+19046,Tapti Ganga Express,THE,ST
+19051,Shramik Express,BL,MFP
+19052,Shramik Express,MFP,BL
+19053,Muzaffarpur Express,ST,MFP
+19054,Surat Express,MFP,ST
+19055,Udhna Intercity Express,BDTS,UDN
+19056,Bandra Terminus Intercity Express,UDN,BDTS
+19057,Mangaluru Jn. Express,ST,MAJN
+19058,Surat Express,MAJN,ST
+19091,Bandra Terminus - Gorakhpur Humsafar Express,BDTS,GKP
+19092,Gorakhpur - Bandra Terminus Humsafar Express,GKP,BDTS
+19107,MCTM Udhampur Janmabhoomi Express,BVC,MCTM
+19108,Bhavnagar Terminus Janmabhoomi Express,MCTM,BVC
+19119,Veraval InterCity Express,GNC,VRL
+19120,Gandhinagar Capital InterCity Express,VRL,GNC
+19165,Sabarmati Express,ADI,DBG
+19166,Sabarmati Express,DBG,ADI
+19167,Sabarmati Express,ADI,BCY
+19168,Sabarmati Express,BCY,ADI
+19201,Ayodhya Cantt Express,BVC,AYC
+19202,Bhavnagar Terminus Express,AYC,BVC
+19203,Veraval Express,BDTS,VRL
+19204,Bandra Terminus Express,VRL,BDTS
+19209,Okha Express,BVC,OKHA
+19210,Bhavnagar Terminus Express,OKHA,BVC
+19217,Saurashtra Janta Express,BDTS,VRL
+19218,Saurashtra Janta Express,VRL,BDTS
+19223,Jammu Tawi Express,SBIB,JAT
+19224,Sabarmati Express,JAT,SBIB
+19251,Veraval - Okha Express,VRL,OKHA
+19252,Okha - Veraval Express,OKHA,VRL
+19255,Surat - Mahuva Express,ST,MHV
+19256,Mahuva - Surat Express,MHV,ST
+19259,Bhavnagar Terminus Express,TVCN,BVC
+19260,Thiruvananthapuram North Express,BVC,TVCN
+19269,Muzaffarpur Express,PBR,MFP
+19270,Porbandar Express,MFP,PBR
+19271,Haridwar Express,BVC,HW
+19272,Bhavnagar Terminus Express,HW,BVC
+19301,Yesvantpur Weekly Express,DADN,YPR
+19302,Dr. Ambedkar Nagar Weekly Express,YPR,DADN
+19303,Bhopal Express,INDB,BPL
+19304,Bhopal - Indore Express,BPL,INDB
+19305,Kamakhya Weekly Express,DADN,KYQ
+19306,Dr. Ambedkar Nagar Weekly Express,KYQ,DADN
+19307,Una Himachal Express,INDB,UHL
+19308,Indore Express,UHL,INDB
+19309,Indore Junction SHANTI EXPRESS,GNC,INDB
+19310,Gandhinagar Capital SHANTI EXP,INDB,GNC
+19313,Indore - Patna Express,INDB,PNBE
+19314,Patna - Indore Express,PNBE,INDB
+19315,Veer Bhumi Express,INDB,ASV
+19316,Veer Bhumi Express,ASV,INDB
+19319,Indore Mahamana Express,VRL,INDB
+19320,Veraval Mahamana Express,INDB,VRL
+19321,Indore - Patna Express,INDB,PNBE
+19322,Patna - Indore Express,PNBE,INDB
+19323,Bhopal Intercity Express,DADN,BPL
+19324,Dr. Ambedkar Nagar Intercity Express,BPL,DADN
+19325,Indore - Amritsar Express,INDB,ASR
+19326,Indore SF Express,ASR,INDB
+19333,Bikaner Mahamana Express,INDB,BKN
+19334,Indore Mahamana Express,BKN,INDB
+19337,Delhi Sarai Rohilla Weekly Express,INDB,DEE
+19338,Indore Weekly Express,DEE,INDB
+19339,Bhopal Intercity Express,DHD,BPL
+19340,Dahod Intercity Express,BPL,DHD
+19343,Penchvalley Express,INDB,NIR
+19344,Penchvalley Express,NIR,INDB
+19401,Lucknow Express,SBIB,LKO
+19402,Sabarmati Express,LKO,SBIB
+19403,Bhuj - Delhi Express,BHUJ,DLI
+19404,Delhi - Bhuj Express,DLI,BHUJ
+19405,Gandhidham Express,PNU,GIMB
+19406,Palanpur Express,GIMB,PNU
+19407,Lalgarh Express,SBIB,LGH
+19408,Sabarmati Express,LGH,SBIB
+19409,Gorakhpur Express,SBIB,GKP
+19410,Sabarmati Express,GKP,SBIB
+19411,Daulatpur Chowk Express,GNC,DLPC
+19412,Gandhinagar Capital Express,DLPC,GNC
+19413,Kolkata Weekly Express,ADI,KOAA
+19414,Ahmedabad Weekly Express,KOAA,ADI
+19415,Shri Mata Vaishno Devi Katra Express,SBIB,SVDK
+19416,Sabarmati Express,SVDK,SBIB
+19417,Borivali - Vatva Express,BVI,VTA
+19418,Borivali Express,ADI,BVI
+19419,Tiruchchirappalli Weekly Express,ADI,TPJ
+19420,Ahmedabad Weekly Express,TPJ,ADI
+19421,Patna Weekly Express,ADI,PNBE
+19422,Ahmedabad Weekly Express,PNBE,ADI
+19423,Ahmedabad - Bhagalpur Amrit Bharat Express,ADI,BGP
+19424,Bhagalpur - Ahmedabad Amrit Bharat Express,BGP,ADI
+19425,Nandurbar Express,BVI,NDB
+19426,Borivali Express,NDB,BVI
+19435,Asansol Weekly Express,ADI,ASN
+19436,Ahmedabad Weekly Express,ASN,ADI
+19483,Saharsa Express,ADI,SHC
+19484,Ahmedabad Express,SHC,ADI
+19489,Gorakhpur Express,ADI,GKP
+19490,Ahmedabad Express,GKP,ADI
+19525,Naharlagun Weekly Express,HAPA,NHLN
+19526,Hapa Weekly Express,NHLN,HAPA
+19559,Okha Weekly Express,TPTY,OKHA
+19560,Tirupati Weekly Express,OKHA,TPTY
+19565,Uttaranchal Express,OKHA,DDN
+19566,Uttaranchal Express,DDN,OKHA
+19567,Okha Vivek Express,TN,OKHA
+19568,Tuticorin Vivek Express,OKHA,TN
+19575,Nathdwara Weekly Express,OKHA,NDT
+19576,Okha Weekly Express,NDT,OKHA
+19577,Jamnagar Express,TEN,JAM
+19578,Tirunelveli Express,JAM,TEN
+19601,New Jalpaiguri Weekly Express,UDZ,NJP
+19602,Udaipur City Weekly Express,NJP,UDZ
+19603,Godda Weekly Express,DOZ,GODA
+19604,Daurai Weekly Express,GODA,DOZ
+19607,Kolkata - Madar Express,KOAA,MDJN
+19608,Madar - Kolkata Express,MDJN,KOAA
+19609,Yog Nagari Rishikesh Express,UDZ,YNRK
+19610,Udaipur City Express,YNRK,UDZ
+19611,Ajmer - Amritsar Express,AII,ASR
+19612,Amritsar - Ajmer Express,ASR,AII
+19613,Ajmer - Amritsar Express,AII,ASR
+19614,Amritsar - Ajmer Express,ASR,AII
+19615,Kamakhya Kavi Guru Express,UDZ,KYQ
+19616,Udaipur City Kavi Guru Express,KYQ,UDZ
+19623,Madar - Darbhanga Amrit Bharat Express,MDJN,DBG
+19624,Darbhanga - Madar Amrit Bharat Express,DBG,MDJN
+19625,Bandra Terminus AII BDTS EXPRESS,DOZ,BDTS
+19626,Daurai BDTS DOZ EXP,BDTS,DOZ
+19665,Udaipur City Express,KURJ,UDZ
+19666,Khajuraho Express,UDZ,KURJ
+19667,Udaipur City - Mysore Humsafar Express,UDZ,MYS
+19668,Mysore - Udaipur City Humsafar Express,MYS,UDZ
+19669,Udaipur City - Patliputra Humsafar Express,UDZ,PPTA
+19670,Patliputra - Udaipur City Humsafar Express,PPTA,UDZ
+19701,Sainik Express,JP,DEC
+19702,Sainik Express,DEC,JP
+19711,Bhopal Jn. JP BPL EXPRESS,KWP,BPL
+19712,Khatipura BPL JP EXP,BPL,KWP
+19713,Kurnool City Express,JP,KRNT
+19714,Jaipur Express,KRNT,JP
+19715,Gomti Nagar Express,JP,GTNR
+19716,Jaipur Express,GTNR,JP
+19721,Bharatpur Jn. JP BXN EXP,JP,BTE
+19722,Jaipur Junction BXN JP EXP,BTE,JP
+19723,Jaipur - Bandra Terminus Special,JP,BDTS
+19724,Jaipur Junction BDTS JP EXP,BDTS,JP
+19725,Khatipura - Darbhanga Amrit Bharat Express,KWP,DBG
+19726,Darbhanga - Khatipura Amrit Bharat Express,DBG,KWP
+19801,Sogaria - Danapur Express,SGAC,DNR
+19802,Danapur - Sogaria Express,DNR,SGAC
+19803,Kota - SMVD Katra Express,KOTA,SVDK
+19804,SMVD Katra - Kota Express,SVDK,KOTA
+19807,Kota - Sirsa Express,KOTA,SSA
+19808,Sirsa - Kota Express,SSA,KOTA
+19811,Kota - Etawah Express,KOTA,ETW
+19812,Etawah - Kota Express,ETW,KOTA
+19813,Kota - Sirsa Express,KOTA,SSA
+19814,Sirsa - Kota Express,SSA,KOTA
+19815,Kota InterCity Express,MDS,KOTA
+19816,Mandsor InterCity Express,KOTA,MDS
+19817,Haldighati Express,RTM,AF
+19818,Haldighati Express,JAB,RTM
+19821,Asarva - Kota Express,ASV,KOTA
+19822,Kota - Asarva Express,KOTA,ASV
+20101,Nagpur - Secunderabad Vande Bharat Express,NGP,SC
+20102,Secunderabad - Nagpur Vande Bharat Express,SC,NGP
+20103,Gorakhpur SF Express,LTT,GKP
+20104,Mumbai LTT SF Express,GKP,LTT
+20111,Konkan Kanya SF Express,CSMT,MAO
+20112,Konkan Kanya SF Express,MAO,CSMT
+20151,Rewa Weekly SF Express,HDP,REWA
+20152,Hadapsar Weekly SF Express,REWA,HDP
+20153,Rewa Weekly SF Express,CSMT,REWA
+20154,Mumbai CSMT Weekly SF Express,REWA,CSMT
+20155,New Delhi SF Express,DADN,NDLS
+20156,Dr. Ambedkar Nagar SF Express,NDLS,DADN
+20159,Jabalpur Weekly SF Express,CBE,JBP
+20160,Coimbatore Weekly SF Express,JBP,CBE
+20161,Jabalpur Weekly SF Express,PUNE,JBP
+20162,Pune Weekly SF Express,JBP,PUNE
+20163,Jabalpur Weekly Superfast Express,BDTS,JBP
+20164,Bandra Terminus Weekly Superfast Express,JBP,BDTS
+20171,Rani Kamlapati - Hazrat Nizamuddin Vande Bharat Express,RKMP,NZM
+20172,Hazrat Nizamuddin - Rani Kamlapati Vande Bharat Express,NZM,RKMP
+20173,Rani Kamlapati - Rewa Vande Bharat Express,RKMP,REWA
+20174,Rewa - Rani Kamlapati Vande Bharat Express,REWA,RKMP
+20175,Banaras - Agra Cantt Vande Bharat Express,BNRS,AGC
+20176,Agra Cantt - Banaras Vande Bharat Express,AGC,BNRS
+20177,Agra Cantt SF Express,ASV,AGC
+20178,Asarva SF Express,AGC,ASV
+20401,Lucknow SF Shuttle Express,BSB,LKO
+20402,Varanasi SF Shuttle Express,LKO,BSB
+20403,Lalgarh SF Express,PRYJ,LGH
+20404,Prayagraj SF Express,LGH,PRYJ
+20407,Ranchi - New Delhi Rajdhani Express,RNC,NDLS
+20408,New Delhi - Ranchi Rajdhani Express,NDLS,RNC
+20409,Bathinda SF Express,DEC,BTI
+20410,Delhi Cantt. SF Express,BTI,DEC
+20413,Kashi Mahakal SF Express,BSB,INDB
+20414,Kashi Mahakal SF Express,INDB,BSB
+20415,Kashi Mahakal SF Express,BSB,INDB
+20416,Kashi Mahakal SF Express,INDB,BSB
+20423,Patalkot Express,SEY,FZR
+20424,Patalkot Express,FZR,SEY
+20433,Jammu Mail,SFG,SVDK
+20434,Jammu Mail,SVDK,SFG
+20435,Mumbai LTT - Prayagraj Amrit Bharat Express,LTT,PRYJ
+20436,Prayagraj - Mumbai LTT Amrit Bharat Express,PRYJ,LTT
+20437,Prayagraj - Udhna Amrit Bharat Express,PRYJ,UDN
+20438,Udhna - Prayagraj Amrit Bharat Express,UDN,PRYJ
+20451,New Delhi Intercity SF Express,SGAC,NDLS
+20452,Sogaria Intercity SF Express,NDLS,SGAC
+20471,Puri SF Express,SGNR,PURI
+20472,Shri Ganganagar SF Express,PURI,SGNR
+20473,Chetak Express,DEE,UDZ
+20474,Chetak Express,UDZ,DEE
+20475,Miraj Weekly SF Express,BKN,MRJ
+20476,Bikaner Weekly SF Express,MRJ,BKN
+20481,Jodhpur - Tiruchchirappalli Humsafar Express,JU,TPJ
+20482,Tiruchchirappalli - Jodhpur Humsafar Express,TPJ,JU
+20483,Dadar Western SF Express,BGKT,DDR
+20484,Bhagat Ki Kothi SF Express,DDR,BGKT
+20485,Sabarmati Intercity SF Express,JSM,SBIB
+20486,Jaisalmer Intercity SF Express,SBIB,JSM
+20487,Malani SF Express,BME,DEE
+20488,Malani SF Express,DEE,BME
+20489,Mathura SF Express,BME,MTJ
+20490,Barmer SF Express,MTJ,BME
+20491,Sabarmati SF Express,JSM,SBIB
+20492,Jaisalmer SF Express,SBIB,JSM
+20493,Chandigarh SF Express,MDU,CDG
+20494,Madurai SF Express,CDG,MDU
+20495,Hadapsar SF Express,JU,HDP
+20496,Jodhpur SF Express,HDP,JU
+20497,Rameswaram - Firozpur Cantt Humsafar Express,RMM,FZR
+20498,Firozpur Cantt - Rameswaram Humsafar Express,FZR,RMM
+20501,Agartala - Anand Vihar Terminal Tejas Rajdhani Express,AGTL,ANVT
+20502,Anand Vihar Terminal - Agartala Tejas Rajdhani Express,ANVT,AGTL
+20503,Dibrugarh - New Delhi Rajdhani Express,DBRG,NDLS
+20504,New Delhi - Dibrugarh Rajdhani Express,NDLS,DBRG
+20505,Dibrugarh - New Delhi Rajdhani Express,DBRG,NDLS
+20506,New Delhi - Dibrugarh Rajdhani Express,NDLS,DBRG
+20507,Sairang - Anand Vihar Terminal Rajdhani Express,SANG,ANVT
+20508,Anand Vihar Terminal - Sairang Rajdhani Express,ANVT,SANG
+20601,Bodinayakkanur SF Express,MAS,BDNK
+20602,MGR Chennai Central SF Express,BDNK,MAS
+20603,New Jalpaiguri - Nagercoil Amrit Bharat Express,NJP,NCJ
+20604,Nagercoil - New Jalpaiguri Amrit Bharat Express,NCJ,NJP
+20605,Chendur SF Express,MS,TCN
+20606,Chendur SF Express,TCN,MS
+20607,Chennai Central - Mysore Vande Bharat Express,MAS,MYS
+20608,Mysore - Chennai Central Vande Bharat Express,MYS,MAS
+20609,New Jalpaiguri - Tiruchchirappalli Amrit Bharat Express,NJP,TPJ
+20610,Tiruchchirappalli - New Jalpaiguri Amrit Bharat Express,TPJ,NJP
+20623,Malgudi SF Express,AP,SBC
+20624,Malgudi SF Express,SBC,AP
+20625,Bhagat ki Kothi SF Express,MAS,BGKT
+20626,MGR Chennai Central SF Express,BGKT,MAS
+20627,Chennai Egmore - Nagercoil Vande Bharat Express,MS,NCJ
+20628,Nagercoil - Chennai Egmore Vande Bharat Express,NCJ,MS
+20629,Sabari Superfast Express,SC,TVC
+20630,Sabari Superfast Express,TVC,SC
+20631,Mangalore Central - Trivandrum Central Vande Bharat Express,MAQ,TVC
+20632,Trivandrum Central - Mangalore Central Vande Bharat Express,TVC,MAQ
+20633,Kasaragod - Trivandrum Central Vande Bharat Express,KGQ,TVC
+20634,Trivandrum Central - Kasaragod Vande Bharat Express,TVC,KGQ
+20635,Ananthapuri Superfast Express,MS,QLN
+20636,Ananthapuri Superfast Express,QLN,MS
+20641,Bengaluru Cantt - Coimbatore Vande Bharat Express,BNC,CBE
+20642,Coimbatore - Bengaluru Cantt Vande Bharat Express,CBE,BNC
+20643,Chennai Central - Coimbatore Vande Bharat Express,MAS,CBE
+20644,Coimbatore - Chennai Central Vande Bharat Express,CBE,MAS
+20645,Madgaon - Mangalore Central Vande Bharat Express,MAO,MAQ
+20646,Mangalore Central - Madgaon Vande Bharat Express,MAQ,MAO
+20651,Talguppa InterCity Express,SBC,TLGP
+20652,KSR Bengaluru InterCity Express,TLGP,SBC
+20653,Belagavi SF Express,SBC,BGM
+20654,KSR Bengaluru SF Express,BGM,SBC
+20655,SSS Hubballi Weekly SF Express,YPR,UBL
+20656,Yesvantpur Weekly SF Express,UBL,YPR
+20657,Hazrat Nizamuddin Superfast Express,UBL,NZM
+20658,SSS Hubballi Superfast Express,NZM,UBL
+20659,KSR Bengaluru Rajya Rani SF Express,MYS,SBC
+20660,Mysuru Rajya Rani SF Express,SBC,MYS
+20661,KSR Bengaluru - Dharwad Vande Bharat Express,SBC,DWR
+20662,Dharwad - KSR Bengaluru Vande Bharat Express,DWR,SBC
+20663,Mysore - Chennai Central Vande Bharat Express,MYS,MAS
+20664,Chennai Central - Mysore Vande Bharat Express,MAS,MYS
+20665,Chennai Egmore - Tirunelveli Vande Bharat Express,MS,TEN
+20666,Tirunelveli - Chennai Egmore Vande Bharat Express,TEN,MS
+20667,Khatipura SF Express,YPR,KWP
+20668,Yesvantpur Superfast Express,KWP,YPR
+20669,Hubballi - Pune Vande Bharat Express,UBL,PUNE
+20670,Pune - Hubballi Vande Bharat Express,PUNE,UBL
+20671,Madurai - Bengaluru Cantt Vande Bharat Express,MDU,BNC
+20672,Bengaluru Cantt - Madurai Vande Bharat Express,BNC,MDU
+20673,Shri Chhatrapati Shahu Maharaj Terminus - Pune Vande Bharat Express,KOP,PUNE
+20674,Pune - Shri Chhatrapati Shahu Maharaj Terminus Vande Bharat Express,PUNE,KOP
+20675,Vishwamanava SF Express,BGM,MYS
+20676,Vishwamanava SF Express,MYS,BGM
+20677,Chennai Central - Narasapur Vande Bharat Express,MAS,NS
+20678,Narasapur - Chennai Central Vande Bharat Express,NS,MAS
+20679,SSS Hubballi Weekly SF Express,MAS,UBL
+20680,MGR Chennai Central Weekly SF Express,UBL,MAS
+20681,Silambu SF Express,TBM,SCT
+20682,Silambu SF Express,SCT,TBM
+20683,Sengottai SF Express,TBM,SCT
+20684,Tambaram SF Express,SCT,TBM
+20685,Ksr Bengaluru SF Express,GIMB,SBC
+20686,Gandhidham Superfast Express,SBC,GIMB
+20687,KSR Bengaluru Superfast Express,UBL,SBC
+20688,SSS Hubballi Superfast Express,SBC,UBL
+20689,Shivamogga Town Intercity SF Express,YPR,SMET
+20690,Yesvantpur Intercity SF Express,SMET,YPR
+20693,KSR Bengaluru SF Express,JU,SBC
+20694,Jodhpur SF Express,SBC,JU
+20701,Secunderabad - Tirupati Vande Bharat Express,SC,TPTY
+20702,Tirupati - Secunderabad Vande Bharat Express,TPTY,SC
+20703,Kacheguda - Yesvantpur Vande Bharat Express,KCG,YPR
+20704,Yesvantpur - Kacheguda Vande Bharat Express,YPR,KCG
+20705,Nanded - Mumbai CSMT Vande Bharat Express,NED,CSMT
+20706,Mumbai CSMT - Nanded Vande Bharat Express,CSMT,NED
+20707,Secunderabad - Visakhapatnam Vande Bharat Express,SC,VSKP
+20708,Visakhapatnam - Secunderabad Vande Bharat Express,VSKP,SC
+20801,Magadh Express,IPR,NDLS
+20802,Magadh Express,NDLS,IPR
+20803,Gandhidham SF Express,VSKP,GIMB
+20804,Visakhapatnam SF Express,GIMB,VSKP
+20805,Andhra Pradesh Express,VSKP,NDLS
+20806,Andhra Pradesh Express,NDLS,VSKP
+20807,Hirakud Express,VSKP,ASR
+20808,Hirakud Express,ASR,VSKP
+20809,Nagawali SF Express,SBP,NED
+20810,Nagawali SF Express,NED,SBP
+20811,Hazur Sahib Nanded SF Express,VSKP,NED
+20812,Visakhapatnam SF Express,NED,VSKP
+20813,Puri - Jodhpur SF Express,PURI,JU
+20814,Jodhpur - Puri SF Express,JU,PURI
+20815,Visakhapatnam SF Express,ADTP,VSKP
+20816,Adityapur SF Express,VSKP,ADTP
+20817,Bhubaneswar - New Delhi Tejas Rajdhani Express,BBS,NDLS
+20818,New Delhi - Bhubaneswar Tejas Rajdhani Express,NDLS,BBS
+20819,Okha Dwarka SF Express,PURI,OKHA
+20820,Puri Dwarka SF Express,OKHA,PURI
+20821,Pune - Santragachi Humsafar Express,PUNE,SRC
+20822,Santragachi - Pune Humsafar Express,SRC,PUNE
+20823,Puri - Ajmer SF Express,PURI,AII
+20824,Ajmer - Puri SF Express,AII,PURI
+20825,Bilaspur - Nagpur Vande Bharat Express,BSP,NGP
+20826,Nagpur - Bilaspur Vande Bharat Express,NGP,BSP
+20827,Jabalpur - Santragachi Humsafar Express,JBP,SRC
+20828,Santragachi - Jabalpur Humsafar Express,SRC,JBP
+20829,Durg - Visakhapatnam Vande Bharat Express,DURG,VSKP
+20830,Visakhapatnam - Durg Vande Bharat Express,VSKP,DURG
+20831,Mahima Gosain Express,SHM,SBP
+20832,Mahima Gosain Express,SBP,SHM
+20833,Visakhapatnam - Secunderabad Vande Bharat Express,VSKP,SC
+20834,Secunderabad - Visakhapatnam Vande Bharat Express,SC,VSKP
+20835,Rourkela - Puri Vande Bharat Express,ROU,PURI
+20836,Puri - Rourkela Vande Bharat Express,PURI,ROU
+20837,Junagarh Road SF Express,BBS,JNRD
+20838,Bhubaneswar SF Express,JNRD,BBS
+20839,Ranchi - New Delhi Rajdhani Express,RNC,NDLS
+20840,New Delhi - Ranchi Rajdhani Express,NDLS,RNC
+20841,Bhubaneswar - Visakhapatnam Vande Bharat Express,BBS,VSKP
+20842,Visakhapatnam - Bhubaneswar Vande Bharat Express,VSKP,BBS
+20843,Bhagat Ki Kothi SF Express,BSP,BGKT
+20844,Bilaspur SF Express,BGKT,BSP
+20845,Bikaner SF Express,BSP,BKN
+20846,Bilaspur SF Express,BKN,BSP
+20847,MCTM Udhampur SF Express,DURG,MCTM
+20848,Durg SF Express,MCTM,DURG
+20849,Rameswaram Weekly SF Express,BBS,RMM
+20850,Bhubaneswar Weekly SF Express,RMM,BBS
+20851,Puducherry SF Express,BBS,PDY
+20852,Bhubaneswar SF Express,PDY,BBS
+20853,MGR Chennai Central SF Express,BBS,MAS
+20854,Bhubaneswar SF Express,MAS,BBS
+20857,Sainagar Shirdi SF Express,PURI,SNSI
+20858,Puri SF Express,SNSI,PURI
+20861,Ahmedabad SF Express,PURI,ADI
+20862,Puri Weekly SF Express,ADI,PURI
+20871,Howrah - Rourkela Vande Bharat Express,HWH,ROU
+20872,Rourkela - Howrah Vande Bharat Express,ROU,HWH
+20887,Ranchi - Varanasi Vande Bharat Express,RNC,BSB
+20888,Varanasi - Ranchi Vande Bharat Express,BSB,RNC
+20889,Howrah - Tirupati Humsafar Express,HWH,TPTY
+20890,Tirupati - Howrah Humsafar Express,TPTY,HWH
+20891,Tatanagar - Brahmapur Vande Bharat Express,TATA,BAM
+20892,Brahmapur - Tatanagar Vande Bharat Express,BAM,TATA
+20893,Tatanagar - Patna Vande Bharat Express,TATA,PNBE
+20894,Patna - Tatanagar Vande Bharat Express,PNBE,TATA
+20897,Howrah - Ranchi Vande Bharat Express,HWH,RNC
+20898,Ranchi - Howrah Vande Bharat Express,RNC,HWH
+20901,Mumbai Central - Gandhinagar Vande Bharat Express,MMCT,GNC
+20902,Gandhinagar - Mumbai Central Vande Bharat Express,GNC,MMCT
+20903,Varanasi Mahamana Express,EKNR,BSB
+20904,Ekta Nagar Mahamana Express,BSB,EKNR
+20905,Rewa Mahamana Express,EKNR,REWA
+20906,Ekta Nagar Mahamana Express,REWA,EKNR
+20907,Sayaji Nagari Superfast Express,DDR,BHUJ
+20908,Sayaji Nagari Superfast Express,BHUJ,DDR
+20909,Porbandar Weekly SF Express,TVCN,PBR
+20910,Thiruvananthapuram North Weekly SF Express,PBR,TVCN
+20911,Indore - Nagpur Vande Bharat Express,INDB,NGP
+20912,Nagpur - Indore Vande Bharat Express,NGP,INDB
+20913,Delhi Sarai Rohilla Weekly SF Express,RJT,DEE
+20914,Rajkot Weekly SF Express,DEE,RJT
+20915,Charlapalli - Indore Humsafar Express,CHZ,INDB
+20916,Indore - Charlapalli Humsafar Express,INDB,CHZ
+20917,Indore - Puri Humsafar Express,INDB,PURI
+20918,Puri - Indore Humsafar Express,PURI,INDB
+20919,Ekta Nagar Weekly SF Express,MAS,EKNR
+20920,M.g.r Chennai Central Weekly SF Express,EKNR,MAS
+20921,Lucknow Jn. Weekly SF Express,BDTS,LJN
+20922,Bandra Terminus Weekly SF Express,LJN,BDTS
+20923,Tirunelveli - Gandhidham Humsafar Express,TEN,GIMB
+20924,Gandhidham - Tirunelveli Humsafar Express,GIMB,TEN
+20925,Amravati SF Express,ST,AMI
+20926,Surat SF Express,AMI,ST
+20929,Banaras Weekly SF Express,UDN,BNRS
+20930,Udhna Weekly SF Express,BNRS,UDN
+20931,Indore Weekly SF Express,TVCN,INDB
+20932,Thiruvananthapuram North Weekly SF Express,INDB,TVCN
+20933,Danapur SF Express,UDN,DNR
+20934,Udhna SF Express,DNR,UDN
+20935,Indore Weekly SF Express,GIMB,INDB
+20936,Gandhidham Weekly SF Express,INDB,GIMB
+20937,Delhi Sarai Rohilla SF Express,PBR,DEE
+20938,Porbandar SF Express,DEE,PBR
+20939,Sultanpur SF Express,SBIB,SLN
+20940,Sabarmati SF Express,SLN,SBIB
+20941,Ghazipur City SF Express,BDTS,GCT
+20942,Bandra Terminus SF Express,GCT,BDTS
+20943,Bandra Terminus - Bhagat-ki-Kothi Humsafar Express,BDTS,BGKT
+20944,Bhagat-ki-Kothi - Bandra Terminus Humsafar Express,BGKT,BDTS
+20945,Hazrat Nizamuddin Gujarat Sampark Kranti Express,EKNR,NZM
+20946,Ekta Nagar Gujarat Sampark Kranti Express,NZM,EKNR
+20947,Ahmedabad - Ekta Nagar Shatabdi Express,ADI,EKNR
+20950,Ekta Nagar - Ahmedabad Shatabdi Express,EKNR,ADI
+20951,Jaipur Weekly SF Express,OKHA,JP
+20952,Okha Weekly SF Express,JP,OKHA
+20953,Ahmedabad SF Express,MAS,ADI
+20954,MGR Chennai Central SF Express,ADI,MAS
+20957,Indore - Hisar SF Express,INDB,HSR
+20958,Hisar - Indore SF Express,HSR,INDB
+20959,Vadnagar Intercity SF Express,BL,VDG
+20960,Valsad Intercity SF Express,VDG,BL
+20961,Banaras Weekly SF Express,UDN,BNRS
+20962,Udhna Weekly SF Express,BNRS,UDN
+20963,Varanasi Weekly SF Express,SBIB,BSB
+20964,Sabarmati Weekly SF Express,BSB,SBIB
+20965,Bhavnagar Terminus SF Intercity Express,SBIB,BVC
+20966,Sabarmati SF Intercity Express,BVC,SBIB
+20967,Porbandar Weekly SF Express,SC,PBR
+20968,Secunderabad Weekly SF Express,PBR,SC
+20971,Shalimar SF Express,UDZ,SHM
+20972,Udaipur City SF Express,SHM,UDZ
+20975,Chambal Express,HWH,AGC
+20976,Chambal Express,AGC,HWH
+20977,Ajmer - Chandigarh Vande Bharat Express,AII,CDG
+20978,Chandigarh - Ajmer Vande Bharat Express,CDG,AII
+20983,Delhi Sarai Rohilla SF Express,BHUJ,DEE
+20984,Bhuj SF Express,DEE,BHUJ
+20985,Mctm Udhampur Weekly SF Express,KOTA,MCTM
+20986,Kota Weekly SF Express,MCTM,KOTA
+20987,Asarva Intercity SF Express,UDZ,ASV
+20988,Udaipur City Intercity SF Express,ASV,UDZ
+20989,Chandigarh SF Express,UDZ,CDG
+20990,Udaipur City SF Express,CDG,UDZ
+20991,Daund Weekly SF Express,AII,DD
+20992,Ajmer Weekly SF Express,DD,AII
+20993,Udaipur City SF Express,JP,UDZ
+20994,Jaipur SF Express,UDZ,JP
+20995,Bandra Terminus Weekly SF Express,AII,BDTS
+20996,Ajmer Weekly SF Express,BDTS,AII
+21125,Ratlam - Bhind Express,RTM,BIX
+21126,Bhind - Ratlam Express,BIX,RTM
+21893,Tatanagar - Patna Vande Bharat Express,TATA,PNBE
+21894,Patna - Tatanagar Vande Bharat Express,PNBE,TATA
+21895,Tatanagar - Patna Vande Bharat Express,TATA,PNBE
+21896,Patna - Tatanagar Vande Bharat Express,PNBE,TATA
+21901,Bandra Terminus - Barmer Humsafar Express,BDTS,BME
+21902,Barmer - Bandra Terminus Humsafar Express,BME,BDTS
+21903,Bikaner AC SF Express,BDTS,BKN
+21904,Bikaner - Bandra Terminus AC SF Express,BKN,BDTS
+21907,Kathgodam SF Express,MMCT,KGM
+21908,Mumbai Central SF Express,KGM,MMCT
+22075,Charlapalli - Gorakhpur Amrit Bharat Express,CHZ,GKP
+22076,Gorakhpur - Charlapalli Amrit Bharat Express,GKP,CHZ
+22101,Madurai Weekly SF Express,LTT,MDU
+22102,Mumbai LTT Weekly SF Express,MDU,LTT
+22103,Ayodhya Cantt. SF Express,LTT,AYC
+22104,Mumbai Ltt SF Express,AYC,LTT
+22105,Indrayani SF Express,CSMT,PUNE
+22106,Indrayani SF Express,PUNE,CSMT
+22107,Latur SF Express,CSMT,LUR
+22108,Mumbai CSMT SF Express,LUR,CSMT
+22109,Balharshah SF Express,LTT,BPQ
+22110,Mumbai Ltt SF Express,BPQ,LTT
+22111,Mumbai LTT - Ayodhya Cantt Amrit Bharat Express,LTT,AYC
+22112,Ayodhya Cantt - Mumbai LTT Amrit Bharat Express,AYC,LTT
+22113,Thiruvananthapuram North SF Express,LTT,TVCN
+22114,Mumbai LTT SF Express,TVCN,LTT
+22115,Mumbai LTT - Karmali AC SF Express,LTT,KRMI
+22116,Mumbai LTT AC SF Express,KRMI,LTT
+22117,Pune - Amravati AC SF Express,PUNE,AMI
+22118,Pune AC SF Express,AMI,PUNE
+22119,Madgaon Tejas Express,CSMT,MAO
+22120,Mumbai CSMT Tejas Express,MAO,CSMT
+22121,Lucknow AC SF Express,LTT,LKO
+22122,Mumbai LTT AC SF Express,LKO,LTT
+22123,Pune - Ajni AC SF Express,PUNE,AJNI
+22124,Ajni - Pune AC SF Express,AJNI,PUNE
+22125,Amritsar AC SF Express,NGP,ASR
+22126,Nagpur AC SF Express,ASR,NGP
+22129,Tulsi SF Express,LTT,AYC
+22130,Tulsi SF Express,AYC,LTT
+22131,Gyan Ganga SF Express,PUNE,BNRS
+22132,Gyan Ganga SF Express,BNRS,PUNE
+22135,Renigunta SF Express,MYS,RU
+22136,Mysuru SF Express,RU,MYS
+22137,Prerana Express,NGP,ADI
+22138,Prerana Express,ADI,NGP
+22139,Pune - Ajni Humsafar Express,PUNE,AJNI
+22140,Ajni - Pune Humsafar Express,AJNI,PUNE
+22141,Pune - Nagpur Humsafar Express,PUNE,NGP
+22142,Nagpur - Pune Humsafar Express,NGP,PUNE
+22143,Bidar SF Express,CSMT,BIDR
+22144,Mumbai CSMT SF Express,BIDR,CSMT
+22145,Bhopal - Rewa SF Express,BPL,REWA
+22146,Rewa - Bhopal SF Express,REWA,BPL
+22147,Sainagar Shirdi SF Express,DR,SNSI
+22148,Dadar Central SF Express,SNSI,DR
+22149,Pune SF Express,ERS,PUNE
+22150,Ernakulam Jn. SF Express,PUNE,ERS
+22151,Kazipet Weekly SF Express,PUNE,KZJ
+22152,Pune Weekly SF Express,KZJ,PUNE
+22153,Salem SF Express,MS,SA
+22154,Chennai Egmore SF Express,SA,MS
+22155,SCSMT Kolhapur SF Express,KLBG,KOP
+22156,Kalaburagi SF Express,KOP,KLBG
+22157,Chennai Egmore SF Mail,CSMT,MS
+22158,Mumbai CSMT SF Mail,MS,CSMT
+22159,MGR Chennai Central SF Express,CSMT,MAS
+22160,Mumbai CSMT SF Express,MAS,CSMT
+22161,Damoh Rajya Rani SF Express,BPL,DMO
+22162,Bhopal Rajya Rani SF Express,DMO,BPL
+22163,Khajuraho Mahamana SF Express,BPL,KURJ
+22164,Bhopal Mahamana SF Express,KURJ,BPL
+22165,Singrauli Urjadhani Express,BPL,SGRL
+22166,Bhopal Urjadhani Express,SGRL,BPL
+22167,Hazrat Nizamuddin Urjadhani Express,SGRL,NZM
+22168,Singrauli Urjadhani Express,NZM,SGRL
+22169,Rani Kamlapati - Santragachi Humsafar Express,RKMP,SRC
+22170,Santragachi - Rani Kamlapati Humsafar Express,SRC,RKMP
+22171,Pune - Rani Kamlapati Humsafar Express,PUNE,RKMP
+22172,Rani Kamlapati - Pune Humsafar Express,RKMP,PUNE
+22173,Jabalpur SF Intercity Express,CAF,JBP
+22174,Chanda Fort SF Intercity Express,JBP,CAF
+22175,Jaipur Weekly SF Express,NGP,JP
+22176,Nagpur Weekly SF Express,JP,NGP
+22177,Mahanagari SF Express,CSMT,BNRS
+22178,Mahanagari SF Express,BNRS,CSMT
+22179,MGR Chennai Central Weekly SF Express,LTT,MAS
+22180,Mumbai Ltt Weekly SF Express,MAS,LTT
+22181,Hazrat Nizamuddin Gondwana SF Express,JBP,NZM
+22182,Jabalpur Gondwana SF Express,NZM,JBP
+22183,Saket SF Express,LTT,AYC
+22184,Saket SF Express,AYC,LTT
+22185,Ahimsa SF Express,ADI,PUNE
+22186,Ahimsa SF Express,PUNE,ADI
+22187,Adhartal Intercity SF Express,RKMP,ADTL
+22188,Rani Kamalapati Intercity SF Express,ADTL,RKMP
+22189,Rewa REWA INTERCITY,MML,REWA
+22190,Madan Mahal MML INTERCITY,REWA,MML
+22191,Jabalpur SF Express,INDB,JBP
+22192,Indore SF Express,JBP,INDB
+22193,Gwalior Weekly SF Express,DD,GWL
+22194,Daund Weekly SF Express,GWL,DD
+22195,Bandra Terminus SF Express,VGLJ,BDTS
+22196,Virangana Lakshmibai Jhansi SF Express,BDTS,VGLJ
+22197,Pratham Swatantrata Sangram Express,KOAA,VGLJ
+22198,Pratham Swatantrata Sangram Express,VGLJ,KOAA
+22199,Sushasan Express,GWL,BLP
+22200,Sushasan Express,BLP,GWL
+22201,Sealdah - Puri Duronto Express,SDAH,PURI
+22202,Puri - Sealdah Duronto Express,PURI,SDAH
+22203,Visakhapatnam - Secunderabad AC Duronto Express,VSKP,SC
+22204,Secunderabad - Visakhapatnam AC Duronto Express,SC,VSKP
+22207,Thiruvananthapuram Central SUPER AC Express,MAS,TVC
+22208,MGR Chennai Central SUPER AC Express,TVC,MAS
+22209,Mumbai Central - Hazrat Nizamuddin Duronto Express,MMCT,NZM
+22210,Hazrat Nizamuddin - Mumbai Central Duronto Express,NZM,MMCT
+22213,Shalimar - Patna Duronto Express,SHM,PNBE
+22214,Patna - Shalimar Duronto Express,PNBE,SHM
+22221,Mumbai CSMT - Hazrat Nizamuddin Rajdhani Express,CSMT,NZM
+22222,Hazrat Nizamuddin - Mumbai CSMT Rajdhani Express,NZM,CSMT
+22223,Mumbai CSMT - Sainagar Shirdi Vande Bharat Express,CSMT,SNSI
+22224,Sainagar Shirdi - Mumbai CSMT Vande Bharat Express,SNSI,CSMT
+22225,Mumbai CSMT - Solapur Vande Bharat Express,CSMT,SUR
+22226,Solapur - Mumbai CSMT Vande Bharat Express,SUR,CSMT
+22227,New Jalpaiguri - Guwahati Vande Bharat Express,NJP,GHY
+22228,Guwahati - New Jalpaiguri Vande Bharat Express,GHY,NJP
+22229,Mumbai CSMT - Madgaon Vande Bharat Express,CSMT,MAO
+22230,Madgaon - Mumbai CSMT Vande Bharat Express,MAO,CSMT
+22231,Kalaburagi - SMVT Bengaluru Vande Bharat Express,KLBG,SMVB
+22232,SMVT Bengaluru - Kalaburagi Vande Bharat Express,SMVB,KLBG
+22233,New Jalpaiguri - Patna Vande Bharat Express,NJP,PNBE
+22234,Patna - New Jalpaiguri Vande Bharat Express,PNBE,NJP
+22301,Howrah - New Jalpaiguri Vande Bharat Express,HWH,NJP
+22302,New Jalpaiguri - Howrah Vande Bharat Express,NJP,HWH
+22303,Howrah - Gaya Vande Bharat Express,HWH,GAYA
+22304,Gaya - Howrah Vande Bharat Express,GAYA,HWH
+22305,Jasidih Weekly SF Express,SMVB,JSME
+22306,SMVT Bengaluru Weekly SF Express,JSME,SMVB
+22307,Bikaner SF Express,HWH,BKN
+22308,Howrah SF Express,BKN,HWH
+22309,Howrah - Jamalpur Vande Bharat Express,HWH,JMP
+22310,Jamalpur - Howrah Vande Bharat Express,JMP,HWH
+22311,Mumbai LTT SF Express,GODA,LTT
+22312,Godda SF Express,LTT,GODA
+22317,Sealdah - Jammu Tawi Humsafar Express,SDAH,JAT
+22318,Jammu Tawi - Sealdah Humsafar Express,JAT,SDAH
+22321,Hool Express,HWH,SURI
+22322,Hool Express,SURI,HWH
+22323,Shabd Bhedi Express,KOAA,GCT
+22324,Shabd Bhedi Express,GCT,KOAA
+22329,Asansol SF Express,HLZ,ASN
+22330,Haldia SF Express,ASN,HLZ
+22345,Patna - Gomti Nagar Vande Bharat Express,PNBE,GTNR
+22346,Gomti Nagar - Patna Vande Bharat Express,GTNR,PNBE
+22347,Howrah - Patna Vande Bharat Express,HWH,PNBE
+22348,Patna - Howrah Vande Bharat Express,PNBE,HWH
+22349,Patna - Ranchi Vande Bharat Express,PNBE,RNC
+22350,Ranchi - Patna Vande Bharat Express,RNC,PNBE
+22351,SMVT Bengaluru SF Express,SHC,SMVB
+22352,Saharsa SF Express,SMVB,SHC
+22353,Patna - SMVT Bengaluru Humsafar Express,PNBE,SMVB
+22354,SMVT Bengaluru - Patna Humsafar Express,SMVB,PNBE
+22355,Chandigarh SF Express,PPTA,CDG
+22356,Patliputra SF Express,CDG,PPTA
+22357,Gaya SF Express,LTT,GAYA
+22358,Mumbai LTT SF Express,GAYA,LTT
+22359,Mumbai CSMT Superfast Express,PNBE,CSMT
+22360,Patna Superfast Express,CSMT,PNBE
+22361,Rejendranagar Terminal - New Delhi Amrit Bharat Express,RJPB,NDLS
+22362,New Delhi - Rejendranagar Terminal Amrit Bharat Express,NDLS,RJPB
+22363,Dhanbad - Coimbatore Amrit Bharat Express,DHN,CBE
+22364,Coimbatore - Dhanbad Amrit Bharat Express,CBE,DHN
+22365,Smvt Bengaluru SF Express,DNR,SMVB
+22366,Danapur SF Express,SMVB,DNR
+22387,Black Diamond Express,HWH,DHN
+22388,Black Diamond Express,DHN,HWH
+22401,MCTM Udhampur AC SF Express,DEE,MCTM
+22402,Delhi Sarai Rohilla AC SF Express,MCTM,DEE
+22403,New Delhi SF Express,PDY,NDLS
+22404,Puducherry SF Express,NDLS,PDY
+22405,Bhagalpur - Anand Vihar Terminal Garib Rath Express,BGP,ANVT
+22406,Anand Vihar Terminal - Bhagalpur Garib Rath Express,ANVT,BGP
+22407,Hazrat Nizamuddin SF Express,ABKP,NZM
+22408,Ambikapur SF Express,NZM,ABKP
+22409,Gaya - Anand Vihar Terminal Garib Rath Express,GAYA,ANVT
+22410,Anand Vihar Terminal - Gaya Garib Rath Express,ANVT,GAYA
+22411,Arunachal AC SF Express,NHLN,ANVT
+22412,Arunachal AC SF Express,ANVT,NHLN
+22413,Madgaon - Hazrat Nizamuddin Rajdhani Express,MAO,NZM
+22414,Hazrat Nizamuddin - Madgaon Rajdhani Express,NZM,MAO
+22415,Varanasi - New Delhi Vande Bharat Express,BSB,NDLS
+22416,New Delhi - Varanasi Vande Bharat Express,NDLS,BSB
+22417,New Delhi Mahamana Express,BSB,NDLS
+22418,Varanasi Mahamana Express,NDLS,BSB
+22419,Suhaildev SF Express,GCT,ANVT
+22420,Suhaildev SF Express,ANVT,GCT
+22421,Salasar SF Express,DEE,JU
+22422,Salasar SF Express,JU,DEE
+22425,Ayodhya Cantt - Anand Vihar Terminal Vande Bharat Express,AYC,ANVT
+22426,Anand Vihar Terminal - Ayodhya Cantt Vande Bharat Express,ANVT,AYC
+22427,Bhrigu Superfast Express,BUI,ANVT
+22428,Bhrigu Superfast Express,ANVT,BUI
+22429,Pathankot SF Express,DLI,PTK
+22430,Delhi SF Express,PTK,DLI
+22431,MCTM Udhampur SF Express,SFG,MCTM
+22432,Subedarganj SF Express,MCTM,SFG
+22433,Suhaildev SF Express,GCT,ANVT
+22434,Suhaildev SF Express,ANVT,GCT
+22435,Varanasi - New Delhi Vande Bharat Express,BSB,NDLS
+22436,New Delhi - Varanasi Vande Bharat Express,NDLS,BSB
+22437,Prayagraj - Anand Vihar Terminal Humsafar Express,PRYJ,ANVT
+22438,Anand Vihar Terminal - Prayagraj Humsafar Express,ANVT,PRYJ
+22439,New Delhi - SMVD Katra Vande Bharat Express,NDLS,SVDK
+22440,SMVD Katra - New Delhi Vande Bharat Express,SVDK,NDLS
+22443,Bandra Terminus SF Express,CNB,BDTS
+22444,Kanpur Central SF Express,BDTS,CNB
+22445,Amritsar SF Express,CNB,ASR
+22446,Kanpur Central SF Express,ASR,CNB
+22447,New Delhi - Amb Andaura Vande Bharat Express,NDLS,AADR
+22448,Amb Andaura - New Delhi Vande Bharat Express,AADR,NDLS
+22449,New Delhi Poorvottar Sampark Kranti Express,GHY,NDLS
+22450,Guwahati Poorvottar Sampark Kranti Express,NDLS,GHY
+22451,Chandigarh SF Express,BDTS,CDG
+22452,Bandra Terminus SF Express,CDG,BDTS
+22453,Meerut City Rajya Rani Express,LJN,MTC
+22454,Lucknow Jn. Rajya Rani Express,MTC,LJN
+22455,Kalka SF Express,SNSI,KLK
+22456,Sainagar Shirdi SF Express,KLK,SNSI
+22457,Anand Vihar Terminal - Dehra Dun Vande Bharat Express,ANVT,DDN
+22458,Dehra Dun - Anand Vihar Terminal Vande Bharat Express,DDN,ANVT
+22459,Madhupur - Anand Vihar Terminal Humsafar Express,MDP,ANVT
+22460,Anand Vihar Terminal - Madhupur Humsafar Express,ANVT,MDP
+22461,Shri Shakti AC SF Express,NDLS,SVDK
+22462,Shri Shakti AC SF Express,SVDK,NDLS
+22463,Bikaner Rajasthan Sampark Kranti Express,DEE,BKN
+22464,Delhi Sarai Rohilla Rajasthan Sampark Kranti Express,BKN,DEE
+22465,Baba Baidyanath Dham Deoghar SF Express,MDP,ANVT
+22466,Baba Baidyanath Dham Deoghar SF Express,ANVT,MDP
+22469,Khajauraho - Hazrat Nizamuddin Vande Bharat Express,KURJ,NZM
+22470,Hazrat Nizamuddin - Khajauraho Vande Bharat Express,NZM,KURJ
+22471,Delhi Sarai Rohilla Intercity SF Express,LGH,DEE
+22472,Lalgarh Intercity SF Express,DEE,LGH
+22473,Bandra Terminus SF Express,BKN,BDTS
+22474,Bikaner SF Express,BDTS,BKN
+22475,Coimbatore AC SF Express,HSR,CBE
+22476,Hisar AC SF Express,CBE,HSR
+22477,New Delhi - SMVD Katra Vande Bharat Express,NDLS,SVDK
+22478,SMVD Katra - New Delhi Vande Bharat Express,SVDK,NDLS
+22479,Sarbat Da Bhala Express,NDLS,LNK
+22480,Sarbat Da Bhala Express,LNK,NDLS
+22481,Delhi Sarai Rohilla SF Express,JU,DEE
+22482,Jodhpur SF Express,DEE,JU
+22483,Gandhidham SF Express,BGKT,GIMB
+22484,Bhagat Ki Kothi SF Express,GIMB,BGKT
+22485,Firozpur Cantt. Intercity SF Express,NDLS,FZR
+22486,New Delhi Intercity SF Express,FZR,NDLS
+22487,Delhi - Amritsar Vande Bharat Express,DLI,ASR
+22488,Amritsar - Delhi Vande Bharat Express,ASR,DLI
+22489,Varanasi - Meerut City Vande Bharat Express,BSB,MTC
+22490,Meerut City - Varanasi Vande Bharat Express,MTC,BSB
+22491,Mandore Express,JU,DLI
+22492,Mandore Express,DLI,JU
+22497,Shri Ganganagar - Tiruchchirappalli Humsafar Express,SGNR,TPJ
+22498,Tiruchchirappalli - Shri Ganganagar Humsafar Express,TPJ,SGNR
+22499,Deoghar - Varanasi Vande Bharat Express,DGHR,BSB
+22500,Varanasi - Deoghar Vande Bharat Express,BSB,DGHR
+22501,New Tinsukia SF Express,SMVB,NTSK
+22502,SMVT Bengaluru SF Express,NTSK,SMVB
+22503,Dibrugarh Vivek SF Express,CAPE,DBRG
+22504,Kanniyakumari Vivek SF Express,DBRG,CAPE
+22511,Kamakhya Karmabhoomi Express,LTT,KYQ
+22512,Mumbai LTT Karmabhoomi Express,KYQ,LTT
+22533,Yesvantpur SF Express,GKP,YPR
+22534,Gorakhpur SF Express,YPR,GKP
+22535,Banaras Weekly SF Express,RMM,BNRS
+22536,Rameswaram Weekly SF Express,BNRS,RMM
+22537,Kushinagar SF Express,GKP,LTT
+22538,Kushinagar SF Express,LTT,GKP
+22539,Anand Vihar Terminal SF Express,MAU,ANVT
+22540,Mau SF Express,ANVT,MAU
+22541,Banaras - Anand Vihar Terminal Garib Rath Express,BNRS,ANVT
+22542,Anand Vihar Terminal - Banaras Garib Rath Express,ANVT,BNRS
+22543,Lal Kuan Weekly SF Express,BDTS,LKU
+22544,Bandra Terminus Weekly SF Express,LKU,BDTS
+22545,Lucknow - Dehra Dun Vande Bharat Express,LJN,DDN
+22546,Dehra Dun - Lucknow Vande Bharat Express,DDN,LJN
+22547,Gandhigram GWL GG SF EXP,GWL,GG
+22548,Gwalior Jn. GG GWL SF EXP,GG,GWL
+22549,Gorakhpur - Prayagraj Vande Bharat Express,GKP,PRYJ
+22550,Prayagraj - Gorakhpur Vande Bharat Express,PRYJ,GKP
+22581,New Delhi SF Express,BUI,NDLS
+22582,Ballia Superfast Express,NDLS,BUI
+22585,Gandhinagar Capital SF Express,BNRS,GNC
+22586,Banaras SF Express,GNC,BNRS
+22587,Sealdah - Banaras Amrit Bharat Express,SDAH,BNRS
+22588,Banaras - Sealdah Amrit Bharat Express,BNRS,SDAH
+22589,Banaras - Hadapsar Amrit Bharat Express,BNRS,HDP
+22590,Hadapsar - Banaras Amrit Bharat Express,HDP,BNRS
+22601,Sainagar Shirdi SF Express,MAS,SNSI
+22602,MGR Chennai Central SF Express,SNSI,MAS
+22603,Villupuram SF Express,KGP,VM
+22604,Kharagpur SF Express,VM,KGP
+22605,Tirunelveli SF Express,PRR,TEN
+22606,Purulia SF Express,TEN,PRR
+22609,Coimbatore Intercity SF Express,MAQ,CBE
+22610,Mangaluru Central Intercity SF Express,CBE,MAQ
+22611,New Jalpaiguri SF Express,MAS,NJP
+22612,MGR Chennai Central SF Express,NJP,MAS
+22613,Shraddha Sethu SF Express,RMM,AYC
+22614,Shraddha Sethu SF Express,AYC,RMM
+22615,Coimbatore Intercity SF Express,TPTY,CBE
+22616,Tirupati Intercity SF Express,CBE,TPTY
+22617,SMVT Bengaluru Intercity SF Express,TPTY,SMVB
+22618,Tirupati Intercity SF Express,SMVB,TPTY
+22619,Tirunelveli SF Express,BSP,TEN
+22620,Bilaspur SF Express,TEN,BSP
+22621,Kanniyakumari SF Express,RMM,CAPE
+22622,Rameswaram SF Express,CAPE,RMM
+22623,Mahal SF Express,TBM,MDU
+22624,Mahal SF Express,MDU,TBM
+22625,Chennai Central - KSR Bengaluru Double Decker Express,MAS,SBC
+22626,KSR Bengaluru - Chennai Central Double Decker Express,SBC,MAS
+22627,Thiruvananthapuram Central InterCity SF Express,TPJ,TVC
+22628,Tiruchchirappalli SF InterCity Express,TVC,TPJ
+22629,Tirunelveli SF Express,LTT,TEN
+22630,Mumbai Ltt SF Express,TEN,LTT
+22631,Anuvrat AC SF Express,MDU,BKN
+22632,Anuvrat AC SF Express,BKN,MDU
+22633,Hazrat Nizamuddin SF Express,TVC,NZM
+22634,Thiruvananthapuram Central SF Express,NZM,TVC
+22637,West Coast SF Express,MAS,MAQ
+22638,West Coast SF Express,MAQ,MAS
+22639,Alappuzha SF Express,MAS,ALLP
+22640,MGR Chennai Central SF Express,ALLP,MAS
+22641,Shalimar SF Express,TVC,SHM
+22642,Thiruvananthapuram Central SF Express,SHM,TVC
+22643,Patna SF Express,ERS,PNBE
+22644,Ernakulam Jn. SF Express,PNBE,ERS
+22645,Ahilya Nagari SF Express,INDB,TVCN
+22646,Ahilya Nagari SF Express,TVCN,INDB
+22647,Thiruvananthapuram North SF Express,KRBA,TVCN
+22648,Korba SF Express,TVCN,KRBA
+22649,Yercaud SF Express,MAS,ED
+22650,Yercaud SF Express,ED,MAS
+22651,Palakkad Jn. SF Express,MAS,PGT
+22652,MGR Chennai Central SF Express,PGT,MAS
+22653,Hazrat Nizamuddin SF Express,TVC,NZM
+22654,Thiruvananthapuram Central SF Express,NZM,TVC
+22655,Hazrat Nizamuddin SF Express,ERS,NZM
+22656,Ernakulam Jn. SF Express,NZM,ERS
+22657,Kanniyakumari SF Express,TBM,CAPE
+22658,Tambaram SF Express,CAPE,TBM
+22659,Yog Nagari Rishikesh SF Express,TVCN,YNRK
+22660,Thiruvananthapuram North SF Express,YNRK,TVCN
+22661,Sethu SF Express,MS,RMM
+22662,Sethu SF Express,RMM,MS
+22663,Jodhpur Weekly SF Express,TBM,JU
+22664,Tambaram Weekly SF Express,JU,TBM
+22665,Coimbatore Uday Express,SBC,CBE
+22666,KSR Bengaluru Uday Express,CBE,SBC
+22667,Coimbatore SF Express,NCJ,CBE
+22668,Nagercoil SF Express,CBE,NCJ
+22669,Patna SF Express,ERS,PNBE
+22670,Ernakulam Junction. SF Express,PNBE,ERS
+22671,Madurai Tejas Express,MS,MDU
+22672,Chennai Egmore Tejas Express,MDU,MS
+22673,Mannargudi SF Express,JU,MQ
+22674,Jodhpur SF Express,MQ,JU
+22675,Cholan SF Express,MS,TPJ
+22676,Cholan SF Express,TPJ,MS
+22681,Mgr Chennai Central Weekly SF Express,MYS,MAS
+22682,Mysuru Weekly SF Express,MAS,MYS
+22683,Lucknow SF Express,YPR,LKO
+22684,Yesvantpur SF Express,LKO,YPR
+22685,Chandigarh Karnataka Sampark Kranti Express,YPR,CDG
+22686,Yesvantpur Karnataka Sampark Kranti Express,CDG,YPR
+22687,Varanasi SF Express,MYS,BSB
+22688,Mysuru SF Express,BSB,MYS
+22689,Yesvantpur Weekly SF Express,ADI,YPR
+22690,Ahmedabad Weekly SF Express,YPR,ADI
+22691,KSR Bengaluru - Hazrat Nizamuddin Rajdhani Express,SBC,NZM
+22692,Hazrat Nizamuddin - KSR Bengaluru Rajdhani Express,NZM,SBC
+22697,MGR Chennai Central Weekly SF Express,UBL,MAS
+22698,SSS Hubballi Weekly SF Express,MAS,UBL
+22705,Tirupati - Jammu Tawi Humsafar Express,TPTY,JAT
+22706,Jammu Tawi - Tirupati Humsafar Express,JAT,TPTY
+22707,Visakhapatnam - Tirupati Double Decker Express,VSKP,TPTY
+22708,Tirupati - Visakhapatnam Double Decker Express,TPTY,VSKP
+22709,Amb Andaura SF Express,NED,AADR
+22710,Hazur Sahib Nanded Weekly SF Express,AADR,NED
+22715,Madurai Weekly Superfast Express,KCG,MDU
+22716,Kacheguda Weekly Superfast Express,MDU,KCG
+22717,Secunderabad SF Express,RJT,SC
+22718,Rajkot SF Express,SC,RJT
+22723,Shri Ganganagar SF Express,NED,SGNR
+22724,Hazur Sahib Nanded SF Express,SGNR,NED
+22731,Mumbai CSMT SF Express,HYB,CSMT
+22732,Hyderabad SF Express,CSMT,HYB
+22737,Hisar SF Express,SC,HSR
+22738,Secunderabad SF Express,HSR,SC
+22801,MGR Chennai Central Weekly SF Express,VSKP,MAS
+22802,Visakhapatnam Weekly SF Express,MAS,VSKP
+22803,Sambalpur SF Express,SHM,SBP
+22804,Shalimar SF Express,SBP,SHM
+22805,Anand Vihar Terminal Weekly SF Express,BBS,ANVT
+22806,Bhubaneswar Weekly SF Express,ANVT,BBS
+22807,MGR Chennai Central AC SF Express,SRC,MAS
+22808,Santragachi AC SF Express,MAS,SRC
+22809,Visakhapatnam Weekly SF Express,PRDP,VSKP
+22810,Paradeep Weekly SF Express,VSKP,PRDP
+22811,Bhubaneswar - New Delhi Tejas Rajdhani Express,BBS,NDLS
+22812,New Delhi - Bhubaneswar Tejas Rajdhani Express,NDLS,BBS
+22815,Ernakulam Jn. SF Express,BSP,ERS
+22816,Bilaspur SF Express,ERS,BSP
+22817,Mysuru Weekly SF Express,HWH,MYS
+22818,Howrah Weekly SF Express,MYS,HWH
+22819,Visakhapatnam Intercity SF Express,BBSN,VSKP
+22820,Bhubaneswar New SF InterCity Express,VSKP,BBSN
+22823,Bhubaneswar - New Delhi Tejas Rajdhani Express,BBS,NDLS
+22824,New Delhi - Bhubaneswar Tejas Rajdhani Express,NDLS,BBS
+22825,Mgr Chennai Central Weekly SF Express,SHM,MAS
+22826,Shalimar Weekly SF Express,MAS,SHM
+22827,Surat Weekly SF Express,PURI,ST
+22828,Puri Weekly SF Express,ST,PURI
+22829,Shalimar SF Express,BHUJ,SHM
+22830,Bhuj SF Express,SHM,BHUJ
+22831,Yesvantpur Superfast Express,HWH,YPR
+22832,Howrah Superfast Express,YPR,HWH
+22833,Bhubaneswar - SMVT Bengaluru Humsafar Express,BBS,SMVB
+22834,SMVT Bengaluru - Bhubaneswar Humsafar Express,SMVB,BBS
+22835,Puri Weekly SF Express,SHM,PURI
+22836,Shalimar Weekly SF Express,PURI,SHM
+22837,Dharti Aaba AC SF Express,HTE,ERS
+22838,Dharti Aaba AC SF Express,ERS,HTE
+22839,Bhubaneswar Intercity SF Express,ROU,BBS
+22840,Rourkela Intercity SF Express,BBS,ROU
+22843,Buxar SF Express,BSP,BXR
+22844,Bilaspur SF Express,BXR,BSP
+22845,Pune - Hatia SF Express,PUNE,HTE
+22846,Hatia - Pune SF Express,HTE,PUNE
+22847,Mumbai LTT SF Express,VSKP,LTT
+22848,Visakhapatnam SF Express,LTT,VSKP
+22849,Secunderabad Weekly SF Express,SHM,SC
+22850,Shalimar Weekly SF Express,SC,SHM
+22851,Mangaluru Central Vivek Express,SRC,MAQ
+22852,Santragachi Vivek Express,MAQ,SRC
+22853,Visakhapatnam SF Express,SHM,VSKP
+22854,Shalimar SF Express,VSKP,SHM
+22855,Tirupati Weekly SF Express,SRC,TPTY
+22856,Santragachi Weekly SF Express,TPTY,SRC
+22857,Anand Vihar Terminal Weekly SF Express,SRC,ANVT
+22858,Santragachi Weekly SF Express,ANVT,SRC
+22859,MGR Chennai Central SF Express,PURI,MAS
+22860,Puri SF Express,MAS,PURI
+22861,Kantabanji Ispat Express,HWH,KBJ
+22862,Howrah Ispat Express,KBJ,HWH
+22863,SMVT Bengaluru AC SF Express,HWH,SMVB
+22864,SMVT Bengaluru - Howrah AC SF Express,SMVB,HWH
+22865,Puri SF Express,LTT,PURI
+22866,Mumbai Ltt SF Express,PURI,LTT
+22867,Durg - Hazrat Nizamuddin Humsafar Express,DURG,NZM
+22868,Hazrat Nizamuddin - Durg Humsafar Express,NZM,DURG
+22869,MGR Chennai Central Weekly SF Express,VSKP,MAS
+22870,Visakhapatnam Weekly SF Express,MAS,VSKP
+22871,Tirupati Weekly SF Express,BBS,TPTY
+22872,Bhubaneswar SF Express,TPTY,BBS
+22873,Vishakapatnam SF Express,DGHA,VSKP
+22874,Digha SF Express,VSKP,DGHA
+22875,Guntur Uday Express,VSKP,GNT
+22876,Visakhapatnam Uday Express,GNT,VSKP
+22879,Tirupati SF Express,BBS,TPTY
+22880,Bhubaneswar SF Express,TPTY,BBS
+22881,Bhubaneswar Superfast Express,PUNE,BBS
+22882,Pune SF Express,BBS,PUNE
+22883,Puri - Yesvantpur Garib Rath Express,PURI,YPR
+22884,Yesvantpur - Puri Garib Rath Express,YPR,PURI
+22887,Howrah - SMVT Bengaluru Humsafar Express,HWH,SMVB
+22888,SMVT Bengaluru - Howrah Humsafar Express,SMVB,HWH
+22889,Samudra Kanya Express,DGHA,PURI
+22890,Samudra Kanya Express,PURI,DGHA
+22891,Ranchi Intercity SF Express,HWH,RNC
+22892,Howrah Intercity SF Express,RNC,HWH
+22893,Howrah SF Express,SNSI,HWH
+22894,Sainagar Shirdi SF Express,HWH,SNSI
+22895,Howrah - Puri Vande Bharat Express,HWH,PURI
+22896,Puri - Howrah Vande Bharat Express,PURI,HWH
+22897,Kandari Express,HWH,DGHA
+22898,Kandari Express,DGHA,HWH
+22901,Udaipur City SF Express,BDTS,UDZ
+22902,Bandra Terminus SF Express,UDZ,BDTS
+22903,Bhuj AC SF Express,BDTS,BHUJ
+22904,Bandra Terminus AC SF Express,BHUJ,BDTS
+22905,Shalimar Weekly SF Express,OKHA,SHM
+22906,Okha Weekly SF Express,SHM,OKHA
+22907,Hapa Weekly SF Express,MAO,HAPA
+22908,Madgaon Weekly SF Express,HAPA,MAO
+22909,Puri Weekly SF Express,BL,PURI
+22910,Valsad Weekly SF Express,PURI,BL
+22911,Shipra Express,INDB,HWH
+22912,Shipra Express,HWH,INDB
+22913,Bandra Terminus - Saharsa Humsafar Express,BDTS,SHC
+22914,Saharsa - Bandra Terminus Humsafar Express,SHC,BDTS
+22915,Hisar SF Express,BDTS,HSR
+22916,Bandra Terminus SF Express,HSR,BDTS
+22917,Haridwar SF Express,BDTS,HW
+22918,Bandra Terminus SF Express,HW,BDTS
+22919,Chennai Central - Ahmedabad Humsafar Express,MAS,ADI
+22920,Ahmedabad - Chennai Central Humsafar Express,ADI,MAS
+22923,Bandra Terminus - Jamnagar Humsafar Express,BDTS,JAM
+22924,Jamnagar - Bandra Terminus Humsafar Express,JAM,BDTS
+22925,Sabarmati - Okha Vande Bharat Express,SBT,OKHA
+22926,Okha - Sabarmati Vande Bharat Express,OKHA,SBT
+22927,Vadnagar LOKSHAKTI EXP,BDTS,VDG
+22928,Bandra Terminus LOKSHAKTI EXP,VDG,BDTS
+22929,Vadodara SF Express,DRD,BRC
+22930,Dahanu Road SF Express,BRC,DRD
+22931,Jaisalmer SF Express,BDTS,JSM
+22932,Bandra Terminus SF Express,JSM,BDTS
+22933,Jaipur Weekly SF Express,BDTS,JP
+22934,Bandra Terminus Weekly SF Express,JP,BDTS
+22935,Palitana Weekly SF Express,BDTS,PIT
+22936,Bandra Terminus Weekly SF Express,PIT,BDTS
+22937,Rajkot - Rewa SF Express,RJT,REWA
+22938,Rewa - Rajkot SF Express,REWA,RJT
+22939,Bilaspur SF Express,OKHA,BSP
+22940,Okha SF Express,BSP,OKHA
+22941,MCTM Udhampur Weekly SF Express,INDB,MCTM
+22942,Indore Weekly SF Express,MCTM,INDB
+22943,Daund - Indore SF Express,DD,INDB
+22944,Indore - Daund SF Express,INDB,DD
+22945,Saurashtra Mail,MMCT,OKHA
+22946,Saurashtra Mail,OKHA,MMCT
+22947,Bhagalpur ST BGP SFAST,ST,BGP
+22948,Surat SF Express,BGP,ST
+22949,Delhi Sarai Rohilla SF Express,BDTS,DEE
+22950,Bandra Terminus SF Express,DEE,BDTS
+22951,Gandhidham Weekly SF Express,BDTS,GIMB
+22952,Bandra Terminus Weekly SF Express,GIMB,BDTS
+22953,Gujarat SF Express,MMCT,ADI
+22954,Gujarat SF Express,ADI,MMCT
+22955,Kutch SF Express,BDTS,BHUJ
+22956,Kutch SF Express,BHUJ,BDTS
+22957,Somnath SF Express,GNC,VRL
+22958,Somnath SF Express,VRL,GNC
+22959,Jamnagar INTERCITY EXP,BRC,JAM
+22960,Vadodara Jn. INTERCITY EXP,JAM,BRC
+22961,Mumbai Central - Ahmedabad Vande Bharat Express,MMCT,ADI
+22962,Ahmedabad - Mumbai Central Vande Bharat Express,ADI,MMCT
+22963,Bhavnagar Terminus Weekly SF Express,BDTS,BVC
+22964,Bandra Terminus Weekly SF Express,BVC,BDTS
+22965,Bhagat Ki Kothi SF Express,BDTS,BGKT
+22966,Bandra Terminus SF Express,BGKT,BDTS
+22967,Prayagraj Weekly SF Express,ADI,PRYJ
+22968,Ahmedabad Weekly SF Express,PRYJ,ADI
+22969,Okha - Banaras SF Express,OKHA,BNRS
+22970,Banaras - Okha SF Express,BNRS,OKHA
+22971,Patna Weekly SF Express,BDTS,PNBE
+22972,Bandra Terminus SF Express,PNBE,BDTS
+22973,Puri Weekly SF Express,GIMB,PURI
+22974,Gandhidham Weekly SF Express,PURI,GIMB
+22975,Ramnagar SF Express,BDTS,RMR
+22976,Bandra Terminus SF Express,RMR,BDTS
+22977,Jodhpur Intercity SF Express,JP,JU
+22978,Jaipur Intercity SF Express,JU,JP
+22979,Hisar - Khadki SF Express,HSR,KK
+22980,Khadki - Hisar SF Express,KK,HSR
+22981,Shri Ganganagar SF Express,KOTA,SGNR
+22982,Kota SF Express,SGNR,KOTA
+22983,Indore Intercity SF Express,KOTA,INDB
+22984,Kota InterCity SF Express,INDB,KOTA
+22985,Udaipur City - Delhi-Sarai Rohilla Rajdhani Express,UDZ,DEE
+22986,Delhi-Sarai Rohilla - Udaipur City Rajdhani Express,DEE,UDZ
+22987,Agra Fort SF Express,AII,AF
+22988,Ajmer SF Express,AF,AII
+22989,Mahuva SF Express,BDTS,MHV
+22990,Bandra Terminus SF Express,MHV,BDTS
+22991,Bhagat Ki Kothi SF Express,BL,BGKT
+22992,Valsad SF Express,BGKT,BL
+22997,Shri Ganganagar SF Express,JLWC,SGNR
+22998,Jhalawar City SF Express,SGNR,JLWC
+24203,Lucknow Intercity SF Express,BSB,LKO
+24204,Varanasi Intercity SF Express,LKO,BSB
+25014,Moradabad Jn. CORBET PRK LINK,RMR,MB
+25036,Delhi Jn. RMR DLI LINK EX,RMR,MB
+26101,Pune - Ajni Vande Bharat Express,PUNE,AJNI
+26102,Ajni - Pune Vande Bharat Express,AJNI,PUNE
+26301,Jogbani - Danapur Vande Bharat Express,JBN,DNR
+26302,Danapur - Jogbani Vande Bharat Express,DNR,JBN
+26401,Jammu Tawi - Srinagar Vande Bharat Express,JAT,SINA
+26402,Srinagar - Jammu Tawi Vande Bharat Express,SINA,JAT
+26403,Jammu Tawi - Srinagar Vande Bharat Express,JAT,SINA
+26404,Srinagar - Jammu Tawi Vande Bharat Express,SINA,JAT
+26405,Amritsar - SMVD Katra Vande Bharat Express,ASR,SVDK
+26406,SMVD Katra - Amritsar Vande Bharat Express,SVDK,ASR
+26461,Delhi - Firozpur Cantt Vande Bharat Express,DLI,FZR
+26462,Firozpur Cantt - Delhi Vande Bharat Express,FZR,DLI
+26471,Bikaner - Delhi Cantt Vande Bharat Express,BKN,DEC
+26472,Delhi Cantt - Bikaner Vande Bharat Express,DEC,BKN
+26481,Jodhpur - Delhi Cantt Vande Bharat Express,JU,DEC
+26482,Delhi Cantt - Jodhpur Vande Bharat Express,DEC,JU
+26501,Patliputra - Gorakhpur Vande Bharat Express,PPTA,GKP
+26502,Gorakhpur - Patliputra Vande Bharat Express,GKP,PPTA
+26503,Saharanpur - Gomti Nagar Vande Bharat Express,SRE,GTNR
+26504,Gomti Nagar - Saharanpur Vande Bharat Express,GTNR,SRE
+26505,Khajauraho - Banaras Vande Bharat Express,KURJ,BNRS
+26506,Banaras - Khajauraho Vande Bharat Express,BNRS,KURJ
+26651,KSR Bengaluru - Ernakulam Vande Bharat Express,SBC,ERS
+26652,Ernakulam - KSR Bengaluru Vande Bharat Express,ERS,SBC
+26751,Belagavi - KSR Bengaluru Vande Bharat Express,BGM,SBC
+26752,KSR Bengaluru - Belagavi Vande Bharat Express,SBC,BGM
+26901,Sabarmati BG - Veraval Vande Bharat Express,SBIB,VRL
+26902,Veraval - Sabarmati BG Vande Bharat Express,VRL,SBIB
+26963,Udaipur City - Asarva Vande Bharat Express,UDZ,ASV
+26964,Asarva - Udaipur City Vande Bharat Express,ASV,UDZ
+27575,Howrah - Kamakhya Vande Bharat Express,HWH,KYQ
+27576,Kamakhya - Howrah Vande Bharat Express,KYQ,HWH
+28181,Katihar Express,TATA,KIR
+28182,Tatanagar Express,KIR,TATA
+50107,Madgaon Express,SWV,MAO
+50108,Sawantwadi Road Express,MAO,SWV
+52001,Bilimora - Waghai NG Mix Passenger,BIM,WGI
+52002,Waghai - Bilimora NG Mix Passenger,WGI,BIM
+52003,Bilimora - Waghai NG Mix Passenger,BIM,WGI
+52004,Waghai - Bilimora NG Mix Passenger,WGI,BIM
+52259,Bichia - Mailani Tourist Passenger,BIC,MLN
+52260,Mailani - Bichia Tourist Passenger,MLN,BIC
+52451,Shivalik Deluxe Express,KLK,SML
+52452,Shivalik Deluxe Express,SML,KLK
+52453,Kalka - Shimla Express,KLK,SML
+52454,Shimla - Kalka Express,SML,KLK
+52455,Himalayan Queen,KLK,SML
+52456,Himalayan Queen,SML,KLK
+52457,Kalka - Shimla Express,KLK,SML
+52458,Shimla - Kalka Express,SML,KLK
+52459,Him Darshan Express,KLK,SML
+52460,Him Darshan Express,SML,KLK
+52538,Darjeeling - New Jalpaiguri AC Passenger,DJ,NJP
+52539,New Jalpaiguri - Darjeeling AC Passenger,NJP,DJ
+52540,Darjeeling - New Jalpaiguri Passenger,DJ,NJP
+52541,New Jalpaiguri - Darjeeling Passenger,NJP,DJ
+52544,Darjeeling STMJOYRIDEVISTA,DJ,DJ
+52545,Tindharia JUNGLE SAFARI,SGUJ,TDH
+52546,Siliguri Jn. JUNGLE SAFARI,TDH,SGUJ
+52590,Darjeeling DIESEL JOYRIDE,DJ,DJ
+52591,Darjeeling DIESEL JOYRIDE,DJ,DJ
+52592,Darjeeling DIESEL JOYRIDE,DJ,DJ
+52594,Darjeeling STEAM JOYRIDE,DJ,DJ
+52596,Darjeeling STEAM JOYRIDE,DJ,DJ
+52597,Darjeeling DIESEL JOYRIDE,DJ,DJ
+52598,Darjeeling STMJOYRIDEVISTA,DJ,DJ
+52599,Darjeeling DIESEL JOYRIDE,DJ,DJ
+52965,Kalakund Heritage Train,PTP,KKD
+52966,Patalpani Heritage Train,KKD,PTP
+53047,Viswabharati Fast Passenger,HWH,RPH
+53048,Viswabharati Fast Passenger,RPH,HWH
+53172,Lalgola - Sealdah Passenger,LGL,SDAH
+53175,Sealdah - Lalgola Passenger,SDAH,LGL
+53178,Lalgola - Sealdah Passenger,LGL,SDAH
+53181,Sealdah - Lalgola Passenger,SDAH,LGL
+55675,Agartala - Dharmanagar Passenger,AGTL,DMR
+55676,Dharmanagar - Agartala Passenger,DMR,AGTL
+56136,Mettupalayam - Udagamandalam MG Passenger,MTP,UAM
+56137,Udagamandalam - Mettupalayam MG Passenger,UAM,MTP
+56138,Coonoor - Udagamandalam MG Passenger,ONR,UAM
+56139,Udagamandalam - Coonoor MG Passenger,UAM,ONR
+56140,Udagamandalam - Coonoor MG Passenger,UAM,ONR
+56141,Coonoor - Udagamandalam MG Passenger,ONR,UAM
+56142,Udagamandalam - Coonoor MG Passenger,UAM,ONR
+56143,Coonoor - Udagamandalam MG Passenger,ONR,UAM
+56519,KSR Bengaluru - Hosapete Passenger,SBC,HPT
+56520,Hosapete - KSR Bengaluru Passenger,HPT,SBC
+56903,Solapur - Dharwad Passenger,SUR,DWR
+56904,Dharwad - Solapur Passenger,DWR,SUR
+57401,Tirupati - Hubballi Intercity Passenger,TPTY,UBL
+57402,Hubballi - Tirupati Intercity Passenger,UBL,TPTY
+57405,Tirupati - Kadiridevarapalli Passenger,TPTY,KRYP
+57406,Kadiridevarapalli - Tirupati Passenger,KRYP,TPTY
+58025,Santragachi - Digha Fast Passenger,SRC,DGHA
+58026,Digha - Santragachi Fast Passenger,DGHA,SRC
+58029,Santragachi - Digha Fast Passenger,SRC,DGHA
+58030,Digha - Santragachi Fast Passenger,DGHA,SRC
+58501,Visakhapatnam - Kirandul Passenger,VSKP,KRDL
+58502,Kirandul - Visakhapatnam Passenger,KRDL,VSKP
+58505,Gunupur - Vishakapatnam Passenger,GNPR,VSKP
+58506,Visakhapatnam - Gunupur Passenger,VSKP,GNPR
+59076,Bhusaval - Nandurbar Passenger,BSL,NDB
+82501,New Delhi IRCTC Tejas Express,LJN,NDLS
+82502,Lucknow Jn. IRCTC Tejas Express,NDLS,LJN
+82901,Ahmedabad IRCTC Tejas Express,MMCT,ADI
+82902,Mumbai Central IRCTC Tejas Express,ADI,MMCT
+06126,Chennai Egmore Special Fare Special,MAQ,MS
+02199,Bandra Terminus Special Fare SF Special,VGLJ,BDTS
+05557,Raxaul - Mumbai LTT Summer Special,RXL,LTT
+02198,Coimbatore Special Fare SF Special,JBP,CBE
+06176,Coonoor UAM ONR SPECIAL,UAM,ONR
+08508,Visakhapatnam - Shalimar Special,VSKP,SHM
+09344,Dr. Ambedkar Nagar Special Fare Special,PNBE,DADN
+05506,Purnia Court Special Fare Summer Special,SHC,PRNC
+07075,Gorakhpur Special Fare Special,HYB,GKP
+07098,Hyderabad Special Fare Special,MAQ,HYB
+09610,Yog Nagari Rishikesh - Udaipur City Special,YNRK,UDZ
+09029,Ratnagiri - Valsad Special,RN,BL
+05579,Anand Vihar Terminal Special Fare Summer Special,PRNC,ANVT
+01004,Mumbai LTT Special Fare Ganpati Special,MAO,LTT
+05580,Purnia Court Special Fare Summer Special,ANVT,PRNC
+09079,Mumbai Central - Indore Special,MMCT,INDB
+09525,Naharlagun Special Fare Special,HAPA,NHLN
+04151,Mumbai LTT Special Fare SF Special,CNB,LTT
+04132,SMVB CNB SPL,,
+04174,Prayagraj Special Fare Special,VRL,PRYJ
+08509,Visakhapatnam Special Fare Special,TPTY,VSKP
+07092,Charlapalli Special Fare Special,DNR,CHZ
+09059,Velankanni Special Fare Festival Special,BDTS,VLNK
+05343,Sabarmati BG - Lalkua Special,SBIB,LKU
+06115,Velankanni Special Fare Special,TVCN,VLNK
+07440,MTM TCNR SPL,,
+06185,Udagamandalam ONR UAM SPECIAL,ONR,UAM
+00962,Valley Queen Heritage Special,KBK,MJ
+06094,Thiruvananthapuram North Special Fare SF Special,MAJN,TVC
+04139,Dadar Western Special Fare Special,PRYJ,DDR
+09032,Hasanpur Road - Udhna Special,HPO,UDN
+03215,Patliputra Special Fare Special,PRNC,PPTA
+09065,Surat - Chhapra Special,ST,CPR
+04687,SMVD Katra - Badgam Special,SVDK,BDGM
+01705,Jabalpur - Ayodhya Dham Special,JBP,AY
+02275,New Delhi Special Fare Special,SFG,SSB
+07342,Chikkamagaluru - Hubballi Special,CMGR,UBL
+09046,Udhna Special Fare Summer Special,MBI,UDN
+02276,Subedarganj Special Fare Special,SSB,SFG
+07193,Kollam Special Fare Special,HYB,QLN
+07362,Vasco Da Gama Special Fare Special,VLNK,VSG
+06555,Thiruvananthapuram North Special Fare Special,SMVB,TVCN
+02024,Howrah Special Fare SF Special,PNBE,HWH
+04155,Udhna Special Fare Special,SFG,UDN
+06230,Cannanore - Bengaluru Cantt Special,CAN,BNC
+05932,Kolkata Special Fare Special,DBRG,KOAA
+04125,Bandra Terminus Special Fare SF Summer Special,SFG,BDTS
+06046,Kanniyakumari - Chennai Egmore Summer Special,CAPE,MS
+04451,Hazrat Nizamuddin - Beas Special,NZM,BEAS
+09309,Hazrat Nizamuddin Special Fare SF Special,INDB,NZM
+04175,Dadar Western Special Fare Special,SFG,DDR
+09023,BDTS PIT SF SPL,,
+04185,VGL Jhansi - Asansol Special,VGLJ,ASN
+01007,Mumbai CSMT - Madgaon Ganpati Special,CSMT,MAO
+06017,Tambaram - Tuticorin Summer Special,TBM,TN
+09112,Gorakhpur - Vadodara Special,GKP,BRC
+06148,Ernakulam Jn. Special Fare Onam Special,SMVB,ERS
+03399,DNR BSL SPL,,
+04688,Badgam - SMVD Katra Special,BDGM,SVDK
+09124,Vishvamitri - Ratnagiri Ganpati Special,VS,RN
+09014,Thokur - Mumbai Central Special,TOK,MMCT
+04452,Beas - Hazrat Nizamuddin Special,BEAS,NZM
+02457,Anand Vihar Terminal Special Fare SF Special,CNB,ANVT
+04120,Subedarganj Special Fare Special,BL,SFG
+05598,Jaynagar Special Fare Shravani Mela Special,ASN,JYG
+01132,Sawantwadi Road - Mumbai LTT Special,SWV,LTT
+07197,Charlapalli - Kottayam Special,CHZ,KTYM
+01449,Danapur Special Fare Special,PUNE,DNR
+04152,Kanpur Central Special Fare SF Special,LTT,CNB
+01153,Mumbai CSMT - Ratnagiri Ganpati Special,CSMT,RN
+04170,Subedarganj Special Fare Summer Special,INDB,SFG
+09018,Bandra Terminus Special Fare Summer Special,VRL,BDTS
+04156,Subedarganj Special Fare Special,UDN,SFG
+02158,Hazrat Nizamuddin - Rani Kamlapati Special,NZM,RKMP
+01906,Asarva - Kanpur Central Special,ASV,CNB
+05544,Raxaul Special Fare Summer Special,NKE,RXL
+01706,Ayodhya Dham - Jabalpur Special,AY,JBP
+08611,Ajmer Special Fare Special,SRC,AII
+04114,Prayagraj Special Fare Special,UBL,PRYJ
+01666,Rani Kamalapati Special Fare Special,AGTL,RKMP
+04811,Haridwar Special Fare Special,BME,HW
+05057,GKP DLI SPL,,
+04161,Sikar Special Fare Special,PRYJ,SIKR
+09419,Tiruchchirappalli Special Fare Special,ADI,TPJ
+03639,Shakur Basti Special Fare Special,DHN,SSB
+07047,Secunderabad Special Fare AC Special,NHLN,SC
+04812,Barmer Special Fare Special,HW,BME
+01930,VGL Jhansi Special Fare Special,KUR,VGLJ
+09452,Gandhidham Special Fare Special,BGP,GIMB
+02418,Prayagraj Special Fare Special,DER,PRYJ
+06186,Coonoor UAM ONR SPECIAL,UAM,ONR
+09010,Bandra Terminus Special Fare SF Special,BHUJ,BDTS
+02811,Yesvantpur Special Fare AC Special,BBS,YPR
+05183,Bandra Terminus Special Fare SF Special,AMH,BDTS
+07195,Kollam Special Fare Onam Special,CHZ,QLN
+01912,Agra Cantt. Special Fare Special,KOAA,AGC
+09113,Ratnagiri - Vadodara Ganpati Special,RN,BRC
+09324,Indore - Khadki Special,INDB,KK
+05046,Lalkuan Special Fare Special,RJT,LKU
+07361,Velankanni Special Fare Special,VSG,VLNK
+09208,Bandra Terminus Special Fare Special,BVC,BDTS
+02549,Darjeeling - Darjeeling Special,DJ,DJ
+06116,Thiruvananthapuram North Special Fare Special,VLNK,TVCN
+04446,Delhi - Varanasi Special,DLI,BSB
+04615,PNBE FZR SPL,,
+04071,New Delhi Special Fare Special,SOU,NDLS
+03230,Khurda Road Special Fare Special,PNBE,KUR
+04173,Veraval Special Fare Special,PRYJ,VRL
+04010,DLI SMI  SPL,,
+09803,Kota - Hazrat Nizamuddin Special,KOTA,NZM
+09601,Patna Special Fare Summer Special,MDJN,PNBE
+06060,Bodinayakkanur - Tambaram Special,BDNK,TBM
+04160,Prayagraj Special Fare Special,VSKP,PRYJ
+05931,Dibrugarh Special Fare Special,KOAA,DBRG
+01448,Ratnagiri - Pune Ganpati Special,RN,PUNE
+01447,Pune - Ratnagiri Ganpati Special,PUNE,RN
+04717,Hisar - Tirupati Special,HSR,TPTY
+01903,VGL Jhansi - Hazrat Nizamuddin Special,VGLJ,NZM
+01908,Udhna - Agra Cantt Special,UDN,AGC
+04123,Hazrat Nizamuddin Special Fare Special,PRYJ,NZM
+02180,Rewa - Bhopal Special,REWA,BPL
+05576,Saharsa Special Fare Summer Special,ANVT,SHC
+05545,Raxaul - Deoghar Special,RXL,DGHR
+04007,JBN ANVT SPECIAL,,
+08047,Naharlagun Special Fare Special,SRC,NHLN
+02456,Kanpur Central Special Fare SF Special,NDLS,CNB
+09017,Bandra Terminus - Veraval Special,BDTS,VRL
+01172,Sawantwadi Road - Mumbai LTT Ganpati Special,SWV,LTT
+05597,Jaynagar - Asansol Shravani Mela Special,JYG,ASN
+05543,Narkatiaganj Special Fare Summer Special,RXL,NKE
+07196,Charlapalli Special Fare Onam Special,QLN,CHZ
+07219,Shivamogga Town - Guntakal Special,SMET,GTL
+04704,Shri Ganganagar - Hanumangarh Passenger Special,KK,HSR
+02157,RKMP NZM EXP SPL,,
+09045,Madhubani Special Fare Summer Special,UDN,MBI
+02878,Ranchi Special Fare Special,ANVT,RNC
+07425,Srikakulam Road Special Fare Summer Special,SC,CHE
+09120,Pratapnagar Special Fare SF Special,LKU,PRTN
+07366,Velankanni - Vasco-da-Gama Special,VLNK,VSG
+05558,Raxaul Special Fare SF Summer Special,LTT,RXL
+02179,Bhopal - Rewa Special,BPL,REWA
+03029,Natesar Special Fare Special,HWH,NES
+01907,Agra Cantt - Udhna Special,AGC,UDN
+05575,SHC ANVT SPL,,
+01003,Madgaon Special Fare Ganpati Special,LTT,MAO
+06037,Velankanni Special Fare Special,TBM,VLNK
+01027,Dadar - Gorakhpur Special,DR,GKP
+09022,Udhna - Ratnagiri Ganpati Special,UDN,RN
+04559,Haridwar - Bathinda Special,HW,BTI
+04218,Anand Vihar Terminal - Varanasi Special,ANVT,BSB
+04136,Yesvantpur - Subedarganj Special,YPR,SFG
+06062,Ernakulam Jn. Special Fare Special,VLNK,ERS
+03002,Howrah Special Fare Shravani Mela Special,NES,HWH
+06045,Chennai Egmore - Kanniyakumari Summer Special,MS,CAPE
+09602,Madar Special Fare Summer Special,PNBE,MDJN
+04162,Sikar - Prayagraj Special,SIKR,PRYJ
+00961,Valley Queen Heritage Special,MJ,KBK
+09185,Kanpur Anwarganj Special Fare SF Special,MMCT,CPA
+09085,Indore Special Fare AC Superfast Special,MMCT,INDB
+08045,Charlapalli Special Fare SF Special,SHM,CHZ
+04209,BSB DLI SPL,,
+09410,Ahmedabad Steam Heritage Special,EKNR,ADI
+02563,New Delhi Special Fare Clone Special,BJU,NDLS
+06029,Tirunelveli Special Fare Special,MTP,TEN
+04616,FZR PNBE SPL,,
+04214,Anand Vihar Terminal - Ayodhya Cantt Special,ANVT,AYC
+01130,Sawantwadi Road - Mumbai LTT Ganpati Special,SWV,LTT
+06199,Coonoor - Udagamandalam MG Passenger Special,ONR,UAM
+04157,Kanpur Central - Kolkata Special,CNB,KOAA
+09524,Shakur Basti - Okha Special,SSB,OKHA
+08046,Shalimar Special Fare Special,CHZ,SHM
+09196,Pratapnagar Special Fare SF Special,MAU,PRTN
+02564,Barauni Special Fare Clone Special,NDLS,BJU
+07604,Tiruchanur - Nanded Special,TCNR,NED
+01028,GKP DR SPL,,
+01905,Asarva Special Fare Special,CNB,ASV
+09066,Surat Special Fare Special,CPR,ST
+09183,Banaras Special Fare AC Special,MMCT,BNRS
+01446,Ratnagiri - Pune Ganpati Special,RN,PUNE
+03255,Patna Special Fare Summer Special,CHZ,PNBE
+02540,Kurseong Special,DJ,KGN
+09409,Ekta Nagar Steam Heritage Special,ADI,EKNR
+01151,Mumbai CSMT - Sawantwadi Road Ganpati Special,CSMT,SWV
+03030,Howrah Special Fare Special,NES,HWH
+09310,Indore Special Fare SF Special,NZM,INDB
+08311,Ernakulam Jn. Special Fare Special,SBP,ERS
+04127,Guwahati Special Fare Summer Special,CNB,GHY
+05193,Pathankot Special Fare Special,CPR,PTK
+09049,Bhusaval Special Fare Special,DDR,BSL
+09186,Mumbai Central Special Fare SF Special,CPA,MMCT
+06125,Chennai Egmore - Mangalore Central Special,MS,MAQ
+04560,Bathinda - Haridwar Special,BTI,HW
+05096,Mau - Kolkata Special,MAU,KOAA
+07341,Hubballi - Chikkamagaluru Special,UBL,CMGR
+01186,Madgaon - Mumbai LTT Ganpati Special,MAO,LTT
+01665,Agartala Special Fare Special,RKMP,AGTL
+09109,Ratnagiri - Vishvamitri Ganpati Special,RN,VS
+09424,Mangaluru Jn Special Fare Special,ADI,MAJN
+09323,Indore Special Fare Special,KK,INDB
+06070,Tambaram Special Fare Special,TEN,TBM
+09050,Dadar Western Special Fare Special,BSL,DDR
+06093,Thiruvananthapuram North - Mangaluru Special,TVCN,MAJN
+01161,Velankanni Festival Special Fare Special,LTT,VLNK
+09025,Danapur Special Fare Special,BL,DNR
+09021,Ratnagiri - Udhna Ganpati Special,RN,UDN
+04090,New Delhi - Danapur Special,NDLS,DNR
+01167,Mumbai LTT - Ratnagiri Ganpati Special,LTT,RN
+09119,Lal Kuan Special Fare SF Special,PRTN,LKU
+05062,Achhnera Special Fare Special,TPU,AH
+02546,GHUM DJ JOYRIDE,,
+08645,Ranchi Special Fare Shravani Mela Special,BGP,RNC
+02398,ANVT GAYA SPL,,
+06038,Velankanni - Tambaram Special,VLNK,TBM
+04133,SMVT Bengaluru Special Fare Special,CNB,SMVB
+07194,Hyderabad Special Fare Special,QLN,HYB
+04113,SSS Hubballi Special Fare Special,PRYJ,UBL
+04138,Gwalior Special Fare Special,BJU,GWL
+04565,Saharanpur - Beas Special,SRE,BEAS
+02415,Subedarganj - New Delhi Special,SFG,NDLS
+04150,Prayagraj Special Fare Special,YPR,PRYJ
+01922,VGL Jhansi - Hadapsar Special,VGLJ,HDP
+09207,Bhavnagar Terminus Special Fare Special,BDTS,BVC
+04186,VGL Jhansi Special Fare Special,ASN,VGLJ
+04566,Beas - Saharanpur Special,BEAS,SRE
+02877,Anand Vihar Terminal Special Fare Special,RNC,ANVT
+07354,Kottayam - Hubballi Special,KTYM,UBL
+08896,Madhupur - NSCB Itwari Special,MDP,NITR
+09822,Sogaria Special Fare Special,DHN,SGAC
+06182,Coimbatore Special Fare AC Special,JP,CBE
+04089,Danapur - New Delhi Special,DNR,NDLS
+09190,Katihar - Mumbai Central Special,KIR,MMCT
+01104,Sawantwadi Road - Mumbai CSMT Ganpati Special,SWV,CSMT
+04445,Varanasi - Delhi Special,BSB,DLI
+08510,Tirupati Special Fare Special,VSKP,TPTY
+01024,Pune Special Fare Special,KOP,PUNE
+09609,Udaipur City - Yog Nagari Rishikesh Special,UDZ,YNRK
+09203,Veraval - Haridwar Special,VRL,HW
+01185,Mumbai LTT - Madgaon Ganpati Special,LTT,MAO
+05095,Mau Special Fare Special,KOAA,MAU
+03229,Patna Special Fare Special,KUR,PNBE
+07128,Velankanni - Charlapalli Special,VLNK,CHZ
+04177,Subedarganj - Valsad Special,SFG,BL
+04159,Visakhapatnam Special Fare Special,PRYJ,VSKP
+02545,DJ GHUM JOYRIDE,,
+04178,Valsad - Subedarganj Special,BL,SFG
+01154,Ratnagiri - Mumbai CSMT Ganpati Special,RN,CSMT
+01162,Mumbai LTT Festival Special Fare Special,VLNK,LTT
+09024,PIT BDTS SF SPL,,
+01008,Madgaon - Mumbai CSMT Ganpati Special,MAO,CSMT
+06566,SMVT Bengaluru Special Fare Special,MLDT,SMVB
+06109,Thiruvananthapuram Special Fare Special,TBM,TVC
+06019,Tuticorin - Narasapur Special,TN,NS
+06578,Yesvantpur Special Fare Special,BJP,YPR
+09451,Bhagalpur Special Fare Special,GIMB,BGP
+01436,Mumbai LTT - Solapur Special,LTT,SUR
+06069,Tirunelveli Special Fare Special,TBM,TEN
+07313,Kollam Special Fare Special,UBL,QLN
+04028,MFP SUMMER SPL,,
+01445,Pune - Ratnagiri Ganpati Special,PUNE,RN
+05220,ANVT MFP SPL,,
+03297,Islampur Special Fare Shravani Mela Special,PNBE,IPR
+04008,ANVT JBN SPL,,
+01929,Khurda Road Special Fare Special,VGLJ,KUR
+09030,Valsad - Ratnagiri Special,BL,RN
+09033,Malda Town Special Fare Special,UDN,MLDT
+06510,KSR Bengaluru Special Fare Clone Special,DNR,SBC
+05219,MFP ANVT  SPL,,
+09087,Mumbai Central - Ahmedabad AC SF Express,MMCT,ADI
+06172,Mettupalayam UAM MTP SPECIAL,UAM,MTP
+02541,Darjeeling Special,KGN,DJ
+07814,Tirupati Special Fare Summer Special,J,TPTY
+09612,Ajmer Special Fare Special,YNRK,AII
+06181,Jaipur Special Fare AC Special,CBE,JP
+08582,Visakhapatnam Special Fare Summer Special,SMVB,VSKP
+06110,Trivandrum Central - Tambaram Special,TVC,TBM
+06171,Udagamandalam MTP UAM SPECIAL,MTP,UAM
+09009,Bandra Terminus - Bhuj Special,BDTS,BHUJ
+09465,Darbhanga Special Fare Special,ADI,DBG
+08312,Sambalpur Special Fare Special,ERS,SBP
+08507,Shalimar - Visakhapatnam Summer Special,SHM,VSKP
+09060,Bandra Terminus Special Fare Festival Special,VLNK,BDTS
+05505,Saharsa Special Fare Summer Special,PRNC,SHC
+02812,Bhubaneswar Special Fare AC Special,YPR,BBS
+09426,Haridwar - Sabarmati BG Special,HW,SBIB
+02458,Kanpur Central Special Fare SF Special,ANVT,CNB
+05548,Narkatiaganj Special Fare Shravani Mela Special,RXL,NKE
+09423,Ahmedabad Special Fare Special,MAJN,ADI
+05184,Azamgarh Special Fare Special,BDTS,AMH
+07091,Danapur Special Fare Special,CHZ,DNR
+07314,SSS Hubballi Special Fare Special,QLN,UBL
+01140,Madgaon - Nagpur Special,MAO,NGP
+01913,Khajauraho - Hazrat Nizamuddin Special,KURJ,NZM
+09420,Ahmedabad Special Fare Special,TPJ,ADI
+04135,Subedarganj - Yesvantpur Special,SFG,YPR
+05735,Katihar Special Fare Special,ASR,KIR
+07220,Guntakal - Shivamogga Town Special,GTL,SMET
+01139,Madgaon Special Fare Special,NGP,MAO
+04149,Yesvantpur Special Fare Special,PRYJ,YPR
+01910,Asarva Special Fare Special,AGC,ASV
+05073,KSR Bengaluru - Lalkua Special,SBC,LKU
+04014,Laukaha Bazar Special Fare Special,ANVT,LKQ
+09804,Kota Special Fare Rakshabandan Special,NZM,KOTA
+01131,Mumbai LTT - Sawantwadi Road Special,LTT,SWV
+01152,Sawantwadi Road - Mumbai CSMT Ganpati Special,SWV,CSMT
+09061,Valsad - Velankanni Special,BL,VLNK
+01023,SCSMT Kolhapur Special Fare Special,PUNE,KOP
+04140,Prayagraj Special Fare Special,DDR,PRYJ
+09710,Khatipura Special Fare Rakshabandhan Special,HWH,KWP
+07365,Vasco-da-Gama - Velankanni Special,VSG,VLNK
+04126,Bandra Terminus - Subedarganj Summer Special,BDTS,SFG
+06119,Chennai Central - Quilon Special,MAS,QLN
+04217,Varanasi - New Delhi Special,BSB,NDLS
+09019,Mumbai Central - Sawantwadi Road Special,MMCT,SWV
+04210,DLI BSB SPL,,
+06117,Kollam Special Fare Onam Special,MAS,QLN
+02569,New Delhi Special Fare Clone Special,DBG,NDLS
+06118,MGR Chennai Central Special Fare Onam Special,QLN,MAS
+04192,Rewa - Gwalior Special,REWA,GWL
+02547,DJ GHUM JOYRIDE,,
+06547,SMVT Bengaluru - Thiruvananthapuram North Special,SMVB,TVCN
+03254,Patna Special Fare Summer Special,CHZ,PNBE
+09062,Velankanni - Dahanu Road Special,VLNK,DRD
+03253,Charlapalli Special Fare Summer Special,PNBE,CHZ
+06556,SMVT Bengaluru Special Fare Special,TVCN,SMVB
+02023,Patna Special Fare SF Special,HWH,PNBE
+07125,Velankanni Special Fare Festival Special,CHZ,VLNK
+04027,MFP ANVT SPL,,
+08048,Santragachi Special Fare Special,NHLN,SRC
+06082,Thiruvananthapuram North Special Fare AC Special,SRC,TVCN
+02417,Dadri Special Fare Special,PRYJ,DER
+04176,Mumbai (Dadar) - Subedarganj Special,DDR,SFG
+05058,DLI GKP SPL,,
+03235,Sahibganj - Danapur Special,SBG,DNR
+04134,Kanpur Central Special Fare Special,SMVB,CNB
+03251,SMVT Bengaluru Special Fare SF Special,DNR,SMVB
+09048,Udhna Special Fare Summer Special,JJP,UDN
+01103,Mumbai CSMT - Sawantwadi Road Ganpati Special,CSMT,SWV
+09123,Ratnagiri - Vishvamitri Ganpati Special,RN,VS
+04641,Nanded - Amritsar Special,NED,ASR
+09152,Udhna Special Fare Special,MBI,UDN
+07228,Vikarabad - Guntur Special,VKB,GNT
+07026,Tiruchanur - Charlapalli Special,TCNR,CHZ
+01026,BUI DR SPL,,
+04106,Prayagraj Special Fare Special,UDN,PRYJ
+04116,LTT SFG SPECIAL,,
+07097,Hyderabad Deccan - Mangalore Central Special,HYB,MAQ
+09038,Bhuj - Bandra Terminus Special,BHUJ,BDTS
+03299,DNR SUR SPL,,
+01924,Hadapsar Special Fare SF Summer Special,VGLJ,HDP
+09523,Okha - Shakur Basti Special,OKHA,SSB
+09111,Gorakhpur Special Fare Special,BRC,GKP
+03216,Purnia Court Special Fare Special,PPTA,PRNC
+04158,Kolkata - Kanpur Central Summer Special,KOAA,CNB
+01471,PUNE PURI  SPL,,
+04013,Anand Vihar Terminal Special Fare Special,LKQ,ANVT
+06565,SMVT Bengaluru - Malda Town Special,SMVB,MLDT
+05736,Amritsar Special Fare Special,KIR,ASR
+04128,Kanpur Central Special Fare Special,GHY,CNB
+07356,SSS Hubballi Special Fare Special,RMM,UBL
+09026,Danapur - Valsad Special,DNR,BL
+05546,Deoghar - Raxaul Special,DGHR,RXL
+07198,Charlapalli Special Fare Onam Special,KTYM,CHZ
+06028,MGR Chennai Central Special Fare Special,PTJ,MAS
+07126,Charlapalli Special Fare Festival Special,VLNK,CHZ
+06120,MGR Chennai Central Special Fare AC Festival Special,QLN,MAS
+05194,Pathankot - Chhapra Special,PTK,CPR
+04191,Gwalior - Rewa Special,GWL,REWA
+09204,Haridwar - Veraval Special,HW,VRL
+03298,Patna Special Fare Shravani Mela Special,IPR,PNBE
+06018,Tambaram Special Fare Summer Special,TN,TBM
+01925,Madurai Special Fare Special,CNB,MDU
+07222,Charlapalli Special Fare Summer Special,SRC,CHZ
+01926,Kanpur Central Special Fare Special,MDU,CNB
+09080,Mumbai Central Special Fare AC SF Summer Special,INDB,MMCT
+02455,New Delhi Special Fare SF Special,CNB,NDLS
+04131,CNB SMVB SPL,,
+09151,Madhubani Special Fare Special,UDN,MBI
+04115,SFG LTT  SPL,,
+06027,Podanur Special Fare Special,MAS,PTJ
+07218,Shivamogga Town - Machilipatnam Special,SMET,MTM
+07046,Naharlagun Special Fare AC Special,SC,NHLN
+05074,KSR Bengaluru Special Fare Special,LKU,SBC
+04166,SSB PRYJ SPL,,
+07217,MTM SMET SPL,,
+01911,Kolkata Special Fare Special,AGC,KOAA
+09047,Jhanjharpur Special Fare Summer Special,UDN,JJP
+06165,Tirunelveli Special Fare Summer Special,TBM,TEN
+07127,Charlapalli - Velankanni Special,CHZ,VLNK
+03001,Natesar Special Fare Shravani Mela Special,HWH,NES
+01165,Mumbai LTT - Madgaon Ganpati Special,LTT,MAO
+09031,Hasanpur Road Special Fare Special,UDN,HPO
+09189,Katihar Special Fare Special,MMCT,KIR
+09611,Ajmer - Yog Nagari Rishikesh Special,AII,YNRK
+09110,Vishvamitri - Ratnagiri Ganpati Special,VS,RN
+05045,Rajkot Special Fare Special,LKU,RJT
+09706,Jaipur Special Fare SF Non-Stop Special,BDTS,JP
+01909,Asarva - Agra Cantt Special,ASV,AGC
+09466,Ahmedabad Special Fare Special,DBG,ADI
+08581,SMVT Bengaluru Special Fare Summer Special,VSKP,SMVB
+09020,Sawantwadi Road - Mumbai Central Special,SWV,MMCT
+04137,Barauni Special Fare Special,GWL,BJU
+04163,Subedarganj - Shakur Basti Special,SFG,SSB
+06524,Thiruvananthapuram North - SMVT Bengaluru Special,TVCN,SMVB
+08689,Ranchi Special Fare Shravani Mela Special,BGP,RNC
+06166,Tambaram Special Fare Summer Special,TEN,TBM
+09086,Mumbai Central Special Fare AC Superfast Special,INDB,MMCT
+08690,Bhagalpur Special Fare Shravani Mela Special,RNC,BGP
+07227,GNT CHZ SPL,,
+07001,Tiruvannamalai Special Fare Special,CHZ,TNM
+04112,Prayagraj Special Fare Special,GG,PRYJ
+02397,GAYA ANVT SPL,,
+05061,Tanakpur Special Fare Special,AH,TPU
+02197,Jabalpur Special Fare SF Special,CBE,JBP
+06147,SMVT Bengaluru Special Fare Onam Special,ERS,SMVB
+09013,Mumbai Central - Thokur Special,MMCT,TOK
+06061,Velankanni Special Fare Special,ERS,VLNK
+04213,Ayodhya Cantt - Anand Vihar Terminal Special,AYC,ANVT
+06081,Santragachi Special Fare AC Special,TVCN,SRC
+01168,Ratnagiri - Mumbai LTT Ganpati Special,RN,LTT
+06548,SMVT Bengaluru Special Fare Special,TVCN,SMVB
+06577,Vijayapura Special Fare Special,YPR,BJP
+07076,Hyderabad Special Fare Special,GKP,HYB
+09184,Mumbai Central Special Fare AC Special,BNRS,MMCT
+04072,Supaul Special Fare Special,NDLS,SOU
+03236,Danapur - Sahibganj Shravani Mela Special,DNR,SBG
+01129,Mumbai LTT - Sawantwadi Road Ganpati Special,LTT,SWV
+07355,Rameswaram Special Fare Special,UBL,RMM
+04642,Amritsar - Nanded Special,ASR,NED
+06020,Narasapur - Tuticorin Special,NS,TN
+09034,Udhna Special Fare Special,MLDT,UDN
+02550,Darjeeling - Darjeeling Special,DJ,DJ
+04119,Valsad Special Fare Special,SFG,BL
+07426,Secunderabad Special Fare Summer Special,CHE,SC
+05344,Lalkua - Sabarmati BG Special,LKU,SBIB
+02570,Darbhanga Special Fare Clone Special,NDLS,DBG
+01702,Jabalpur Special Fare SF Special,NZM,JBP
+07815,Jalna Special Fare Summer Special,TPTY,J
+09821,Dhanbad Special Fare Special,SGAC,DHN
+01921,VGL Jhansi Special Fare Special,HDP,VGLJ
+09195,Mau Special Fare SF Special,PRTN,MAU
+07025,Charlapalli - Tiruchanur Special,CHZ,TCNR
+04124,Prayagraj Special Fare Special,NZM,PRYJ
+08612,Santragachi Special Fare Special,AII,SRC
+01002,SWV SUR SPECIAL,,
+04105,Udhna Special Fare Special,PRYJ,UDN
+07439,TCNR MTM SPL,,
+04816,Chennai Central - Jodhpur Special,MAS,JU
+04169,Indore Special Fare Summer Special,SFG,INDB
+06030,Mettupalayam Special Fare Special,TEN,MTP
+02200,VGL Jhansi Special Fare SF Special,BDTS,VGLJ
+07221,Santragachi Special Fare Summer Special,CHZ,SRC
+06523,Thiruvananthapuram North Special Fare Special,SMVB,TVCN
+09343,Patna Special Fare Special,DADN,PNBE
+01166,Madgaon - Mumbai LTT Ganpati Special,MAO,LTT
+07002,Charlapalli Special Fare Special,TNM,CHZ
+09526,Hapa Special Fare Special,NHLN,HAPA
+09425,Sabarmati BG - Haridwar Special,SBIB,HW
+01171,Mumbai LTT - Sawantwadi Road Ganpati Special,LTT,SWV
+09257,Bhavnagar Terminus - Shakur Basti Special,BVC,SSB
+01923,VGL Jhansi Special Fare SF Special,HDP,VGLJ
+03252,Danapur Special Fare SF Special,SMVB,DNR
+07603,Nanded - Tiruchanur Special,NED,TCNR
+06509,KSR Bengaluru - Danapur Humsafar Express,SBC,DNR
+03640,Dhanbad Special Fare Special,SSB,DHN
+09705,Bandra Terminus Special Fare SF Non-Stop Special,JP,BDTS
+02416,New Delhi - Subedarganj Special,NDLS,SFG
+01450,Pune Special Fare Special,DNR,PUNE
+01914,Khajuraho Special Fare Rakshabandhan Special,NZM,KURJ
+04164,Shakur Basti - Subedarganj Special,SSB,SFG
+08646,Bhagalpur Special Fare Shravani Mela Special,RNC,BGP
+01904,VGL Jhansi Special Fare Rakshabandhan Special,NZM,VGLJ
+04111,Gandhigram Special Fare Special,PRYJ,GG
+09258,Shakur Basti - Bhavnagar Terminus Special,SSB,BVC
+06059,Tambaram - Bodinayakkanur Special,TBM,BDNK
+09114,Vadodara - Ratnagiri Ganpati Special,BRC,RN

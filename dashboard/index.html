@@ -1,0 +1,1699 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RailTrack — Live ETA Intelligence</title>
+    <link rel="stylesheet" href="/dashboard/styles.css?v=20261015" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="logo">
+          <div class="logo-mark">↗</div>
+          <div><strong>RailTrack</strong><span>ETA Intelligence</span></div>
+        </div>
+        <div class="live-status">
+          <span class="pulse"></span><span>System live</span
+          ><small id="lastUpdated">Connecting to API…</small>
+        </div>
+        <nav aria-label="Main navigation">
+          <a class="nav-item active" href="#overview"
+            ><span class="nav-icon" aria-hidden="true">⌂</span
+            ><span>Home</span></a
+          ><a class="nav-item" href="#live-dashboard"
+            ><span class="nav-icon" aria-hidden="true">◉</span
+            ><span>Live train status</span></a
+          ><a class="nav-item" href="#find-trains"
+            ><span class="nav-icon" aria-hidden="true">⌕</span
+            ><span>Find trains</span></a
+          ><a class="nav-item" href="#route"
+            ><span class="nav-icon" aria-hidden="true">↗</span
+            ><span>Route & stations</span></a
+          ><a class="nav-item" href="#forecast"
+            ><span class="nav-icon" aria-hidden="true">◷</span
+            ><span>ETA prediction</span></a
+          ><a class="nav-item" href="#help"
+            ><span class="nav-icon" aria-hidden="true">?</span
+            ><span>About & help</span></a
+          >
+        </nav>
+        <div class="sidebar-bottom">
+          <div class="api-card">
+            <span>API STATUS</span><strong id="apiStatus">Checking…</strong
+            ><small id="apiHost"></small>
+          </div>
+        </div>
+      </aside>
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">
+              RAILTRACK <span class="eyebrow-dot">•</span> JOURNEY INTELLIGENCE
+            </p>
+            <h1>Every journey. A smarter ETA.</h1>
+            <p class="subtitle">
+              Track reported train movement and see arrival estimates for the
+              journey ahead.
+            </p>
+          </div>
+          <div class="topbar-actions">
+            <a class="header-cta" href="#find-trains"
+              >Track your train <span aria-hidden="true">→</span></a
+            ><button
+              class="icon-btn"
+              id="refreshBtn"
+              title="Refresh train information"
+              aria-label="Refresh train information"
+            >
+              ↻
+            </button>
+          </div>
+        </header>
+        <section class="hero" id="overview">
+          <div class="hero-copy">
+            <div class="section-kicker">A CLEARER VIEW OF THE JOURNEY</div>
+            <h2>Every journey.<br /><span>A smarter ETA.</span></h2>
+            <p>
+              Track train movement and get updated arrival estimates for
+              upcoming stations, powered by running information and predictive
+              analytics.
+            </p>
+            <div class="hero-actions">
+              <a class="hero-primary" href="#find-trains"
+                >Track a train <span aria-hidden="true">→</span></a
+              ><a class="hero-secondary" href="#help">Explore how it works</a>
+            </div>
+            <div class="hero-note">
+              <span class="hero-note-dot"></span> Estimates are labelled by
+              their source
+            </div>
+          </div>
+          <div class="hero-scene" aria-hidden="true">
+            <div class="scene-glow"></div>
+            <div class="scene-sun"></div>
+            <div class="scene-station"><i></i><i></i><i></i><b></b></div>
+            <div class="scene-rail rail-one"></div>
+            <div class="scene-rail rail-two"></div>
+            <div class="scene-sleepers"></div>
+            <div class="scene-train">
+              <div class="train-front"></div>
+              <div class="train-window"></div>
+              <div class="train-window"></div>
+              <div class="train-window"></div>
+              <div class="train-light"></div>
+            </div>
+            <div class="scene-route">
+              <span></span><span></span><span></span><small>ON THE WAY</small>
+            </div>
+            <div class="scene-label">
+              A more informed journey <span>INDIA</span>
+            </div>
+          </div>
+          <div class="hero-train">
+            <div class="train-icon" aria-hidden="true">↗</div>
+            <div>
+              <span id="heroTrainNumber">—</span
+              ><strong id="heroTrainName">Search for a train</strong>
+            </div>
+          </div>
+        </section>
+        <section class="control-grid">
+          <div class="card controls-card" id="find-trains">
+            <div class="card-heading">
+              <div>
+                <span class="section-kicker">JOURNEY SETUP</span>
+                <h3>Find your train</h3>
+                <p class="card-intro">
+                  Start with a train number or name. We’ll show the journey
+                  details available.
+                </p>
+              </div>
+              <span class="step">01</span>
+            </div>
+            <label for="trainSearch">Train number or full train name</label>
+            <div class="train-search">
+              <input
+                id="trainSearch"
+                type="search"
+                role="combobox"
+                aria-autocomplete="list"
+                autocomplete="off"
+                placeholder="e.g. 12919 or Malwa SF Express"
+                aria-controls="searchResults"
+                aria-expanded="false"
+              /><button
+                id="clearTrain"
+                title="Clear selected train"
+                aria-label="Clear selected train"
+              >
+                ×
+              </button>
+              <div
+                id="searchResults"
+                class="search-results hidden"
+                role="listbox"
+                aria-label="Matching trains"
+              ></div>
+            </div>
+            <p class="search-help" id="searchHelp">
+              Type at least 2 characters. Partial numbers and full names both
+              work.
+            </p>
+            <div class="journey-date-field">
+              <label for="journeyDate">Train started on</label
+              ><input id="journeyDate" type="date" required /><small
+                >Select the date the train departed from its origin.</small
+              >
+            </div>
+            <div class="route-mini">
+              <div><span>FROM</span><strong id="origin">—</strong></div>
+              <div class="route-arrow">→</div>
+              <div><span>TO</span><strong id="destination">—</strong></div>
+            </div>
+            <div class="forecast-live-inputs">
+              <label for="seq">Forecast starting station</label>
+              <div class="range-row">
+                <input type="range" id="seq" min="0" max="0" value="0" /><output
+                  id="seqLabel"
+                  >—</output
+                >
+              </div>
+              <div class="forecast-weather">
+                <label>Live weather</label>
+                <div class="delay-input">
+                  <strong id="weatherStatus">Waiting for train location…</strong
+                  ><input id="weather" type="hidden" value="Clear" />
+                </div>
+                <small id="weatherNote"
+                  >Live weather will update with the selected train.</small
+                >
+              </div>
+            </div>
+            <details class="forecast-controls" id="forecastControls">
+              <summary>Optional forecast inputs</summary>
+              <p class="forecast-disclosure-note">
+                For demonstration and model exploration. Live train status
+                remains sourced from the available journey feed.
+              </p>
+              <div class="two-col">
+                <div>
+                  <label for="congestion">Congestion</label
+                  ><select id="congestion">
+                    <option>Low</option>
+                    <option>Medium</option>
+                    <option>High</option>
+                  </select>
+                </div>
+              </div>
+              <div class="two-col">
+                <div>
+                  <label for="hour">Hour of day</label
+                  ><input type="number" id="hour" min="0" max="23" />
+                </div>
+                <div>
+                  <label for="day">Day (0 = Mon)</label
+                  ><input type="number" id="day" min="0" max="6" />
+                </div>
+              </div>
+              <label for="liveDelay"
+                >Observed delay <span>(minutes)</span></label
+              >
+              <div class="delay-input">
+                <input type="number" id="liveDelay" min="0" value="0" /><span
+                  >min</span
+                >
+              </div>
+              <button
+                class="secondary-forecast-btn"
+                id="runManual"
+                type="button"
+                disabled
+              >
+                Apply these forecast inputs
+              </button>
+            </details>
+            <button class="primary-btn" id="run" disabled>
+              <span>Update live forecast</span><b>→</b>
+            </button>
+          </div>
+          <div class="card map-card" id="live-dashboard">
+            <div class="card-heading">
+              <div>
+                <span class="section-kicker">LIVE TRAIN STATUS</span>
+                <h3>Journey progress</h3>
+                <p class="card-intro">
+                  The current position reflects the latest station reported by
+                  the service.
+                </p>
+              </div>
+              <span id="livePill" class="live-pill">WAITING</span>
+            </div>
+            <div id="route" class="route-anchor" aria-hidden="true"></div>
+            <div
+              class="route-line"
+              id="routeLine"
+              role="list"
+              aria-label="Journey stations and reported progress"
+            >
+              <div class="empty-state">
+                Search for a train to load its route.
+              </div>
+            </div>
+            <div class="route-details">
+              <div>
+                <span>Last reported station</span
+                ><strong id="currentStation">—</strong>
+              </div>
+              <div>
+                <span>Distance at reported station</span
+                ><strong id="distanceCovered">—</strong
+                ><small id="distanceNote"
+                  >Provider route distance when available</small
+                >
+              </div>
+              <div>
+                <span>Stops remaining</span
+                ><strong id="remainingStations">—</strong
+                ><small id="remainingStopsDetail"
+                  >Includes intermediate stations</small
+                >
+              </div>
+            </div>
+            <section class="map-panel" aria-labelledby="mapTitle">
+              <div class="map-heading">
+                <div>
+                  <span class="section-kicker">LOCATION MAP</span>
+                  <h4 id="mapTitle">Reported train location</h4>
+                  <p
+                    id="mapLocationStatus"
+                    class="map-location-status"
+                    aria-live="polite"
+                  >
+                    Waiting for train information.
+                  </p>
+                </div>
+                <button
+                  id="recenterMap"
+                  class="map-recenter"
+                  type="button"
+                  disabled
+                  aria-label="Recenter map on reported train location"
+                >
+                  Recenter
+                </button>
+              </div>
+              <div class="map-frame">
+                <div
+                  id="trainMap"
+                  class="train-map"
+                  role="application"
+                  aria-label="Map showing the reported train location and route"
+                ></div>
+                <div id="mapMessage" class="map-message" role="status">
+                  Select a train to check for provider supplied coordinates.
+                </div>
+              </div>
+              <div class="map-legend" aria-label="Map legend">
+                <span><i class="legend-train"></i>Reported train position</span
+                ><span><i class="legend-route"></i>Verified route geometry</span
+                ><span><i class="legend-done"></i>Completed</span
+                ><span><i class="legend-current"></i>Reported station</span
+                ><span><i class="legend-upcoming"></i>Upcoming station</span
+                ><span
+                  ><i class="legend-intermediate"></i>Intermediate station</span
+                >
+              </div>
+              <p class="map-attribution-note">
+                Map tiles &copy; OpenStreetMap contributors. Route lines use
+                provider track geometry; station markers use provider
+                coordinates.
+              </p>
+            </section>
+            <div class="live-grid">
+              <div class="live-box">
+                <span>Running status</span><strong id="liveStatus">—</strong>
+              </div>
+              <div class="live-box">
+                <span>Live delay</span><strong id="liveDelayLive">—</strong>
+              </div>
+              <div class="live-box">
+                <span>Next halt</span><strong id="nextStation">—</strong>
+              </div>
+              <div class="live-box">
+                <span>Upcoming station platform</span
+                ><strong id="nextPlatform">—</strong>
+              </div>
+              <div class="live-box">
+                <span>Train location</span><strong id="trainLocation">—</strong>
+              </div>
+            </div>
+            <div class="live-map" id="locationNote">
+              Live location, current status, and platform updates will appear
+              here when RailRadar reports an active journey.
+            </div>
+          </div>
+        </section>
+        <section class="metrics">
+          <div class="metric-card">
+            <span>Current delay</span><strong id="currentDelay">—</strong
+            ><small id="currentDelayNote">Live railway status</small>
+          </div>
+          <div class="metric-card">
+            <span>Next station</span><strong id="nextStationMetric">—</strong
+            ><small id="nextStationMetricNote">Live railway service</small>
+          </div>
+          <div class="metric-card accent">
+            <span>Time to next station</span><strong id="nextDelay">—</strong
+            ><small id="nextArrivalNote">Live ETA</small>
+          </div>
+          <div class="metric-card">
+            <span>Predicted delay at next station</span
+            ><strong id="nextPredictedDelay">—</strong
+            ><small id="nextPredictedDelayNote">Forecast unavailable</small>
+          </div>
+          <div class="metric-card success">
+            <span>Destination arrival</span><strong id="destDelay">—</strong
+            ><small>Latest journey estimate</small>
+          </div>
+        </section>
+        <section class="content-grid" id="forecast">
+          <div class="card forecast-card">
+            <div class="card-heading">
+              <div>
+                <span class="section-kicker">PREDICTION</span>
+                <h3>Station-by-station arrivals</h3>
+              </div>
+              <span id="forecastBadge" class="updated-badge hidden"
+                >UPDATED</span
+              >
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>STATION</th>
+                    <th>DISTANCE</th>
+                    <th>ESTIMATED ARRIVAL</th>
+                    <th>PLATFORM</th>
+                    <th>PREDICTED DELAY</th>
+                    <th>Current Delay</th>
+                  </tr>
+                </thead>
+                <tbody id="tbody">
+                  <tr>
+                    <td colspan="6" class="empty-state">
+                      Search for a train and run a forecast.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="errorBox" class="error hidden"></div>
+          </div>
+          <div class="side-column">
+            <div class="card model-card" id="model">
+              <div class="card-heading">
+                <div>
+                  <span class="section-kicker">MODEL VALIDATION</span>
+                  <h3>Prediction context</h3>
+                </div>
+                <span class="model-tag">OPTIONAL DETAIL</span>
+              </div>
+              <p class="model-context">
+                Validation results for the prototype’s held-out data. This is
+                not a guarantee for an individual journey.
+              </p>
+              <details class="model-disclosure">
+                <summary>View validation results</summary>
+                <div id="modelStats" class="model-stats">
+                  <div class="empty-state">Loading model metrics…</div>
+                </div>
+              </details>
+            </div>
+            <div class="card info-card" id="help">
+              <span class="section-kicker">HOW IT WORKS</span>
+              <h3>Useful journey updates, clearly labelled.</h3>
+              <div class="info-step">
+                <b>1</b
+                ><span
+                  >Search by train number or name, then choose the journey
+                  date.</span
+                >
+              </div>
+              <div class="info-step">
+                <b>2</b
+                ><span
+                  >Running status comes from RailRadar when available. The
+                  service may also return a clearly marked local fallback.</span
+                >
+              </div>
+              <div class="info-step">
+                <b>3</b
+                ><span
+                  >ETA forecasts combine available schedule data and the
+                  project’s model. Missing live data is shown as
+                  unavailable.</span
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <span>RailTrack journey intelligence</span
+          ><span>Dynamic ETA Prediction</span>
+        </footer>
+      </main>
+    </div>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="/config.js"></script>
+    <script>
+      const API = (window.RAILCONNECT_API_URL || window.location.origin).replace(/\/$/, ""),
+        $ = (id) => document.getElementById(id),
+        trainSearch = $("trainSearch"),
+        seqInput = $("seq"),
+        journeyDate = $("journeyDate");
+      let currentTrain = null,
+        currentRoute = [],
+        liveRoute = [],
+        mlSupported = false,
+        liveTimer = null,
+        searchTimer = null,
+        lastLive = null,
+        trainMapInstance = null,
+        trainMapLayers = null,
+        trainLocationMarker = null,
+        lastMapBounds = null,
+        lastMapCenter = null,
+        lastMapLastUpdated = null,
+        livePollIntervalMs = 60000;
+      const escapeHtml = (v) => {
+          const d = document.createElement("div");
+          d.textContent = v ?? "";
+          return d.innerHTML;
+        },
+        stationName = (s) =>
+          s.station_name ||
+          s.stationName ||
+          s.name ||
+          s.station_code ||
+          s.stationCode ||
+          "Station",
+        stationCode = (s) => s.station_code || s.stationCode || s.code || "",
+        stationSequence = (s, i) =>
+          Number.isFinite(Number(s.seq ?? s.sequence))
+            ? Number(s.seq ?? s.sequence)
+            : i;
+      function coordinatesFor(value) {
+        if (!value || typeof value !== "object") return null;
+        const nested = value.location || value.position || {},
+          geo =
+            value.geometry?.type?.toLowerCase() === "point"
+              ? value.geometry.coordinates
+              : null,
+          lat = Number(
+            value.latitude ??
+              value.lat ??
+              nested.latitude ??
+              nested.lat ??
+              (Array.isArray(geo) ? geo[1] : undefined),
+          ),
+          lng = Number(
+            value.longitude ??
+              value.lng ??
+              value.lon ??
+              nested.longitude ??
+              nested.lng ??
+              nested.lon ??
+              (Array.isArray(geo) ? geo[0] : undefined),
+          );
+        return Number.isFinite(lat) &&
+          Number.isFinite(lng) &&
+          lat >= -90 &&
+          lat <= 90 &&
+          lng >= -180 &&
+          lng <= 180
+          ? { lat, lng }
+          : null;
+      }
+      function geometryCoordinates(data) {
+        const raw = data.live_status || data,
+          candidate =
+            raw.routeGeometry ||
+            raw.route_geometry ||
+            raw.trackGeometry ||
+            raw.track_geometry ||
+            raw.geojson ||
+            raw.geometry ||
+            data.routeGeometry ||
+            data.geojson,
+          feature =
+            candidate?.type === "Feature"
+              ? candidate.geometry
+              : candidate?.geometry?.type
+                ? candidate.geometry
+                : candidate,
+          lines =
+            feature?.type === "LineString"
+              ? [feature.coordinates]
+              : feature?.type === "MultiLineString"
+                ? feature.coordinates
+                : [];
+        return lines.flatMap((line) =>
+          Array.isArray(line)
+            ? line
+                .map((pair) =>
+                  coordinatesFor({
+                    geometry: { type: "Point", coordinates: pair },
+                  }),
+                )
+                .filter(Boolean)
+            : [],
+        );
+      }
+      function setMapMessage(message) {
+        $("mapMessage").textContent = message;
+        $("mapMessage").classList.remove("hidden");
+      }
+      function setMapLocationStatus(message, stale = false) {
+        $("mapLocationStatus").textContent = message;
+        $("mapLocationStatus").classList.toggle("stale", stale);
+      }
+      function formatMapPopup(data, locationLabel, updated) {
+        const delay =
+          data.current_delay_min ??
+          data.live_delay_min ??
+          data.live_status?.delayMinutes ??
+          data.live_status?.overallDelayMinutes;
+        return `<div class="map-popup"><strong>${escapeHtml(data.train_number || currentTrain || "Train")} ? ${escapeHtml($("heroTrainName").textContent || "")}</strong><span>Last reported: ${escapeHtml(locationLabel || "Unavailable")}</span><span>Delay: ${delay == null ? "Not reported" : `${Number(delay) > 0 ? `${delay} min late` : Number(delay) < 0 ? `${Math.abs(Number(delay))} min early` : "On time"}`}</span><span>Updated: ${escapeHtml(updated || "Not reported")}</span></div>`;
+      }
+      function renderTrainMap(data) {
+        const raw = data.live_status || data,
+          loc = data.current_location || raw.currentLocation || {},
+          route = data.route || raw.route || liveRoute || [],
+          current = data.current_station || {
+            code: loc.stationCode || loc.station_code,
+            name: loc.stationName || loc.station_name,
+          },
+          routeIndexExact = route.findIndex((stop) =>
+            sameStation(stop, current),
+          ),
+          reportedAt =
+            raw.lastUpdatedAt ||
+            raw.last_updated_at ||
+            data.last_updated_at ||
+            data.lastUpdatedAt ||
+            null,
+          updated = reportedAt
+            ? formatTime(reportedAt)
+            : `Received ${new Date().toLocaleTimeString()}`,
+          age = reportedAt ? Date.now() - new Date(reportedAt).getTime() : 0,
+          stale = Number.isFinite(age) && age > 5 * 60 * 1000,
+          locationText =
+            current.name ||
+            current.station_name ||
+            loc.stationName ||
+            loc.station_name ||
+            "Station not reported";
+        lastMapLastUpdated = updated;
+        const gps = coordinatesFor(loc),
+          stationPoint =
+            !gps && routeIndexExact >= 0
+              ? coordinatesFor(route[routeIndexExact])
+              : null,
+          trainPoint = gps || stationPoint,
+          markerRoute = mapMarkerStops(route, data),
+          routePoints = markerRoute
+            .map((stop, index) => ({
+              stop,
+              index,
+              point: coordinatesFor(stop),
+            }))
+            .filter((item) => item.point),
+          trackCoordinates = geometryCoordinates(data);
+        let stateText =
+          data.source === "Local fallback"
+            ? "Local route reference only"
+            : gps
+              ? "Provider-reported coordinates"
+              : stationPoint
+                ? `Station-based location at ${locationText}`
+                : trackCoordinates.length
+                  ? "Verified route geometry available"
+                  : routePoints.length
+                    ? "Station locations mapped; track geometry unavailable"
+                    : `Station-based report at ${locationText}; coordinates unavailable`;
+        if (stale) stateText = `Stale provider report; last updated ${updated}`;
+        else stateText += ` | Updated ${updated}`;
+        setMapLocationStatus(stateText, stale);
+        $("trainLocation").textContent =
+          locationText !== "Station not reported"
+            ? locationText
+            : gps
+              ? `${gps.lat.toFixed(4)}, ${gps.lng.toFixed(4)}`
+              : $("trainLocation").textContent;
+        $("recenterMap").disabled =
+          !trainMapInstance || (!trainPoint && !lastMapBounds);
+        if (!window.L) {
+          $("trainMap").classList.add("hidden");
+          setMapMessage(
+            gps || routePoints.length || trackCoordinates.length
+              ? "Map library unavailable. Location data is shown in the journey details. Check the connection to load the map."
+              : `No coordinates were supplied. Last reported station: ${locationText}. Exact map location is unavailable.`,
+          );
+          return;
+        }
+        if (!gps && !routePoints.length && !trackCoordinates.length) {
+          $("recenterMap").disabled = true;
+          $("trainMap").classList.add("hidden");
+          setMapMessage(
+            `No verified coordinates were supplied. Last reported station: ${locationText}. This is station-based reporting; no GPS position is available.`,
+          );
+          return;
+        }
+        $("trainMap").classList.remove("hidden");
+        $("mapMessage").classList.add("hidden");
+        if (!trainMapInstance) {
+          trainMapInstance = L.map("trainMap", {
+            scrollWheelZoom: false,
+          }).setView(
+            [
+              trainPoint?.lat ??
+                routePoints[0]?.point.lat ??
+                trackCoordinates[0]?.[0],
+              trainPoint?.lng ??
+                routePoints[0]?.point.lng ??
+                trackCoordinates[0]?.[1],
+            ],
+            8,
+          );
+          const tileLayer = L.tileLayer(
+            "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+            {
+              maxZoom: 19,
+              attribution:
+                '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            },
+          );
+          tileLayer.on("tileerror", () => {
+            setMapLocationStatus(
+              "Map tiles unavailable; provider status remains below.",
+            );
+            setMapMessage(
+              "The map tiles could not be loaded. The reported station and ETA remain available in the journey details.",
+            );
+          });
+          tileLayer.addTo(trainMapInstance);
+          trainMapLayers = L.layerGroup().addTo(trainMapInstance);
+        }
+        trainMapLayers.clearLayers();
+        let coordinates = [];
+        if (trackCoordinates.length > 1) {
+          L.polyline(trackCoordinates, {
+            color: "#d62828",
+            weight: 5,
+            opacity: 0.9,
+          }).addTo(trainMapLayers);
+          coordinates.push(...trackCoordinates);
+        }
+        routePoints.forEach(({ stop, point }) => {
+          coordinates.push([point.lat, point.lng]);
+          const stopIndex = route.findIndex((routeStop) =>
+              sameStation(routeStop, stop),
+            ),
+            color =
+              stopIndex < 0
+                ? "#aab6c2"
+                : routeIndexExact >= 0 && stopIndex < routeIndexExact
+                  ? "#16846b"
+                  : routeIndexExact >= 0 && stopIndex === routeIndexExact
+                    ? "#2e67c7"
+                    : isMajorMapStop(stop, data)
+                      ? "#f28c28"
+                      : "#aab6c2";
+          L.circleMarker([point.lat, point.lng], {
+            radius: stopIndex === routeIndexExact ? 7 : 5,
+            color: "#fff",
+            weight: 2,
+            fillColor: color,
+            fillOpacity: 1,
+          })
+            .bindPopup(
+              `<strong>${escapeHtml(stationName(stop))}</strong><br>${escapeHtml(stationCode(stop))}`,
+            )
+            .addTo(trainMapLayers);
+        });
+        if (trainPoint) {
+          coordinates.push([trainPoint.lat, trainPoint.lng]);
+          if (!trainLocationMarker) {
+            const icon = L.divIcon({
+              className: "train-map-icon-wrap",
+              html: '<span class="train-map-icon" aria-label="Reported train location"></span>',
+              iconSize: [34, 34],
+              iconAnchor: [17, 31],
+            });
+            trainLocationMarker = L.marker([trainPoint.lat, trainPoint.lng], {
+              icon,
+              title: "Reported train location",
+            }).addTo(trainMapLayers);
+          } else {
+            trainLocationMarker.setLatLng([trainPoint.lat, trainPoint.lng]);
+            trainMapLayers.addLayer(trainLocationMarker);
+          }
+          const label = gps
+            ? "Provider-reported coordinates"
+            : `Reported station at ${locationText}`;
+          trainLocationMarker.bindPopup(formatMapPopup(data, label, updated));
+          lastMapCenter = [trainPoint.lat, trainPoint.lng];
+        } else trainLocationMarker = null;
+        if (!trainPoint) lastMapCenter = null;
+        lastMapBounds = coordinates.length ? L.latLngBounds(coordinates) : null;
+        if (!lastMapBounds?.isValid()) lastMapBounds = null;
+        requestAnimationFrame(() => {
+          trainMapInstance.invalidateSize();
+          if (lastMapBounds && !lastMapCenter)
+            trainMapInstance.fitBounds(lastMapBounds.pad(0.16));
+          else if (lastMapCenter && !trainMapInstance._railTrackHasCentered) {
+            trainMapInstance.setView(lastMapCenter, 9);
+            trainMapInstance._railTrackHasCentered = true;
+          }
+        });
+        $("recenterMap").disabled = false;
+      }
+      function showMapError(message) {
+        setMapLocationStatus("Live location update unavailable");
+        setMapMessage(
+          `Could not refresh the provider location: ${message}. Previous map details are not current${lastMapLastUpdated ? `; last successful update ${lastMapLastUpdated}` : ""}.`,
+        );
+        $("recenterMap").disabled = true;
+      }
+      $("recenterMap").addEventListener("click", () => {
+        if (!trainMapInstance) return;
+        if (trainLocationMarker)
+          trainMapInstance.setView(
+            trainLocationMarker.getLatLng(),
+            Math.max(trainMapInstance.getZoom(), 9),
+          );
+        else if (lastMapBounds)
+          trainMapInstance.fitBounds(lastMapBounds.pad(0.16));
+      });
+      async function get(path, options = {}) {
+        const r = await fetch(API + path, options),
+          d = await r.json().catch(() => ({}));
+        if (!r.ok) throw new Error(d.detail || `HTTP ${r.status}`);
+        return d;
+      }
+      function showError(m) {
+        $("errorBox").textContent = m;
+        $("errorBox").classList.remove("hidden");
+      }
+      function clearError() {
+        $("errorBox").classList.add("hidden");
+        $("errorBox").textContent = "";
+      }
+      function setApiStatus(ok) {
+        $("apiStatus").textContent = ok ? "● ONLINE" : "● OFFLINE";
+        $("apiStatus").className = ok ? "online" : "offline";
+      }
+      function formatTime(v) {
+        if (!v) return "AI estimate pending";
+        const d = new Date(v);
+        return Number.isNaN(d.valueOf())
+          ? "Not reported"
+          : new Intl.DateTimeFormat("en-IN", {
+              day: "2-digit",
+              month: "short",
+              hour: "2-digit",
+              minute: "2-digit",
+              hour12: true,
+            }).format(d);
+      }
+      function minutesUntil(value) {
+        if (!value) return null;
+        let target = new Date(value);
+        if (
+          Number.isNaN(target.valueOf()) &&
+          /^\d{1,2}:\d{2}(?::\d{2})?\s*(am|pm)?$/i.test(String(value).trim())
+        ) {
+          const parts = String(value)
+              .trim()
+              .match(/(\d{1,2}):(\d{2})(?::(\d{2}))?\s*(am|pm)?/i),
+            now = new Date();
+          let hour = Number(parts[1]);
+          if (parts[4]) {
+            if (hour === 12) hour = 0;
+            if (parts[4].toLowerCase() === "pm") hour += 12;
+          }
+          target = new Date(now);
+          target.setHours(hour, Number(parts[2]), Number(parts[3] || 0), 0);
+          if (target < now) target.setDate(target.getDate() + 1);
+        }
+        if (Number.isNaN(target.valueOf())) return null;
+        return Math.max(0, Math.round((target - Date.now()) / 60000));
+      }
+      function renderModelStats(r) {
+        if (!r) return;
+        $("modelStats").innerHTML =
+          `<div class="model-stat"><span>Static MAE</span><strong>${Number(r.baseline_mae_min).toFixed(1)} <small>min</small></strong></div><div class="model-stat"><span>LSTM MAE</span><strong class="green">${Number(r.model_mae_min).toFixed(1)} <small>min</small></strong></div><div class="improvement"><span>Improvement over baseline</span><strong>${Number(r.improvement_pct).toFixed(1)}%</strong></div>`;
+      }
+      async function checkApi() {
+        try {
+          const d = await get("/api/health");
+          setApiStatus(true);
+          $("apiHost").textContent = location.host;
+          $("lastUpdated").textContent = "API connected";
+          renderModelStats(d.validation_report);
+          const seconds = Number(d.live_poll_interval_seconds);
+          if (Number.isFinite(seconds) && seconds >= 30)
+            livePollIntervalMs = Math.min(seconds, 3600) * 1000;
+        } catch (e) {
+          setApiStatus(false);
+          $("lastUpdated").textContent = "API unavailable";
+          showError(e.message);
+        }
+      }
+      function closeSearch() {
+        $("searchResults").classList.add("hidden");
+        trainSearch.setAttribute("aria-expanded", "false");
+      }
+      function renderSearchResults(ts) {
+        const r = $("searchResults");
+        r.innerHTML = ts.length
+          ? ts
+              .map(
+                (t) =>
+                  `<button type="button" class="search-result" role="option" data-number="${escapeHtml(t.train_number)}"><strong>${escapeHtml(t.train_number)}</strong><span>${escapeHtml(t.train_name || "Train")}${t.ml_supported ? " · LSTM route" : ""}</span></button>`,
+              )
+              .join("")
+          : '<div class="search-empty">No matching train found.</div>';
+        r.classList.remove("hidden");
+        trainSearch.setAttribute("aria-expanded", "true");
+      }
+      async function searchTrains(q) {
+        try {
+          $("searchHelp").textContent = "Searching train catalogue…";
+          const ts = await get(
+            `/trains/catalogue?search=${encodeURIComponent(q)}&limit=20`,
+          );
+          renderSearchResults(ts);
+          $("searchHelp").textContent =
+            `${ts.length} matching train${ts.length === 1 ? "" : "s"} — select one.`;
+        } catch (e) {
+          $("searchHelp").textContent = "Unable to search the train catalogue.";
+          showError(e.message);
+        }
+      }
+      function onSearchInput() {
+        const q = trainSearch.value.trim();
+        currentTrain = null;
+        $("run").disabled = true;
+        clearTimeout(searchTimer);
+        if (q.length < 2) {
+          closeSearch();
+          $("searchHelp").textContent =
+            "Type at least 2 characters. Partial numbers and full names both work.";
+          return;
+        }
+        searchTimer = setTimeout(() => searchTrains(q), 220);
+      }
+      function journeyDateQuery() {
+        return journeyDate.value
+          ? `?date=${encodeURIComponent(journeyDate.value)}`
+          : "";
+      }
+      function updateSeqLabel() {
+        const i = Number(seqInput.value) || 0,
+          s = currentRoute[i];
+        $("seqLabel").textContent = s
+          ? `Station ${i + 1} of ${currentRoute.length} - ${stationName(s)}`
+          : "Unavailable";
+      }
+      function sameStation(a, b) {
+        const aCode = stationCode(a),
+          bCode = stationCode(b);
+        return (
+          Boolean(
+            aCode && bCode && aCode.toUpperCase() === bCode.toUpperCase(),
+          ) ||
+          stationName(a).trim().toUpperCase() ===
+            stationName(b).trim().toUpperCase()
+        );
+      }
+      function routeIndex(route, current) {
+        if (!current) return -1;
+        const byStation = route.findIndex((stop) => sameStation(stop, current));
+        if (byStation >= 0) return byStation;
+        const sequence = Number(current.sequence);
+        return Number.isFinite(sequence)
+          ? route.findIndex((stop, i) => stationSequence(stop, i) === sequence)
+          : -1;
+      }
+      function isScheduledStop(stop) {
+        const kind = String(
+            stop.stopType ?? stop.stationType ?? stop.haltType ?? "",
+          ).toUpperCase(),
+          dwell = Number(
+            stop.haltMinutes ??
+              stop.haltTime ??
+              stop.stopDuration ??
+              stop.stoppageMinutes ??
+              0,
+          );
+        return (
+          stop.isStop === true ||
+          stop.isHalt === true ||
+          stop.stopsHere === true ||
+          dwell > 0 ||
+          /HALT|STOP|ORIGIN|DESTINATION/.test(kind)
+        );
+      }
+      function mainStops(route) {
+        return mlSupported ? route : (route || []).filter(isScheduledStop);
+      }
+      function mapMarkerStops(route, data) {
+        return route?.length
+          ? route
+          : data.halts || data.live_status?.halts || [];
+      }
+      function isMajorMapStop(stop, data) {
+        const halts = data.halts || data.live_status?.halts || [];
+        if (halts.length) return halts.some((halt) => sameStation(halt, stop));
+        return (
+          isScheduledStop(stop) ||
+          (!mlSupported &&
+            currentRoute.some((scheduled) => sameStation(scheduled, stop)))
+        );
+      }
+      function scrollToCurrentStop() {
+        const routeLine = $("routeLine"),
+          current = routeLine.querySelector(".route-stop.current");
+        if (!current) return;
+        const left = Math.max(
+          0,
+          current.offsetLeft -
+            (routeLine.clientWidth - current.offsetWidth) / 2,
+        );
+        routeLine.scrollTo({ left, behavior: "smooth" });
+      }
+      function renderRoute(route, current = null) {
+        currentRoute = route || [];
+        const max = Math.max(0, currentRoute.length - 1);
+        seqInput.max = max;
+        const found = routeIndex(currentRoute, current);
+        const selected =
+          found >= 0 ? found : Math.min(Number(seqInput.value) || 0, max);
+        seqInput.value = Math.max(0, selected);
+        const at = Number(seqInput.value),
+          routeLine = $("routeLine");
+        routeLine.innerHTML = currentRoute.length
+          ? currentRoute
+              .map((s, i) => {
+                const state = i < at ? "done" : i === at ? "current" : "";
+                const timing =
+                  s.estimated_arrival_at ||
+                  s.actualArrival ||
+                  s.scheduledArrival;
+                return `<div class="route-stop ${state}" role="listitem"><div class="stop-dot"></div><span>${escapeHtml(stationName(s))}</span><small>${timing ? escapeHtml(formatTime(timing)) : `Stop ${i + 1}`}</small></div>`;
+              })
+              .join("")
+          : '<div class="empty-state">Route is not available for this train.</div>';
+        updateSeqLabel();
+        if (found >= 0) requestAnimationFrame(scrollToCurrentStop);
+      }
+      function mergeLiveStationData(rows) {
+        const route = lastLive?.route || lastLive?.live_status?.route || [];
+        if (!route.length) return rows;
+        const byCode = new Map(route.map((s) => [stationCode(s), s]));
+        const liveDelay =
+          Number(
+            lastLive?.live_delay_min ??
+              lastLive?.live_status?.delayMinutes ??
+              0,
+          ) || 0;
+        return rows.map((row) => {
+          const stop = byCode.get(row.station_code);
+          if (!stop) return row;
+          const scheduled = stop.scheduledArrival || stop.scheduled_arrival,
+            actual = stop.expectedArrival || stop.actualArrival;
+          const updated = {
+            ...row,
+            platform: row.platform || stop.platform || null,
+            scheduled_arrival_at: row.scheduled_arrival_at || scheduled,
+          };
+          if (actual) {
+            updated.estimated_arrival_at = actual;
+            updated.arrival_source = "RailRadar live update";
+          } else if (scheduled) {
+            const time = new Date(scheduled);
+            if (!Number.isNaN(time.valueOf())) {
+              time.setMinutes(
+                time.getMinutes() + Number(stop.delayArrival ?? liveDelay),
+              );
+              updated.estimated_arrival_at = time.toISOString();
+              updated.arrival_source = "RailRadar schedule + live delay";
+            }
+          }
+          return updated;
+        });
+      }
+      function renderForecast(rows) {
+        rows = mergeLiveStationData(rows);
+        if (!rows?.length) {
+          $("tbody").innerHTML =
+            '<tr><td colspan="6" class="empty-state">No forecast rows returned.</td></tr>';
+          return;
+        }
+        const currentDelayValue =
+            lastLive?.current_delay_min ??
+            lastLive?.live_delay_min ??
+            lastLive?.live_status?.delayMinutes ??
+            lastLive?.live_status?.overallDelayMinutes,
+          currentDelayNumber = Number(currentDelayValue),
+          hasCurrentDelay =
+            lastLive?.source !== "Local fallback" &&
+            currentDelayValue != null &&
+            Number.isFinite(currentDelayNumber),
+          currentDelayLabel = hasCurrentDelay
+            ? currentDelayNumber > 0
+              ? `Late ${Math.round(currentDelayNumber)} min`
+              : currentDelayNumber < 0
+                ? `Early ${Math.abs(Math.round(currentDelayNumber))} min`
+                : "On time"
+            : "Unavailable",
+          providerRoute = lastLive?.route || lastLive?.live_status?.route || [],
+          routeHasDistances = providerRoute.some(
+            (stop) =>
+              Number(
+                stop.distanceFromOriginKm ??
+                  stop.cum_distance_km ??
+                  stop.distance_km ??
+                  stop.distance,
+              ) > 0,
+          );
+        $("tbody").innerHTML = rows
+          .map((r, i) => {
+            const delay = Number(r.predicted_delay_min),
+              state = !Number.isFinite(delay)
+                ? "unknown"
+                : delay > 0
+                  ? "late"
+                  : delay < 0
+                    ? "early"
+                    : "on-time",
+              label =
+                state === "late"
+                  ? `Late ${Math.round(delay)} min`
+                  : state === "early"
+                    ? `Early ${Math.abs(Math.round(delay))} min`
+                    : state === "on-time"
+                      ? "On time"
+                      : "Unavailable",
+              sequence = i + 1,
+              routeStop = providerRoute.find(
+                (stop) =>
+                  stationCode(stop).toUpperCase() ===
+                  String(r.station_code || "").toUpperCase(),
+              ),
+              routeDistance = Number(
+                routeStop?.distanceFromOriginKm ??
+                  routeStop?.cum_distance_km ??
+                  routeStop?.distance_km ??
+                  routeStop?.distance,
+              ),
+              rawDistance = Number(r.distance_km),
+              distance =
+                routeHasDistances &&
+                Number.isFinite(routeDistance) &&
+                (routeDistance > 0 ||
+                  (routeDistance === 0 &&
+                    (Number(routeStop?.sequence) === 1 || Number(r.seq) === 0)))
+                  ? routeDistance
+                  : Number.isFinite(rawDistance) &&
+                      (rawDistance > 0 || Number(r.seq) === 0)
+                    ? rawDistance
+                    : null;
+            return `<tr><td><div class="station-cell"><div class="station-number">${sequence}</div><div><strong>${escapeHtml(r.station_name || "Station unavailable")}</strong><small>${escapeHtml(r.station_code || "")}</small></div></div></td><td>${distance != null ? `${distance.toFixed(1)} km` : "Unavailable"}</td><td><strong class="delay-text ${state}">${escapeHtml(formatTime(r.estimated_arrival_at))}</strong><small>${escapeHtml(r.arrival_source || "ETA estimate")}</small></td><td>${r.platform ? `Platform ${escapeHtml(r.platform)}` : '<span class="muted">Not reported</span>'}</td><td><span class="delay-status ${state}">${escapeHtml(label)}</span></td><td>${currentDelayLabel}</td></tr>`;
+          })
+          .join("");
+        const l = rows.at(-1);
+        $("destDelay").textContent = formatTime(l.estimated_arrival_at);
+        $("forecastBadge").classList.remove("hidden");
+      }
+      function applyLive(d) {
+        lastLive = d;
+        const raw = d.live_status || d,
+          loc = d.current_location || raw.currentLocation || {},
+          next = raw.nextHalt || raw.next_halt || {},
+          current = d.current_station || {
+            code: loc.stationCode || loc.station_code,
+            name: loc.stationName || loc.station_name,
+            sequence: loc.sequence,
+          },
+          delay =
+            Number(
+              d.current_delay_min ??
+                d.live_delay_min ??
+                raw.delayMinutes ??
+                raw.overallDelayMinutes ??
+                loc.delayMinutes ??
+                0,
+            ) || 0,
+          status =
+            raw.runningStatus ??
+            raw.running_status ??
+            raw.status ??
+            loc.runningStatus ??
+            loc.status ??
+            (delay > 0 ? "Delayed" : "Running");
+        liveRoute = d.route || raw.route || [];
+        const providerHalts = d.halts || raw.halts || [];
+        if (currentRoute.length) renderRoute(currentRoute, current);
+        else {
+          const stops = providerHalts.length
+            ? providerHalts
+            : mainStops(liveRoute);
+          if (stops.length) renderRoute(stops, current);
+        }
+        const mainIndex = routeIndex(currentRoute, current),
+          atScheduledMainStop = currentRoute.some((stop) =>
+            sameStation(stop, current),
+          ),
+          remaining =
+            mainIndex >= 0
+              ? Math.max(
+                  0,
+                  currentRoute.length -
+                    mainIndex -
+                    (atScheduledMainStop ? 1 : 0),
+                )
+              : null,
+          liveIndex = routeIndex(liveRoute, current),
+          followingStop = liveIndex >= 0 ? liveRoute[liveIndex + 1] : null,
+          reportedNext = d.next_station || {},
+          nextName =
+            reportedNext.name ||
+            next.stationName ||
+            next.station_name ||
+            loc.nextStationName ||
+            (followingStop ? stationName(followingStop) : ""),
+          etaValue =
+            d.next_station_eta_minutes ??
+            raw.next_station_eta_minutes ??
+            next.etaMinutes ??
+            next.eta_minutes,
+          etaFromTime = minutesUntil(
+            d.next_station_eta_at ??
+              next.etaAt ??
+              next.eta_at ??
+              next.expectedArrival ??
+              next.expected_arrival ??
+              next.arrivalTime ??
+              next.arrival_time,
+          ),
+          nextEtaMinutes =
+            etaValue != null && Number.isFinite(Number(etaValue))
+              ? Math.max(0, Math.round(Number(etaValue)))
+              : etaFromTime,
+          predictedDelayValue =
+            d.next_station_predicted_delay_min ??
+            raw.next_station_predicted_delay_min,
+          predictedDelay =
+            predictedDelayValue != null &&
+            Number.isFinite(Number(predictedDelayValue))
+              ? Number(predictedDelayValue)
+              : null,
+          isFallback = d.source === "Local fallback";
+        $("currentStation").textContent =
+          current.name || loc.stationName || "Between stations";
+        $("liveStatus").textContent = String(status)
+          .replaceAll("_", " ")
+          .toUpperCase();
+        $("liveStatus").className =
+          isFallback ||
+          /CANCEL|TERMINAT|NOT.?RUNNING|UNAVAILABLE|RATE.?LIMITED/i.test(
+            String(status),
+          )
+            ? "status-off"
+            : "status-on-time";
+        $("liveDelayLive").textContent =
+          delay > 0
+            ? `${delay} min delayed`
+            : isFallback
+              ? "Unavailable"
+              : delay < 0
+                ? `${Math.abs(delay)} min early`
+                : "On time";
+        $("liveDelayLive").className =
+          delay > 0
+            ? "delay-delayed"
+            : isFallback
+              ? "status-off"
+              : "delay-on-time";
+        $("nextStation").textContent = nextName || "—";
+        $("currentDelay").textContent =
+          delay > 0
+            ? `${delay} min late`
+            : isFallback
+              ? "Unavailable"
+              : delay < 0
+                ? `${Math.abs(delay)} min early`
+                : "On time";
+        $("currentDelay").className = isFallback
+          ? "status-off"
+          : delay > 0
+            ? "delay-delayed"
+            : "delay-on-time";
+        $("currentDelayNote").textContent = isFallback
+          ? "Provider rate limited"
+          : "Live railway status";
+        $("nextStationMetric").textContent = nextName || "—";
+        $("nextStationMetricNote").textContent = isFallback
+          ? "Local route fallback"
+          : "Live railway service";
+        $("nextDelay").textContent =
+          nextEtaMinutes != null ? `~${nextEtaMinutes} min` : "—";
+        $("nextArrivalNote").textContent =
+          nextEtaMinutes != null
+            ? `To ${nextName || "next station"}`
+            : isFallback
+              ? "Live ETA unavailable"
+              : "Live ETA unavailable";
+        $("nextPredictedDelay").textContent =
+          predictedDelay != null
+            ? predictedDelay > 0
+              ? `${Math.round(predictedDelay)} min late`
+              : predictedDelay < 0
+                ? `${Math.abs(Math.round(predictedDelay))} min early`
+                : "On time"
+            : "Unavailable";
+        $("nextPredictedDelay").className =
+          predictedDelay == null
+            ? "muted"
+            : predictedDelay > 0
+              ? "delay-delayed"
+              : "delay-on-time";
+        $("nextPredictedDelayNote").textContent =
+          predictedDelay != null
+            ? `LSTM at ${d.next_station_prediction_station || nextName || "next station"}`
+            : "LSTM prediction unavailable";
+        const lat = loc.latitude ?? loc.lat,
+          lng = loc.longitude ?? loc.lng,
+          coords =
+            lat != null && lng != null
+              ? `${Number(lat).toFixed(4)}, ${Number(lng).toFixed(4)}`
+              : "",
+          weatherLocation = d.weather?.location || "",
+          weatherLocationIsCoords =
+            /^-?\d+(?:\.\d+)?\s*,\s*-?\d+(?:\.\d+)?$/.test(weatherLocation),
+          locationName =
+            current.name ||
+            current.station_name ||
+            loc.stationName ||
+            loc.station_name ||
+            (!weatherLocationIsCoords ? weatherLocation : "");
+        $("trainLocation").textContent =
+          locationName || coords || "Not reported";
+        const reportedRouteIndex = currentRoute.findIndex((stop) =>
+            sameStation(stop, current),
+          ),
+          reportedStop =
+            liveRoute.find((stop) => sameStation(stop, current)) ||
+            (reportedRouteIndex >= 0 ? currentRoute[reportedRouteIndex] : null),
+          reportedDistance =
+            d.distance_covered_km ??
+            loc.distanceCoveredKm ??
+            raw.distanceCoveredKm ??
+            reportedStop?.distanceFromOriginKm ??
+            reportedStop?.cum_distance_km ??
+            reportedStop?.distance_km ??
+            reportedStop?.distance,
+          previousHalt = raw.previousHalt || raw.previous_halt || {},
+          nextHaltDistance = raw.nextHalt || raw.next_halt || {},
+          previousDistance = Number(
+            previousHalt.distanceFromOriginKm ??
+              previousHalt.cum_distance_km ??
+              previousHalt.distance,
+          ),
+          nextDistance = Number(
+            nextHaltDistance.distanceFromOriginKm ??
+              nextHaltDistance.cum_distance_km ??
+              nextHaltDistance.distance,
+          ),
+          segmentProgress = Number(loc.segmentProgress ?? loc.segment_progress),
+          progressDistance =
+            Number.isFinite(previousDistance) &&
+            Number.isFinite(nextDistance) &&
+            nextDistance >= previousDistance &&
+            Number.isFinite(segmentProgress) &&
+            segmentProgress >= 0 &&
+            segmentProgress <= 1
+              ? previousDistance +
+                (nextDistance - previousDistance) * segmentProgress
+              : null,
+          shownDistance =
+            reportedDistance != null &&
+            Number.isFinite(Number(reportedDistance))
+              ? Number(reportedDistance)
+              : progressDistance;
+        $("distanceCovered").textContent =
+          shownDistance != null
+            ? `${shownDistance.toFixed(1)} km`
+            : "Unavailable";
+        $("distanceNote").textContent =
+          d.distance_source ||
+          (progressDistance != null && reportedDistance == null
+            ? "Approx. from reported segment progress"
+            : "Provider route distance when available");
+        $("remainingStations").textContent =
+          remaining === null ? "—" : remaining;
+        $("remainingStopsDetail").textContent =
+          remaining === null
+            ? "Scheduled-halt data unavailable"
+            : "Scheduled/main stations only" +
+              (nextName ? ` · next: ${nextName}` : "");
+        $("liveDelay").value = Math.max(0, delay);
+        $("livePill").textContent =
+          d.source === "RailRadar" ? "LIVE" : isFallback ? "FALLBACK" : "ROUTE";
+        $("locationNote").textContent =
+          `Journey start: ${d.journey_date || journeyDate.value || "auto-detected"} · ${d.message || "Live route data received."}`;
+        if (d.eta_forecast?.length) renderForecast(d.eta_forecast);
+        renderTrainMap(d);
+        $("lastUpdated").textContent =
+          `Live updated ${new Date().toLocaleTimeString()}`;
+      }
+      async function loadDetails() {
+        const d = await get(
+          `/trains/${encodeURIComponent(currentTrain)}/details${journeyDateQuery()}`,
+        );
+        mlSupported = Boolean(d.ml_supported);
+        $("heroTrainNumber").textContent = d.train_number;
+        $("heroTrainName").textContent = d.train_name || "Train";
+        $("origin").textContent = d.origin || "Live route pending";
+        $("destination").textContent = d.destination || "Live route pending";
+      }
+      async function loadRoute() {
+        try {
+          const route = mainStops(
+            await get(
+              `/trains/${encodeURIComponent(currentTrain)}/route${journeyDateQuery()}`,
+            ),
+          );
+          renderRoute(route);
+          if (!route.length)
+            $("locationNote").textContent =
+              "Only scheduled-halt stations are shown when stop data is available.";
+        } catch (e) {
+          renderRoute([]);
+          $("locationNote").textContent =
+            "The local route is unavailable. Live route will load when the train is active.";
+        }
+      }
+      async function loadLive() {
+        if (!currentTrain) return;
+        try {
+          applyLive(
+            await get(
+              `/trains/${encodeURIComponent(currentTrain)}/live${journeyDateQuery()}`,
+            ),
+          );
+          clearError();
+        } catch (e) {
+          lastLive = null;
+          showMapError(e.message);
+          $("livePill").textContent = "OFFLINE";
+          $("liveStatus").textContent = "NOT AVAILABLE";
+          $("liveStatus").className = "status-off";
+          $("locationNote").textContent =
+            `Live service is currently unavailable: ${e.message}. Your local ETA forecast can still be used.`;
+        }
+      }
+      async function runForecast(mode = "auto") {
+        if (!currentTrain) return;
+        clearError();
+        const manual = mode === "manual",
+          b = manual ? $("runManual") : $("run");
+        if (manual) {
+          b.disabled = true;
+          b.textContent = "Applying inputs...";
+        } else {
+          b.disabled = true;
+          b.querySelector("span").textContent = "Updating forecast...";
+        }
+        try {
+          const stationSequence = lastLive?.current_station?.sequence,
+            routePosition = routeIndex(currentRoute, lastLive?.current_station),
+            body = {
+              run_id: "dashboard",
+              current_seq: manual
+                ? Number(seqInput.value) || 0
+                : stationSequence != null &&
+                    Number.isFinite(Number(stationSequence))
+                  ? Number(stationSequence)
+                  : Math.max(0, routePosition),
+              weather: manual
+                ? $("weather").value
+                : lastLive?.weather?.model_state || "Clear",
+              congestion: manual ? $("congestion").value : "Low",
+              hour_of_day: manual
+                ? Number($("hour").value) || 0
+                : new Date().getHours(),
+              day_of_week: manual
+                ? Number($("day").value) || 0
+                : (new Date().getDay() + 6) % 7,
+              live_delay_observed_min: manual
+                ? Number($("liveDelay").value) || 0
+                : Number(
+                    lastLive?.current_delay_min ??
+                      lastLive?.live_delay_min ??
+                      0,
+                  ),
+            },
+            d = await get(
+              `/trains/${encodeURIComponent(currentTrain)}/forecast${journeyDateQuery()}`,
+              {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(body),
+              },
+            );
+          renderForecast(d.eta_forecast);
+          if (d.live_snapshot)
+            applyLive({ ...d.live_snapshot, eta_forecast: d.eta_forecast });
+          $("lastUpdated").textContent =
+            `Forecast updated ${new Date().toLocaleTimeString()}`;
+        } catch (e) {
+          showError(e.message);
+        } finally {
+          if (manual) {
+            b.disabled = false;
+            b.textContent = "Apply these forecast inputs";
+          } else {
+            b.disabled = false;
+            b.querySelector("span").textContent = "Update live forecast";
+          }
+        }
+      }
+      async function chooseTrain(n) {
+        currentTrain = n;
+        currentRoute = [];
+        liveRoute = [];
+        lastLive = null;
+        setMapLocationStatus("Loading provider location...");
+        setMapMessage(
+          "Checking whether the provider returned coordinates or a reported station.",
+        );
+        mlSupported = false;
+        trainSearch.value = n;
+        closeSearch();
+        clearError();
+        $("run").disabled = false;
+        $("runManual").disabled = false;
+        if (liveTimer) clearInterval(liveTimer);
+        try {
+          await loadDetails();
+          await loadRoute();
+          await refreshAutomaticForecast();
+          liveTimer = setInterval(refreshAutomaticForecast, livePollIntervalMs);
+        } catch (e) {
+          showError(e.message);
+        }
+      }
+      async function refreshAutomaticForecast() {
+        if (!currentTrain) return;
+        await loadLive();
+        if (!lastLive?.eta_forecast?.length) await runForecast("auto");
+      }
+      trainSearch.addEventListener("input", onSearchInput);
+      $("searchResults").addEventListener("click", (e) => {
+        const b = e.target.closest("[data-number]");
+        if (b) chooseTrain(b.dataset.number);
+      });
+      trainSearch.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          const b = $("searchResults").querySelector("[data-number]");
+          if (b) chooseTrain(b.dataset.number);
+        }
+      });
+      $("clearTrain").addEventListener("click", () => {
+        trainSearch.value = "";
+        currentTrain = null;
+        currentRoute = [];
+        liveRoute = [];
+        mlSupported = false;
+        closeSearch();
+        renderRoute([]);
+        $("remainingStopsDetail").textContent = "Scheduled/main stations only";
+        $("run").disabled = true;
+        $("runManual").disabled = true;
+      });
+      seqInput.addEventListener("input", updateSeqLabel);
+      journeyDate.addEventListener("change", async () => {
+        if (!currentTrain) return;
+        try {
+          await loadRoute();
+          await refreshAutomaticForecast();
+        } catch (e) {
+          showError(e.message);
+        }
+      });
+      $("run").addEventListener("click", refreshAutomaticForecast);
+      $("runManual").addEventListener("click", () => runForecast("manual"));
+      document.addEventListener("visibilitychange", () => {
+        if (!currentTrain) return;
+        if (document.hidden && liveTimer) {
+          clearInterval(liveTimer);
+          liveTimer = null;
+        } else if (!document.hidden && !liveTimer) {
+          refreshAutomaticForecast();
+          liveTimer = setInterval(refreshAutomaticForecast, livePollIntervalMs);
+        }
+      });
+      $("refreshBtn").addEventListener("click", async () => {
+        await checkApi();
+        if (currentTrain) await refreshAutomaticForecast();
+      });
+      document.addEventListener("click", (e) => {
+        if (!e.target.closest(".train-search")) closeSearch();
+      });
+      const now = new Date();
+      journeyDate.value = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+      $("hour").value = now.getHours();
+      $("day").value = (now.getDay() + 6) % 7;
+      checkApi();
+      function renderWeather(weather, currentStation = null) {
+        if (!weather) return;
+        const status = $("weatherStatus"),
+          note = $("weatherNote");
+        if (weather.available) {
+          const temp =
+            weather.temperature_c != null
+              ? ` · ${Math.round(Number(weather.temperature_c))}°C`
+              : "";
+          const place = weather.location || "",
+            placeIsCoords = /^-?\d+(?:\.\d+)?\s*,\s*-?\d+(?:\.\d+)?$/.test(
+              place,
+            ),
+            locationName =
+              currentStation?.name ||
+              currentStation?.station_name ||
+              (!placeIsCoords ? place : "");
+          status.textContent = `${weather.condition || weather.model_state}${temp}`;
+          note.textContent = `${locationName || place || "Current train location"} · ${weather.provider || "weather service"} · model: ${weather.model_state}`;
+          return;
+        }
+        status.textContent = "Status unavailable";
+        note.textContent =
+          weather.message || "Weather API did not return a status.";
+      }
+      const applyLiveWithWeather = applyLive;
+      applyLive = function (data) {
+        renderWeather(data.weather, data.current_station);
+        const rendered = applyLiveWithWeather(data),
+          raw = data.live_status || data,
+          next = data.next_station || raw.nextHalt || raw.next_halt || {},
+          platform =
+            next.platform ??
+            next.platformNumber ??
+            next.platform_number ??
+            next.platformNo ??
+            next.arrivalPlatform ??
+            next.arrival_platform;
+        $("nextPlatform").textContent =
+          platform != null && String(platform).trim() !== ""
+            ? `Platform ${platform}`
+            : "Not reported";
+        const etaMinutes = data.next_station_eta_minutes;
+        if (etaMinutes != null && Number.isFinite(Number(etaMinutes))) {
+          const nextName =
+              data.next_station?.name ||
+              next.stationName ||
+              next.station_name ||
+              "next station",
+            source = data.next_station_eta_source || "RailRadar live ETA";
+          $("nextDelay").textContent =
+            `~${Math.max(0, Math.round(Number(etaMinutes)))} min`;
+          $("nextArrivalNote").textContent = `${source} · to ${nextName}`;
+        }
+        return rendered;
+      };
+    </script>
+    <script>
+      const searchInput = document.getElementById("trainSearch"),
+        resultList = document.getElementById("searchResults");
+      searchInput.addEventListener("keydown", (event) => {
+        if (
+          event.key === "ArrowDown" &&
+          !resultList.classList.contains("hidden")
+        ) {
+          const first = resultList.querySelector("[data-number]");
+          if (first) {
+            event.preventDefault();
+            first.focus();
+          }
+        }
+        if (event.key === "Escape") {
+          resultList.classList.add("hidden");
+          searchInput.setAttribute("aria-expanded", "false");
+        }
+      });
+      resultList.addEventListener("keydown", (event) => {
+        if (!["ArrowDown", "ArrowUp", "Escape"].includes(event.key)) return;
+        const options = [...resultList.querySelectorAll("[data-number]")],
+          index = options.indexOf(document.activeElement);
+        event.preventDefault();
+        if (
+          event.key === "Escape" ||
+          (event.key === "ArrowUp" && index === 0)
+        ) {
+          if (event.key === "Escape") {
+            resultList.classList.add("hidden");
+            searchInput.setAttribute("aria-expanded", "false");
+          }
+          searchInput.focus();
+          return;
+        }
+        const next =
+          event.key === "ArrowDown"
+            ? Math.min(options.length - 1, index + 1)
+            : Math.max(0, index - 1);
+        options[next]?.focus();
+      });
+      document.getElementById("clearTrain").addEventListener("click", () => {
+        if (liveTimer) {
+          clearInterval(liveTimer);
+          liveTimer = null;
+        }
+      });
+    </script>
+  </body>
+</html>
