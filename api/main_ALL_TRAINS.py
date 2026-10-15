@@ -2041,4 +2041,12 @@ def get_live_status(
 
 # Serve CSS/assets and also allow /dashboard/ access.
 if os.path.isdir(DASHBOARD_DIR):
+    @app.get("/styles.css", include_in_schema=False)
+    def dashboard_stylesheet():
+        return FileResponse(
+            os.path.join(DASHBOARD_DIR, "styles.css"),
+            media_type="text/css",
+            headers={"Cache-Control": "no-cache"},
+        )
+
     app.mount("/dashboard", StaticFiles(directory=DASHBOARD_DIR, html=True), name="dashboard")
